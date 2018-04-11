@@ -17,7 +17,7 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 * [Hangfire](https://www.hangfire.io)
 * [Automatonymous](https://github.com/MassTransit/Automatonymous)
 ### Deployment
-* [Topshelf](http://topshelf-project.com/)
+* [Topshelf](http://topshelf-project.com)
 
 ## Java
 ### Distributed systems 
@@ -57,25 +57,29 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 * [CSS Grid Builder](https://cssgrid.cc) - A collection of resources & tools to help you manage the Grid
 ### Style guides
 * [Catalog](https://www.catalog.style) - Living style guides for digital products
+* [Design Systems Repo](https://designsystemsrepo.com) - A frequently updated collection of Design Systems
 
 ## CSS
 * Frameworks
 	* [CSS-Blocks](http://css-blocks.com)
 	* [SaSS](https://sass-lang.com)
-	* [LeSS](http://lesscss.org/)
+	* [LeSS](http://lesscss.org)
 
 ## Javascript
 
-### Guidelines
+### Guidelines and Knowledge Base
 * [Front End Toolkit](https://github.com/devbridge/Front-End-Toolkit)
+* [Best of JS](https://bestof.js.org)
+* [Awesome](https://github.com/sindresorhus/awesome) - Curated list of awesome lists
 
 ### UX Frameworks
 * [Material Design for Bootstrap](https://mdbootstrap.com)
 * [Carbon](http://carbondesignsystem.com) (IBM)
 * [Stencil](https://stenciljs.com)
+* [boundless](https://boundless.js.org) - UI toolkit that was conceived to abstract away difficult interface patterns
 
 ### Libraries
-* Graphs
+* Charts and graphics
 	* [protovis](http://mbostock.github.io/protovis) - A graphical approach to visualization
 	* [d3js](https://d3js.org) - Data-Driven Documents
 		* [d3-discovery](https://d3-discovery.net) - Finding D3 plugins with ease
@@ -90,12 +94,14 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 	* [Vega](https://vega.github.io/vega) - A Visualization Grammar
 	* [dygraphs](http://dygraphs.com) - Fast, flexible open source JavaScript charting library
 	* [sigmajs](http://sigmajs.org) - Sigma is a JavaScript library dedicated to graph drawing
-	* [cytoscape](http://js.cytoscape.org/) - Graph theory / network library for analysis and visualisation
+	* [cytoscape](http://js.cytoscape.org) - Graph theory / network library for analysis and visualisation
 	* [cubismjs](https://square.github.io/cubism) (Square) - Time Series Visualization
 	* [taucharts](https://www.taucharts.com) - Flexible javascript charting library for data exploration
 	* [echarts](http://echarts.baidu.com) (Baidu) - A powerful, interactive charting and visualization library for browser 
 	* [chartjs](http://www.chartjs.org) - Simple yet flexible JavaScript charting for designers & developers
 	* [chartist](https://gionkunz.github.io/chartist-js) - Simple responsive charts
+* Maps
+	* [pigeon-maps](https://mariusandra.github.io/pigeon-maps)
 
 ### Tooling
 * [bit](https://bitsrc.io) - Components are building blocks. You are the architect.
@@ -106,23 +112,30 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 * Awesome
 	* [Awesome React](https://github.com/enaqx/awesome-react)
 	* [React Components & Libraries](https://github.com/brillout/awesome-react-components)
+	* [Awesome Redux (brillout)](https://github.com/brillout/awesome-redux)
+	* [Awesome Redux (xgrommx)](https://github.com/xgrommx/awesome-redux)
+	* [Awesome MobX](https://github.com/mobxjs/awesome-mobx)
+	* [MobX Ecosystem](https://github.com/xgrommx/mobx-ecosystem)
 * State Management
+	* REST
+		* [tectonic](https://tonyhb.github.io/tectonic)
 	* [Redux](https://redux.js.org)
-		* [Awesome](https://github.com/brillout/awesome-redux)
 		* [Redux Rest Resource](http://mgcrea.github.io/redux-rest-resource)
 		* [Undux](https://github.com/bcherny/undux)
 		* [next.js](https://github.com/zeit/next.js)
 		* [after.js](https://github.com/jaredpalmer/after.js)
-	* [MobX](https://mobx.js.org/)
-		* [Awesome](https://github.com/mobxjs/awesome-mobx)
+		* [jumpsuit](https://jumpsuit.js.org) - React framework for efficiently building powerful web applications
+	* [MobX](https://mobx.js.org)
 		* [cans](http://cans.js.org)
 		* [mobx-state-tree](https://github.com/mobxjs/mobx-state-tree)
 		* [parket](https://github.com/ForsakenHarmony/parket)
 		* [FormState](https://github.com/formstate/formstate)
+		* [react-remux](https://github.com/vinej/react-remux) - A flux implementation with React and Mobx
 	* Tools
 		* [immutable.js](https://facebook.github.io/immutable-js) (Facebook)
 		* [Immer](https://github.com/mweststrate/immer)
 		* [unistore](https://github.com/developit/unistore)
+		* [uniforms](https://github.com/vazco/uniforms) - A set of React libraries for building forms
 * Development Frameworks
 	* [next.js](https://github.com/zeit/next.js)
 	* [next-offline](https://github.com/hanford/next-offline)
@@ -146,12 +159,20 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 	* [glamorous](https://github.com/paypal/glamorous) (PayPal)
 	* [emotion](https://emotion.sh)
 	* [Radium](http://formidable.com/open-source/radium) (Formidable Labs)
-* Graphics
-	* [Victory](http://formidable.com/open-source/victory) (Formidable Labs) - React.js components for
-modular charting and data visualization
+* Charts & graphics
+	* [Victory](http://formidable.com/open-source/victory) (Formidable Labs) - React.js components for modular charting and data visualization
 	* [recharts](http://recharts.org) - A composable charting library built on React components
+	* [react-vis](http://uber.github.io/react-vis) (Uber) - 
+	* [reactivemaps](https://github.com/appbaseio/reactivemaps) - A data aware UI components library for building realtime maps
 * Animations
 	* [Pose](https://popmotion.io/pose)
+	* [react-spring](https://github.com/drcmda/react-spring) - Helping react-motion and animated to become best friends
+	* [popmotion](https://github.com/Popmotion/popmotion) - A functional, reactive animation library
+	* [react-move](https://github.com/react-tools/react-move) - Beautiful, data-driven animations for React
+	* [animated](https://github.com/animatedjs/animated) - Declarative Animations Library for React and React Native
+	* [react-motion](https://github.com/chenglou/react-motion) - A spring that solves your animation problems
+* Utilities
+	* [react-with-gesture](https://github.com/drcmda/react-with-gesture) - Little helper for component-tied mouse/touch gestures
 
 ### [Angular](https://angular.io)
 * Awesome
@@ -206,15 +227,15 @@ modular charting and data visualization
 ## Document
 * Elastic
 	* [Kibana](https://www.elastic.co/products/kibana) (Elastic)
-	* [Grafana](https://grafana.com/)
+	* [Grafana](https://grafana.com)
 * [Solr](http://lucene.apache.org/solr)
 	* [Banana](https://github.com/lucidworks/banana) (LucidWorks)
 * Mongo
 
 ## Graph
 ### Databases
-* [Neo4J](https://neo4j.com/)
-	* [Cypher](https://neo4j.com/developer/cypher-query-language/)
+* [Neo4J](https://neo4j.com)
+	* [Cypher](https://neo4j.com/developer/cypher-query-language)
 * [Dgraph](https://dgraph.io)
 
 ## In-memory
@@ -231,6 +252,9 @@ modular charting and data visualization
 ## Time-series
 
 # Integration
+## Knowledge Base
+* [Awesome Microservices](https://github.com/mfornos/awesome-microservices) - A curated list of Microservice Architecture related principles and technologies
+
 ## Data Formats
 * [Avro](http://avro.apache.org) (Apache)
 * [Protobuf](https://developers.google.com/protocol-buffers) (Google)
@@ -263,7 +287,7 @@ modular charting and data visualization
 * [Talend Open Studio](https://www.talend.com/products/data-integration)
 * [Kettle - Pentaho Data Integration](http://www.pentaho.com/product/data-integration)
 ### Big Data
-* [Hadoop](http://hadoop.apache.org/)
+* [Hadoop](http://hadoop.apache.org)
 * [Spark](https://spark.apache.org)
 
 ## Stream Processing
@@ -306,7 +330,7 @@ modular charting and data visualization
 
 # Analytics
 * Self Service
-	* [Metabase](https://www.metabase.com/)
+	* [Metabase](https://www.metabase.com)
 	* [DatabaseFlow](https://databaseflow.com)
 
 # Machine Learning
@@ -314,9 +338,9 @@ modular charting and data visualization
 ## Libraries
 * Python
 	* [NumPY](www.numpy.org)
-	* [Pandas](https://pandas.pydata.org/)
-	* [scikit-learn](http://scikit-learn.org/stable/)
-	* [spaCy](https://spacy.io/)
+	* [Pandas](https://pandas.pydata.org)
+	* [scikit-learn](http://scikit-learn.org/stable)
+	* [spaCy](https://spacy.io)
 	* [Dask](https://dask.pydata.org/en/latest)
 	* [Numba](https://numba.pydata.org)
 
@@ -344,7 +368,8 @@ modular charting and data visualization
 * Mesos (Apache)
 * Tools
 	* [Grail](https://eng.uber.com/grail) (Uber)
-	* [osquery](https://osquery.io/) (Facebook)
+	* [osquery](https://osquery.io) (Facebook)
+	* [Spinnaker](https://www.spinnaker.io) (Netflix) - Fast, safe, repeatable deployments
 ## Tools
 * Windows Consoles
 	* [Cmder](cmder.net)
@@ -366,7 +391,7 @@ modular charting and data visualization
 	* Awesome
 		* [Dart](https://github.com/yissachar/awesome-dart)
 * [Haskell](https://www.haskell.org)
-* [Erlang](https://www.erlang.org/)
+* [Erlang](https://www.erlang.org)
 	* [Elixir](https://elixir-lang.org)
 	* [Phoenix](phoenixframework.org)
 	* Awesome
@@ -416,3 +441,7 @@ modular charting and data visualization
 
 ### Issue Management
 * [JIRA](www.atlassian.com/jira)
+
+### Communications
+* [Slack](https://slack.com)
+* [Rocket.Chat](https://rocket.chat)
