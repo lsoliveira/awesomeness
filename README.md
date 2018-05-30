@@ -9,12 +9,16 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 * Actor based
   * [Orleans](https://dotnet.github.io/orleans) (Microsoft) - A straightforward approach to building distributed, high-scale applications in .NET.
   * [Akka.Net](https://getakka.net) - Build powerful concurrent & distributed applications more easily.
+    * [Lighthouse](https://github.com/petabridge/lighthouse) - A simple service discovery platform for Akka.Cluster 
+
   * [Orleankka](http://orleanscontrib.github.io/Orleankka) - Functional extension for Microsoft Orleans framework. 
   * [Proto.Actor](http://proto.actor) - Ultra fast distributed actors for Go, C# and Java/Kotlin
 * Event Driven
   * [Cirqus](https://github.com/d60/Cirqus) - d60 event sourcing + CQRS framework
+  * [Akkatecture](https://akkatecture.net/) - cqrs and event sourcing for dotnet core 
   * [NEventStore](http://neventstore.org) - A persistence agnostic Event Store for .NET
   * [EventFlow](http://docs.geteventflow.net) - EventFlow is a basic CQRS+ES framework designed to be easy to use
+  * [Brighter](https://www.goparamore.io) - Command Processor & Dispatcher implementation that can be used as a lightweight library in other projects. 
   * [Its.CQRS](https://github.com/jonsequitur/Its.Cqrs) - A set of libraries for CQRS and Event Sourcing, with a Domain-Driven Design flavor.
   * [Aggregates.NET](https://github.com/volak/Aggregates.NET) - .NET event sourced domain driven design model via NServiceBus and GetEventStore
   * [NES](https://github.com/elliotritchie/NES) - Lightweight framework that helps you build domain models when you're doing event sourcing.
@@ -46,6 +50,7 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
   * [OData Web API](https://github.com/OData/WebApi): A server library built upon ODataLib and WebApi.
   * [Swashbuckle.AspNetCore](https://github.com/domaindrivendev/Swashbuckle.AspNetCore) - Swagger tools for documenting API's built on ASP.NET Core.
   * [RService.IO](https://github.com/Stoom/RService.IO) - Light weight REST service framework for ASP.NET Core.
+  * [OpenRasta](http://openrasta.org) - Open-source .NET framework for building everything web, from web sites to RESTful APIs.
 * Web Sockets
 
   * [Fleck](https://github.com/statianzo/Fleck) - C# Websocket Implementation
@@ -83,6 +88,7 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
   * [DotNetty](https://github.com/Azure/DotNetty) - Port of [Netty](https://github.com/netty/netty), asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers & clients.
   * [Halibut](https://github.com/OctopusDeploy/Halibut) - A secure communication stack for .NET using JSON-RPC over SSL.
   * [microdot](https://github.com/gigya/microdot) - An open source .NET microservices framework
+  * [EmbedIO](https://unosquare.github.io/embedio) - A tiny, cross-platform, module based, MIT-licensed web server for .NET Framework and .NET Core
 * Network
   * [edtFTPnet](https://enterprisedt.com/products/edtftpnet) - The popular free .NET FTP library
   * [FluentFTP](https://github.com/robinrodricks/FluentFTP) - An FTP and FTPS client for .NET & .NET Standard, optimized for speed.
@@ -101,6 +107,8 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
   * [marten](http://jasperfx.github.io/marten) - Polyglot Persistence for .NET Systems using the Rock Solid PostgreSQL Database
   * [ReactiveETL](https://github.com/madhon/ReactiveETL) - Rewrite of Rhino ETL using the reactive extensions for .Net
   * [SqlKata](https://sqlkata.com) - The powerful C# sql query builder
+* Caching
+  * [Akavache](https://github.com/akavache/Akavache) - An asynchronous, persistent key-value store.
 * Full text
   * [NEST](https://github.com/elastic/elasticsearch-net) - Elasticsearch.Net & NEST
   * [SimMetrics.NET](https://github.com/StefH/SimMetrics.Net) - Similarity Metric Library, e.g. from edit distance's (Levenshtein, Gotoh, Jaro etc) to other metrics, (e.g Soundex, Chapman).
@@ -142,6 +150,7 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 * [Metrics.NET](https://github.com/Recognos/Metrics.NET) - The Metrics.NET library provides a way of instrumenting applications with custom metrics (timers, histograms, counters etc) that can be reported in various ways and can provide insights on what is happening inside a running application.
 * [Warden](https://github.com/warden-stack/Warden) - Define "health checks" for your applications, resources and infrastructure. Keep your Warden on the watch.  
 * [NBench](https://github.com/petabridge/NBench) - Cross-platform performance benchmarking and testing framework for .NET applications.
+* [Prefix](https://stackify.com/prefix) - Understand what your code is doing and find bugs you didn’t even know existed. 
 ### Algorithms & Data Structures
 * Algorithms
   * [C# Algorithms](https://github.com/aalhour/C-Sharp-Algorithms) - A C# plug-and-play class-library project of standard Data Structures and Algorithms.
@@ -260,12 +269,14 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 ### Caching
 *  [CacheManager](https://github.com/MichaCo/CacheManager) - CacheManager is an open source caching abstraction layer for .NET written in C#. It supports various cache providers and implements many advanced features.
 *  [Cashew](https://github.com/joakimskoog/Cashew) - A simple and elegant yet powerful HTTP client cache for .NET
-### Languages & Compilers
-* [Irony](https://github.com/IronyProject/Irony) - .NET Language Implementation Kit.
-* [Flee](https://github.com/mparlak/Flee) - Fast Lightweight Expression Evaluator.
-* [Sparche](https://github.com/sprache/Sprache) - Tiny C# Monadic Parser Framework.
-* [Pidgin](https://github.com/benjamin-hodgson/Pidgin) (StackExchange) - A lightweight, fast and flexible parsing library for C#.
-### Framework specifics (seria
+*  [LazyCache](https://github.com/alastairtree/LazyCache) - An easy to use thread safe generics based in memory caching service with a simple developer friendly API for C#.
+### Framework specifics
+
+- Languages & Compilers
+  - [Irony](https://github.com/IronyProject/Irony) - .NET Language Implementation Kit.
+  - [Flee](https://github.com/mparlak/Flee) - Fast Lightweight Expression Evaluator.
+  - [Sprache](https://github.com/sprache/Sprache) - Tiny C# Monadic Parser Framework.
+  - [Pidgin](https://github.com/benjamin-hodgson/Pidgin) (StackExchange) - A lightweight, fast and flexible parsing library for C#.
 * Serialization
   * [Hyperion](https://github.com/akkadotnet/Hyperion) -  Polymorphic serialization for .NET
   * [Jil](https://github.com/kevin-montrose/Jil) - Fast .NET JSON (De)Serializer, Built On Sigil
@@ -316,6 +327,7 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 * [Postal](http://aboutcode.net/postal) - Create email using ASP.NET MVC views
 * [MailKit](https://github.com/jstedfast/MailKit) - A cross-platform .NET library for IMAP, POP3, and SMTP. 
 * [MailBody](https://doxakis.github.io/MailBody) - Create transactional email with a fluent interface (.net)
+* [RazorMailer](https://github.com/jonleigh/RazorMailer) - A lightweight framework for sending emails from any .NET platform using Razor templates.
 ### Logging
 * [Logary](https://logary.github.io) - High performance, multi-target logging, metric, tracing and health-check library for mono and .Net.
 * [NLog](https://github.com/nlog/NLog) - Advanced and Structured Logging for Various .NET Platforms 
@@ -413,35 +425,80 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 * [Akka](https://akka.io)
 ### Services
 ### Data Access
-* [Calcite](https://calcite.apache.org) (Apache)
+* [Calcite](https://calcite.apache.org) (Apache) - The foundation for your next high-performance database. 
+
+
 
 ## Python
-### Services
-* [sandman2](https://github.com/jeffknupp/sandman2)
 
-## Javascript
+### Services
+* [sandman2](https://github.com/jeffknupp/sandman2) - Automatically generate a RESTful API service for your legacy database. No code required! 
+
+## Go
+
+### Services
+
+* [Martini](https://github.com/go-martini/martini) - Classy web framework for Go
+* [Gorilla](http://www.gorillatoolkit.org/pkg/mux) - Gorilla web toolkit
+
+## Node.js
 
 ### Awesome
-* [Awesome GraphQL](https://github.com/chentsulin/awesome-graphql)
-* [Automatic API](https://github.com/dbohdan/automatic-api)
-### REST
-* [ActionHero](https://www.actionherojs.com)
-* [Tyk](https://tyk.io)
-* [Kong](https://getkong.org)
-### [GraphQL](graphql.org)
-* [Prisma](https://www.prismagraphql.com)
-* [Apollo](https://github.com/apollographql/apollo-server)
-* [Graphile](https://www.graphile.org)
-* [Join-Monster](https://github.com/stems/join-monster)
-* [gestalt](https://github.com/charlieschwabacher/gestalt)
-* [sql-to-graphql](https://github.com/rexxars/sql-to-graphql)
-* [Altair](https://altair.sirmuel.design) - A beautiful feature-rich GraphQL Client for all platforms
-### Serverless
-* [serverless](https://serverless.com)
-* [serverless-offline](https://github.com/dherault/serverless-offline)
-* [serverless-babel-starter](https://github.com/postlight/serverless-babel-starter)
-### Data-access
+* [Awesome GraphQL](https://github.com/chentsulin/awesome-graphql) - Awesome list of GraphQL & Relay
+* [Automatic API](https://github.com/dbohdan/automatic-api) - A list of software that turns your database into a REST/GraphQL API 
+### Distributed Systems
+
+* [noel](https://lifenautjoe.github.io/noel) - A universal, human-centric, replayable Javascript event emitter.
+
+### Services
+
+* REST
+  * [ActionHero](https://www.actionherojs.com) - The reusable, scalable, and quick node.js API server for stateless and stateful applications
+  * [egg](https://eggjs.org/en) - Born to build better enterprise frameworks and apps with Node.js & Koa
+* API Gateways
+  * [Tyk](https://tyk.io) - Open source API Gateway that is fast, scalable and modern.
+  * [Kong](https://getkong.org) - Secure, Manage & Extend your APIs and Microservices
+* [GraphQL](graphql.org)
+  * [Prisma](https://www.prismagraphql.com) (Graphcool) - Turn your database into a GraphQL API
+  * [Apollo](https://github.com/apollographql/apollo-server) (Meteor) - GraphQL server for Express, Connect, Hapi, Koa and more
+  * [PostGraphile](https://www.graphile.org) - Tools for building performant pluggable GraphQL APIs.
+  * [Join-Monster](https://github.com/stems/join-monster) - A GraphQL to SQL query execution layer for query planning and batch data fetching.
+  * [gestalt](https://github.com/charlieschwabacher/gestalt) - Use the GraphQL schema language and a small set of directives to define an API with a PostgreSQL backend declaratively, really quickly, and with a tiny amount of code.
+  * [sql-to-graphql](https://github.com/rexxars/sql-to-graphql) - Generate a GraphQL API based on your SQL database structure 
+  * [Altair](https://altair.sirmuel.design) - A beautiful feature-rich GraphQL Client for all platforms
+  * [GraphQL Yoga](https://github.com/graphcool/graphql-yoga) (Graphcool) - Fully-featured GraphQL Server with focus on easy setup, performance & great developer experience
+* Serverless
+  * [serverless](https://serverless.com) - Your toolkit for deploying and operating serverless architectures. 
+  * [serverless-offline](https://github.com/dherault/serverless-offline) - Emulate AWS λ and API Gateway locally when developing your Serverless project 
+  * [serverless-babel-starter](https://github.com/postlight/serverless-babel-starter) - Serverless with all the fixings: Webpack, Babel, Jest, ESLint, and Prettier.
+  * [lambdapack](https://www.npmjs.com/package/lambdapack) - Package your AWS Lambda efficiently, ready to be deployed with [apex/up](https://github.com/apex/up)
+### Data Access
 * [EventStore](https://eventstore.org) - The open-source, functional database with Complex Event Processing in JavaScript.
+
+### Templating
+
+* [Pug](https://pugjs.org) – Robust, elegant, feature rich template engine for Node.js
+
+### Algorithms & Data Structures
+
+* Numerics
+  * [crunch.js](http://crunch.js.org) - Arbitrary-Precision Integer Arithmetic Library
+  * [Yaffle BigInteger](https://github.com/Yaffle/BigInteger) - Yet another implementaion of arbitrary-precision integers in pure JavaScript. 
+  * [bigi](https://github.com/cryptocoinjs/bigi) - JavaScript Big Integer library based upon Tom Wu's work. 
+  * [bn.js](https://github.com/indutny/bn.js) - BigNum in pure javascript
+
+### CRM
+
+* [Tipe](https://tipe.io) - Create your content with powerful editing tools and access it from anywhere with a GraphQL or REST API. Stop letting your CMS decide how you build your apps. 
+
+### Tools
+
+* [i18next](https://www.i18next.com) - An **internationalization-framework** written in and for JavaScript. 
+
+* [ReLaXed](https://github.com/RelaxedJS/ReLaXed) - Create PDF documents using web technologies.
+
+* [Prompts](https://github.com/terkelg/prompts) - Lightweight, beautiful and user-friendly interactive prompts
+* [Headless Chrome Crawler](https://github.com/yujiosaka/headless-chrome-crawler) - Distributed crawler powered by Headless Chrome
 
 # Frontend
 
@@ -456,12 +513,15 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 
 ## CSS
 * Frameworks
-	* [CSS-Blocks](http://css-blocks.com)
-	* [SaSS](https://sass-lang.com)
-	* [LeSS](http://lesscss.org)
+  * [CSS Blocks](http://css-blocks.com) (LinkedIn) - Blazing fast CSS for your design systems and app components
+    * [OptiCSS](https://github.com/linkedin/opticss) (LinkedIn) - A CSS Optimizer
+  * [SaSS](https://sass-lang.com)
+  * [LeSS](http://lesscss.org)
+* UX Frameworks
+  * [Mailchimp](http://ux.mailchimp.com/patterns) - MailChimp Pattern Library is a byproduct of our move to a more responsive, nimble, & intuitive app.
 * Email
-	* [MJML](https://mjml.io) - The only framework that makes responsive email easy
-	* [Foundation For Emails](https://foundation.zurb.com/emails.html) - Quickly create responsive HTML emails that work. Even on Outlook.
+  * [MJML](https://mjml.io) - The only framework that makes responsive email easy
+  * [Foundation For Emails](https://foundation.zurb.com/emails.html) - Quickly create responsive HTML emails that work. Even on Outlook.
 
 ## Javascript
 
@@ -471,182 +531,262 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 * [Awesome](https://github.com/sindresorhus/awesome) - Curated list of awesome lists
 
 ### UX Frameworks
-* [Bootstrap](https://getbootstrap.com) - Build responsive, mobile-first projects on the web
-	* [Material Design for Bootstrap](https://mdbootstrap.com)
-	* [Shards](https://designrevision.com/downloads/shards) - A free and modern UI toolkit for web makers
-* [Carbon](http://carbondesignsystem.com) (IBM)
-* [Stencil](https://stenciljs.com)
-* [boundless](https://boundless.js.org) - UI toolkit that was conceived to abstract away difficult interface patterns
+
+* Design Systems
+  * [Awesome Design Systems](https://github.com/alexpate/awesome-design-systems) - A collection of awesome design systems
+  * [Bootstrap](https://getbootstrap.com) - Build responsive, mobile-first projects on the web
+    * [Material Design for Bootstrap](https://mdbootstrap.com)
+    * [Shards](https://designrevision.com/downloads/shards) - A free and modern UI toolkit for web makers
+  * [Carbon](http://carbondesignsystem.com) (IBM) - Design system for IBM Cloud products.
+  * [Stencil](https://stenciljs.com) - The magical, reusable web component compiler
+  * [Rizzo](http://rizzo.lonelyplanet.com/styleguide) (Lonely Planet) - 
+  * [boundless](https://boundless.js.org) - UI toolkit that was conceived to abstract away difficult interface patterns
+  * [Lightning Design System](https://www.lightningdesignsystem.com) (Salesforce) - Create the world’s best enterprise app experiences.
+  * [Mapbox](https://www.mapbox.com/base) (Maxbox) - An internal guide & code repository for designing and coding at Mapbox.
+  * [Atlassian Design](https://atlassian.design) (Atlassian) - Use Atlassian's end-to-end design language to create straightforward and beautiful experiences.
+  * [Auth0 Styleguide](https://styleguide.auth0.com) (Auth0) - Conjunction of design patterns, components and resources used across our products.
+* Themes
+  * [Hacker Themes](https://hackerthemes.com) - Bootstrap 4 themes & templates for ambitious developers
+  * [Creative Time](https://www.creative-tim.com) - Premium Bootstrap themes, templates, UI Kits and more developed by Creative Tim.
+  * [Tabler](https://tabler.github.io) - Premium and Open Source dashboard template with responsive and high quality UI. For Free!
 
 ### Libraries
 * Charts and graphics
-	* [protovis](http://mbostock.github.io/protovis) - A graphical approach to visualization
-	* [d3js](https://d3js.org) - Data-Driven Documents
-		* [d3-discovery](https://d3-discovery.net) - Finding D3 plugins with ease
-		* [mermaid](https://mermaidjs.github.io) - Generation of diagram and flowchart from text in a similar manner as markdown
-		* [nvd3](http://nvd3.org) - A reusable charting library
-		* [d3-annotation](http://d3-annotation.susielu.com)
-		* [plotly.js](https://plot.ly/javascript) - The open source JavaScript graphing library that powers Plotly
-		* [epoch](http://epochjs.github.io/epoch) - A general purpose real-time charting library for building beautiful, smooth, and high performance visualizations
-		* [metricsgraphicsjs](https://www.metricsgraphicsjs.org) - A library that is optimized for visualizing and laying out time-series data
-		* [rickshaw](http://code.shutterstock.com/rickshaw) - JavaScript toolkit for creating interactive time series graphs
-		* [plottablejs](http://plottablejs.org) (Palantir) - Flexible, interactive charts for the web
-	* [Vega](https://vega.github.io/vega) - A Visualization Grammar
-	* [dygraphs](http://dygraphs.com) - Fast, flexible open source JavaScript charting library
-	* [sigmajs](http://sigmajs.org) - Sigma is a JavaScript library dedicated to graph drawing
-	* [cytoscape](http://js.cytoscape.org) - Graph theory / network library for analysis and visualisation
-	* [cubismjs](https://square.github.io/cubism) (Square) - Time Series Visualization
-	* [taucharts](https://www.taucharts.com) - Flexible javascript charting library for data exploration
-	* [echarts](http://echarts.baidu.com) (Baidu) - A powerful, interactive charting and visualization library for browser
-	* [chartjs](http://www.chartjs.org) - Simple yet flexible JavaScript charting for designers & developers
-	* [chartist](https://gionkunz.github.io/chartist-js) - Simple responsive charts
+  * [protovis](http://mbostock.github.io/protovis) - A graphical approach to visualization
+  * [d3js](https://d3js.org) - Data-Driven Documents
+    * [d3-discovery](https://d3-discovery.net) - Finding D3 plugins with ease
+    * [mermaid](https://mermaidjs.github.io) - Generation of diagram and flowchart from text in a similar manner as markdown
+    * [nvd3](http://nvd3.org) - A reusable charting library
+    * [d3-annotation](http://d3-annotation.susielu.com)
+    * [plotly.js](https://plot.ly/javascript) - The open source JavaScript graphing library that powers Plotly
+    * [epoch](http://epochjs.github.io/epoch) - A general purpose real-time charting library for building beautiful, smooth, and high performance visualizations
+    * [metricsgraphicsjs](https://www.metricsgraphicsjs.org) - A library that is optimized for visualizing and laying out time-series data
+    * [rickshaw](http://code.shutterstock.com/rickshaw) - JavaScript toolkit for creating interactive time series graphs
+    * [plottablejs](http://plottablejs.org) (Palantir) - Flexible, interactive charts for the web
+  * [Vega](https://vega.github.io/vega) - A Visualization Grammar
+    * [Vega Lite](https://vega.github.io/vega-lite) - A Grammar of Interactive Graphics
+  * [dygraphs](http://dygraphs.com) - Fast, flexible open source JavaScript charting library
+  * [sigmajs](http://sigmajs.org) - Sigma is a JavaScript library dedicated to graph drawing
+  * [cytoscape](http://js.cytoscape.org) - Graph theory / network library for analysis and visualisation
+  * [cubismjs](https://square.github.io/cubism) (Square) - Time Series Visualization
+  * [taucharts](https://www.taucharts.com) - Flexible javascript charting library for data exploration
+  * [echarts](http://echarts.baidu.com) (Baidu) - A powerful, interactive charting and visualization library for browser
+    * [ECharts-GL](https://github.com/ecomfe/echarts-gl) - Extension pack of [echarts](http://echarts.baidu.com/), which providing 3D plots, globe visualization and WebGL acceleration. 
+  * [chartjs](http://www.chartjs.org) - Simple yet flexible JavaScript charting for designers & developers
+  * [chartist](https://gionkunz.github.io/chartist-js) - Simple responsive charts
+  * [Pixi](http://www.pixijs.com/) - The HTML5 Creation Engine
+  * [Toast UI](http://ui.toast.com/tui-chart) - An easy way to draw various and essential charts on your web service. 
+  * [flowchart.js](https://flowchart.js.org) - Draws simple SVG flow chart diagrams from textual representation of the diagram
+  * [curtains.js](https://www.martin-laxenaire.fr/libs/curtainsjs/index.html)  - Easy WebGL tool to animate images
+  * [G2](https://github.com/antvis/g2) (Alibaba) - The Grammar of Graphics in JavaScript
+    * [BizCharts](https://github.com/alibaba/BizCharts) - Data visualization library based G2 and React
+    * [G6](https://github.com/antvis/g6) - Relational data visualization framework. 
+* Animations
+  * [micron](https://webkul.github.io/micron) - a [μ] microInteraction library built withCSS Animations and controlled by JavaScript Power
+  * [Just Animate](https://just-animate.github.io) - Making animation simple
 * Maps
-	* [pigeon-maps](https://mariusandra.github.io/pigeon-maps)
+  * [pigeon-maps](https://mariusandra.github.io/pigeon-maps) - 
 * Utilities
-	* [Dinero.js](https://sarahdayan.github.io/dinero.js) - Dinero.js is a library for working with monetary values in JavaScript
+  * [Dinero.js](https://sarahdayan.github.io/dinero.js) - Dinero.js is a library for working with monetary values in JavaScript
 * Tours
-	* [Driver](http://kamranahmed.info/driver) - Light-weight, no-dependency, vanilla JavaScript engine to drive user's focus across the page
+  * [Driver](http://kamranahmed.info/driver) - Light-weight, no-dependency, vanilla JavaScript engine to drive user's focus across the page
 
 ### Tooling
 * [bit](https://bitsrc.io) - Components are building blocks. You are the architect.
+* [Lerna](https://lernajs.io) - A tool for managing JavaScript projects with multiple packages. 
+* [codemods](https://github.com/facebook/codemod) - Tool/library to assist you with large-scale codebase refactors that can be partially automated but still require human oversight and occasional intervention.
+* [Scroll Booster](https://ilyashubin.github.io/scrollbooster) - Enjoyable content drag-to-scroll library.
 * [Webpack](https://webpack.js.org) - Bundle your assets
-	* [Speed Measure](https://github.com/stephencookdev/speed-measure-webpack-plugin) - See how fast (or not) your plugins and loaders are, so you can optimise your builds
-	* [NOW Loader](https://github.com/pranaygp/now-loader) - Deploys the required resource to now
+  * [Speed Measure](https://github.com/stephencookdev/speed-measure-webpack-plugin) - See how fast (or not) your plugins and loaders are, so you can optimise your builds
+  * [NOW Loader](https://github.com/pranaygp/now-loader) - Deploys the required resource to now
+  * [directory-named-webpack-plugin](https://www.npmjs.com/package/directory-named-webpack-plugin) - This plugin makes it possible to control what file within directory will be treated as entry file.
 * [turbolinks](https://github.com/turbolinks/turbolinks) - Turbolinks makes navigating your web application faster
 
 ### [React](https://reactjs.org)
 * Awesome
-	* [Awesome React](https://github.com/enaqx/awesome-react)
-	* [React Components & Libraries](https://github.com/brillout/awesome-react-components)
-	* [Awesome Redux (brillout)](https://github.com/brillout/awesome-redux)
-	* [Awesome Redux (xgrommx)](https://github.com/xgrommx/awesome-redux)
-	* [Awesome MobX](https://github.com/mobxjs/awesome-mobx)
-	* [MobX Ecosystem](https://github.com/xgrommx/mobx-ecosystem)
+  * [Awesome React](https://github.com/enaqx/awesome-react)
+  * [React Components & Libraries](https://github.com/brillout/awesome-react-components)
+  * [Awesome Redux (brillout)](https://github.com/brillout/awesome-redux)
+  * [Awesome Redux (xgrommx)](https://github.com/xgrommx/awesome-redux)
+  * [Awesome MobX](https://github.com/mobxjs/awesome-mobx)
+  * [MobX Ecosystem](https://github.com/xgrommx/mobx-ecosystem)
+  * [Awesome React GraphQL](https://github.com/hasura/awesome-react-graphql) - A curated collection of resources, clients and tools that make working with GraphQL and React/React Native awesome. 
 * State Management
-	* REST
-		* [tectonic](https://tonyhb.github.io/tectonic)
-	* [Redux](https://redux.js.org)
-		* [Redux Rest Resource](http://mgcrea.github.io/redux-rest-resource)
-		* [Undux](https://github.com/bcherny/undux)
-		* [next.js](https://github.com/zeit/next.js)
-		* [after.js](https://github.com/jaredpalmer/after.js)
-		* [jumpsuit](https://jumpsuit.js.org) - React framework for efficiently building powerful web applications
-	* [MobX](https://mobx.js.org)
-		* [cans](http://cans.js.org)
-		* [mobx-state-tree](https://github.com/mobxjs/mobx-state-tree)
-		* [parket](https://github.com/ForsakenHarmony/parket)
-		* [FormState](https://github.com/formstate/formstate)
-		* [react-remux](https://github.com/vinej/react-remux) - A flux implementation with React and Mobx
-	* Tools
-		* [immutable.js](https://facebook.github.io/immutable-js) (Facebook)
-		* [Immer](https://github.com/mweststrate/immer)
-		* [unistore](https://github.com/developit/unistore)
-		* [uniforms](https://github.com/vazco/uniforms) - A set of React libraries for building forms
+  * REST
+    * [tectonic](https://tonyhb.github.io/tectonic) - A declarative REST data loader for react + redux
+    * [React Agent](http://www.reactagent.com) - A JS library for your database management
+    * [Redux Rest Resource](http://mgcrea.github.io/redux-rest-resource) - Dead simple and ready-to-use store module for handling HTTP REST resources.
+  * [Redux](https://redux.js.org)
+    * [Undux](https://github.com/bcherny/undux) - Dead simple state management for React
+    * [next.js](https://github.com/zeit/next.js) - Framework for server-rendered or statically-exported React apps
+    * [after.js](https://github.com/jaredpalmer/after.js) - Next.js-like framework for server-rendered React apps built with React Router 4
+    * [jumpsuit](https://jumpsuit.js.org) - React framework for efficiently building powerful web applications
+    * [rematch](https://rematch.gitbooks.io/rematch) -  Redux best practices without the boilerplate. No more action types, action creators, switch statements or thunks.
+    * [dva](https://github.com/dvajs/dva) - React and redux based, lightweight and elm-style framework. (Inspired by elm and choo) 
+    * [microcosm](http://code.viget.com/microcosm) - Microcosm is [Flux](https://facebook.github.io/flux/docs/overview.html) with actions at center stage. Write optimistic updates, cancel requests, and track changes with ease. 
+  * [MobX](https://mobx.js.org)
+    * [cans](http://cans.js.org) - A framework for building React / MobX application
+    * [mobx-state-tree](https://github.com/mobxjs/mobx-state-tree) - Model Driven State Management
+    * [parket](https://github.com/ForsakenHarmony/parket) - A library to manage application state, heavily inspired by mobx-state-tree
+    * [FormState](https://github.com/formstate/formstate) - Form state so simple that you will fall in love
+    * [react-remux](https://github.com/vinej/react-remux) - A flux implementation with React and Mobx
+  * Tools
+    * [immutable.js](https://facebook.github.io/immutable-js) (Facebook) - Immutable collections for JavaScript
+    * [Immer](https://github.com/mweststrate/immer) - Create the next immutable state by mutating the current one
+    * [Unstated](https://github.com/jamiebuilds/unstated) - State so simple, it goes without saying.
+    * [ModulaJS](https://github.com/freewheel/modulajs) - A modularization framework to manage application states using an immutable model tree.
+    * [unistore](https://github.com/developit/unistore) - 650b state container with component actions for Preact & React
+    * [uniforms](https://github.com/vazco/uniforms) - A set of React libraries for building forms
+    * [Final Form](https://github.com/final-form/react-final-form) - High performance subscription-based form state management for React.
+    * [react-portalgun](https://github.com/diegomura/react-portalgun) - Lightweight portal system for React. Mega seeds included
 * Development Frameworks
-	* [next.js](https://github.com/zeit/next.js)
-	* [next-offline](https://github.com/hanford/next-offline)
-	* [DVA](https://github.com/dvajs/dva)
-	* [Create React App](https://github.com/facebook/create-react-app)
-	* [rekit](http://rekit.js.org)
+  * [next.js](https://github.com/zeit/next.js)
+  * [next-offline](https://github.com/hanford/next-offline)
+  * [DVA](https://github.com/dvajs/dva)
+  * [Create React App](https://github.com/facebook/create-react-app)
+  * [rekit](http://rekit.js.org)
+* Routing
+   * [Junctions](https://junctions.js.org) - A batteries-included router for React.
 * UX Frameworks
-	* [Gestalt](https://pinterest.github.io/Card) (Pinterest)
-	* [Grommet](http://grommet.io) (Hewlett Packard)
-	* [Material UI](http://www.material-ui.com)
-	* [Ant Design](https://ant.design)
-	* [React Desktop](http://reactdesktop.js.org)
-	* [Semantic UI](https://react.semantic-ui.com)
-	* [Blueprint](http://blueprintjs.com)
-	* [React Bootstrap](https://react-bootstrap.github.io)
-	* [Office UI Fabric](https://developer.microsoft.com/en-us/fabric#/components) (Microsoft)
-	* [react-md](https://react-md.mlaursen.com)
-	* [modulz](https://www.modulz.co/showcase) - An open–source collection of styles, components, patterns, resources & more
-	* [Clarity Design System](https://vmware.github.io/clarity) (VMWare) - UX guidelines, HTML/CSS framework, and Angular components working together to craft exceptional experiences
-			[Design System React](https://react.lightningdesignsystem.com) (SalesForce) - Design System React is an implementation of the Lightning Design System
+  * [Gestalt](https://github.com/pinterest/gestalt) (Pinterest) - Set of React UI components that enforces Pinterest’s design language. 
+  * [Grommet](http://grommet.io) (Hewlett Packard) - focus on the essential experience
+     * [Grommet Addons](https://github.com/grommet/grommet-addons) - Higher order components and utilities based on core grommet components.
+     * [Grommet Index](http://index.grommet.io/docs/grommet-index) - Additional components beyond the base Grommet components for use in data heavy environments [*deprecated* - use Grommet Addons instead].
+  * [Material UI](https://material-ui-next.com) - React components that implement Google's Material Design.
+  * [Ant Design](https://ant.design) - A design system with values of Nature and Determinacy for better user experience of enterprise applications
+     * [Awesome Ant Design](https://github.com/websemantics/awesome-ant-design) - A curated list of Ant Design resources and related projects. 
+     * [Ant.Motion](https://github.com/ant-design/ant-motion) - Animate specification and components of Ant Design  
+     * [Scaffolds](http://scaffold.ant.design) - Practical scaffolds to kickoff 
+  * [React Desktop](http://reactdesktop.js.org) - JavaScript library built on top of [Facebook's React](https://facebook.github.io/react/) library, which aims to bring a native desktop experience to the web, featuring many macOS Sierra and Windows 10 components.
+  * [Semantic UI](https://react.semantic-ui.com) - Semantic UI React is the official React integration for [Semantic UI](https://semantic-ui.com/) .
+  * [Blueprint](http://blueprintjs.com) (Palantir) - A React-based UI toolkit for the web
+  * [React Bootstrap](https://react-bootstrap.github.io) - The most popular front-end framework, rebuilt for React.
+  * [Office UI Fabric](https://developer.microsoft.com/en-us/fabric#/components) (Microsoft) - Use our design language in your own experience
+  * [react-md](https://react-md.mlaursen.com) - React material design
+  * [modulz](https://www.modulz.co/showcase) - An open–source collection of styles, components, patterns, resources & more
+  * [Clarity Design System](https://vmware.github.io/clarity) (VMWare) - UX guidelines, HTML/CSS framework, and Angular components working together to craft exceptional experiences
+  * [React Lightning Design System](https://github.com/mashmatrix/react-lightning-design-system) - Salesforce Lightning Design System components built with React
+* Themes
+   * [CoreUI](https://coreui.io) - Free Bootstrap Admin Template
+* Security and Authentication
+   * [React Check Auth](https://github.com/hasura/react-check-auth) - Add auth protection anywhere in your react/react-native app.
 * Component/CSS frameworks
-	* [Aphrodite](https://github.com/Khan/aphrodite) (Khan Academy)
-	* [glamor](https://github.com/threepointone/glamor)
-	* [glamorous](https://github.com/paypal/glamorous) (PayPal)
-	* [emotion](https://emotion.sh)
-	* [Radium](http://formidable.com/open-source/radium) (Formidable Labs)
-	* [styled components](https://www.styled-components.com) - Visual primitives for the component age
-	* [reas](https://reas.js.org) - A minimalist and highly customizable component system
+  * [Aphrodite](https://github.com/Khan/aphrodite) (Khan Academy) - Framework-agnostic CSS-in-JS with support for server-side rendering, browser prefixing, and minimum CSS generation
+    * [Adonis](https://github.com/imgly/adonis) - The best of [Aphrodite](https://github.com/Khan/aphrodite) and [styled-components](https://github.com/styled-components/styled-components): Named DOM elements, stylable via object literals with support for inheritance, overriding and theming while staying lightweight (28 KB / 7.6 KB gzipped)
+  * [glamor](https://github.com/threepointone/glamor) - Inline CSS for React et al.
+  * [glamorous](https://github.com/paypal/glamorous) (PayPal) - Maintainable CSS with React
+  * [emotion](https://emotion.sh) - The Next Generation of CSS-in-JS
+  * [Radium](http://formidable.com/open-source/radium) (Formidable Labs) - Set of tools to manage inline styles on React elements.
+  * [rebass](http://jxnblk.com/rebass) - Library of highly-composable, primitive UI components for React, built with styled-components to keep styles isolated and reduce the need to write custom CSS in your application.
+  * [cxs](https://github.com/cxs-css/cxs) - fast af css-in-js in 0.7kb
+  * [Styletron](https://github.com/rtsao/styletron) - Toolkit for component-oriented styling 
+  * [styled-components](https://www.styled-components.com) - Visual primitives for the component age
+    * [Styled Theming](https://github.com/styled-components/styled-theming) - Create themes for your app using styled-components
+    * [styled-system](http://jxnblk.com/styled-system/#styled-system) - Design system utilities for [styled-components](https://github.com/styled-components/styled-components) and other css-in-js libraries
+  * [reas](https://reas.js.org) - A minimalist and highly customizable component system
+  * [React Foundation](https://react.foundation) - Foundation as React components
+  * [React Grid](https://devexpress.github.io/devextreme-reactive/react/grid/) (DevExtreme) - Your Data Grid, Your Way
 * Charts & graphics
-	* [Victory](http://formidable.com/open-source/victory) (Formidable Labs) - React.js components for modular charting and data visualization
-	* [recharts](http://recharts.org) - A composable charting library built on React components
-	* [react-vis](http://uber.github.io/react-vis) (Uber) -
-	* [reactivemaps](https://github.com/appbaseio/reactivemaps) - A data aware UI components library for building realtime maps
-* Animations
-	* [Pose](https://popmotion.io/pose)
-	* [react-spring](https://github.com/drcmda/react-spring) - Helping react-motion and animated to become best friends
-	* [popmotion](https://github.com/Popmotion/popmotion) - A functional, reactive animation library
-	* [react-move](https://github.com/react-tools/react-move) - Beautiful, data-driven animations for React
-	* [animated](https://github.com/animatedjs/animated) - Declarative Animations Library for React and React Native
-	* [react-motion](https://github.com/chenglou/react-motion) - A spring that solves your animation problems
+  * [Victory](http://formidable.com/open-source/victory) (Formidable Labs) - React.js components for modular charting and data visualization
+  * [recharts](http://recharts.org) - A composable charting library built on React components
+  * [react-vis](http://uber.github.io/react-vis) (Uber) - A composable charting library
+  * [reactivemaps](https://github.com/appbaseio/reactivemaps) - A data aware UI components library for building realtime maps
+  * [echarts-for-react](http://git.hust.cc/echarts-for-react) - A very simple echarts (v3.x & v4.x) wrapper for React.
+  * [react-virtualized](http://www.reactvirtualized.com) - React components for efficiently rendering large lists and tabular data.
+* Animations and video
+  * [Pose](https://popmotion.io/pose) - Declarative motion system for HTML, SVG, React & React Native
+  * [react-spring](https://github.com/drcmda/react-spring) - Helping react-motion and animated to become best friends
+  * [popmotion](https://github.com/Popmotion/popmotion) - A functional, reactive animation library
+  * [react-move](https://github.com/react-tools/react-move) - Beautiful, data-driven animations for React
+  * [animated](https://github.com/animatedjs/animated) - Declarative Animations Library for React and React Native
+  * [react-motion](https://github.com/chenglou/react-motion) - A spring that solves your animation problems
+  * [Video.js](http://videojs.com) - The player framework
 * Testing
-	* [react-testing-library](https://github.com/kentcdodds/react-testing-library) - Simple and complete React DOM testing utilities that encourage good testing practices.
+  * [react-testing-library](https://github.com/kentcdodds/react-testing-library) - Simple and complete React DOM testing utilities that encourage good testing practices.
 * Utilities
-	* [react-with-gesture](https://github.com/drcmda/react-with-gesture) - Little helper for component-tied mouse/touch gestures
+  * [react-with-gesture](https://github.com/drcmda/react-with-gesture) - Little helper for component-tied mouse/touch gestures
+  * [React Graceful Image](https://github.com/linasmnew/react-graceful-image) - An image component for gracefully dealing with image errors by providing optional lazy loading, optional placeholder and configurable retries on failure 
+  * [MDXC](http://mdxc.reactarmory.com) - Tool to convert Markdown into React Components.
+  * [Spectacle](http://formidable.com/open-source/spectacle) (Formidable Labs) - A React.js based library for creating sleek presentations.
 
 ### [Angular](https://angular.io)
 * Awesome
-	* [awesome-angular](https://github.com/gdi2290/awesome-angular)
-	* [awesome-angular2](https://github.com/amcdnl/awesome-angular2)
+  * [awesome-angular](https://github.com/gdi2290/awesome-angular) - A curated list of awesome Angular resources by [@TipeIO](https://github.com/TipeIO) 
+  * [awesome-angular2](https://github.com/amcdnl/awesome-angular2) - A curated list of awesome Angular 2 resources by [@AngularClass](https://github.com/AngularClass) 
+  * [awesome-angular-components](https://github.com/brillout/awesome-angular-components) - Catalog of Angular 2+ Components & Libraries 
 * Development frameworks
-	* [Nrwl Nx](https://nrwl.io/nx) - An open source toolkit for enterprise Angular applications
+  * [Nrwl Nx](https://nrwl.io/nx) - An open source toolkit for enterprise Angular applications
 * UX Frameworks
-	* [Angular Material](https://material.angular.io)
-	* [awesome-angular-components](https://github.com/brillout/awesome-angular-components)
+  * [Angular Material](https://material.angular.io) - Material Design components for Angular
+  * [NG-ZORRO](https://github.com/NG-ZORRO/ng-zorro-antd) - An enterprise-class UI components based on Ant Design and Angular. 
 
 ### [Vue.js](https://vuejs.org)
-* Development Frameworks
-	* [NUXT](https://nuxtjs.org) - Universal Vue.js Applications
+* Examples
+  * [Made With Vue](https://madewithvuejs.com) - A collection of projects made with vue.js
+* Development Frameworks & Boilerplates
+  * [nuxt](https://nuxtjs.org) - Universal Vue.js Applications
+  * [Vue Enterprise Boilerplate](https://github.com/chrisvfritz/vue-enterprise-boilerplate) - An ever-evolving, very opinionated architecture and dev environment for new Vue SPA projects using Vue CLI 3.  
+  * [Charcoal](https://github.com/setholito/charcoal) - A Vue.js & Bulma Starter Kit.
 * UX Frameworks
-	* [Material Design for Bootstrap](https://mdbootstrap.com/vue)
-	* [iView](https://www.iviewui.com) - A high quality UI Toolkit based on Vue.js
+  * [Material Design for Bootstrap](https://mdbootstrap.com/vue) - Vue Bootstrap with Material Design
+  * [iView](https://www.iviewui.com) - A high quality UI Toolkit based on Vue.js.
+  * [Vuetify](https://vuetifyjs.com) - Material Design Component Framework.
+  * [Vue Design System](https://vueds.com) - An open source tool for building Design Systems with [Vue.js](https://vuejs.org)
+  * [Fish UI](https://myliang.github.io/fish-ui) - A Vue.js 2.0 UI Toolkit for Web.
+* CMS
+  * [VuePress](https://vuepress.vuejs.org) - Vue-powered Static Site Generator 
+* Tools
+  * [Vue Tour](https://pulsardev.github.io/vue-tour) - a Lightweight, Simple and Customizable tour plugin for use with Vue.js
 
 ### [Ember.js](https://www.emberjs.com)
 * Libraries
 	* [ember-table](http://opensource.addepar.com/ember-table)
 
 ### Other frameworks
-* [Preact](https://preactjs.com)
-* [Inferno](https://infernojs.org)
-* [svelte](https://svelte.technology)
-* [Glimmer.js](https://glimmerjs.com)
-* [Knockout](http://knockoutjs.com)
-* [Mithril](https://mithril.js.org)
-* [Aurelia](http://aurelia.io)
-* [Meteor](https://www.meteor.com)
-* [Ionic](https://ionicframework.com)
-	* [Stencil](https://stenciljs.com)
+* [Preact](https://preactjs.com) - Fast 3kB alternative to React with the same modern API. 
+* [Inferno](https://infernojs.org) - Insanely fast, React-like library for building high-performance user interfaces on both the client and server.
+* [svelte](https://svelte.technology) - The magical disappearing UI framework
+* [Glimmer.js](https://glimmerjs.com) - Fast and light-weight UI components for the web
+* [Knockout](http://knockoutjs.com) - Knockout makes it easier to create rich, responsive UIs with JavaScript  
+* [Mithril](https://mithril.js.org) - Modern client-side Javascript framework for building Single Page Applications.
+* [Aurelia](http://aurelia.io) - JavaScript client framework for web, mobile and desktop that leverages simple conventions to empower your creativity.
+* [Meteor](https://www.meteor.com) - The fastest way to build javascript apps.
+* [Ionic](https://ionicframework.com) - Build amazing apps in one codebase, for any platform, with the web.
+  * [Stencil](https://stenciljs.com) - The magical, reusable web component compiler
+
+### Utilities
+
+* [selection](https://github.com/Simonwep/selection) - A simple and lightweight library to realize visual DOM Selections.  
 
 ## .Net
 ### UI frameworks
 * WinForms
-	* [Material Skin](https://github.com/IgnaceMaes/MaterialSkin) - Theming .NET WinForms, C# or VB.Net, to Google's Material Design Principles.
+  * [Material Skin](https://github.com/IgnaceMaes/MaterialSkin) - Theming .NET WinForms, C# or VB.Net, to Google's Material Design Principles.
 * WPF
-	* [Caliburn.Micro](https://caliburnmicro.com) - A small, yet powerful framework, designed for building applications across all XAML platforms.
-	* [MahApps.Metro](http://mahapps.com) - Let your desktop apps shine
-	* [Material Design In XAML Toolkit](http://materialdesigninxaml.net) - Easily bring beautiful desktop applications to life, using a modern and popular design language. 
-	* [Avalonia](http://avaloniaui.net) - A cross platform XAML Framework for .NET Framework, .NET Core and Mono
-	* [Modern UI](https://github.com/firstfloorsoftware/mui) - Modern UI for WPF
-	* [Catel](http://catelproject.com) - An application development platform with the focus on MVVM (WPF, Silverlight, Windows Phone, WinRT, Xamarin.Android and Xamarin.iOS) and MVC (ASP.NET MVC).
-	* [MVVM Light Toolkit](https://github.com/lbugnion/mvvmlight) - The main purpose of the toolkit is to accelerate the creation and development of MVVM applications in Xamarin.Android, Xamarin.iOS, Xamarin.Forms, Windows 10 UWP, Windows Presentation Foundation (WPF), Silverlight, Windows Phone.
-	* [Okra App Framework](http://okraframework.github.io) - The app centric MVVM framework for Windows and Windows Phone
-	* [Prism](https://github.com/PrismLibrary/Prism) - A framework for building loosely coupled, maintainable, and testable XAML applications in WPF, Windows 10 UWP, and Xamarin Forms.
-	* [WAF](https://github.com/jbe2277/waf) - Win Application Framework (WAF) is a lightweight Framework that helps you to create well structured XAML Applications.
-	* [Gemini](http://documentup.com/tgjones/gemini) - WPF framework designed specifically for building IDE-like applications.
+  * [Caliburn.Micro](https://caliburnmicro.com) - A small, yet powerful framework, designed for building applications across all XAML platforms.
+  * [MahApps.Metro](http://mahapps.com) - Let your desktop apps shine
+  * [Material Design In XAML Toolkit](http://materialdesigninxaml.net) - Easily bring beautiful desktop applications to life, using a modern and popular design language. 
+  * [Avalonia](http://avaloniaui.net) - A cross platform XAML Framework for .NET Framework, .NET Core and Mono
+  * [Modern UI](https://github.com/firstfloorsoftware/mui) - Modern UI for WPF
+  * [Catel](http://catelproject.com) - An application development platform with the focus on MVVM (WPF, Silverlight, Windows Phone, WinRT, Xamarin.Android and Xamarin.iOS) and MVC (ASP.NET MVC).
+  * [MVVM Light Toolkit](https://github.com/lbugnion/mvvmlight) - The main purpose of the toolkit is to accelerate the creation and development of MVVM applications in Xamarin.Android, Xamarin.iOS, Xamarin.Forms, Windows 10 UWP, Windows Presentation Foundation (WPF), Silverlight, Windows Phone.
+  * [Okra App Framework](http://okraframework.github.io) - The app centric MVVM framework for Windows and Windows Phone
+  * [Prism](https://github.com/PrismLibrary/Prism) - A framework for building loosely coupled, maintainable, and testable XAML applications in WPF, Windows 10 UWP, and Xamarin Forms.
+  * [WAF](https://github.com/jbe2277/waf) - Win Application Framework (WAF) is a lightweight Framework that helps you to create well structured XAML Applications.
+  * [Gemini](http://documentup.com/tgjones/gemini) - WPF framework designed specifically for building IDE-like applications.
 * Web
-	* [DotVVM](https://github.com/riganti/dotvvm) - Open source MVVM framework for Web Apps
+  * [DotVVM](https://github.com/riganti/dotvvm) - Open source MVVM framework for Web Apps.
+  * [Ooui](https://github.com/praeclarum/Ooui) - A small cross-platform UI library that brings the simplicity of native UI development to the web.
+  * [Blazor](https://github.com/aspnet/Blazor) - Blazor is an experimental .NET web framework using C#/Razor and HTML that runs in the browser with WebAssembly 
 * Other
-	* [Stylet](https://github.com/canton7/stylet) - Minimal MVVM framework inspired by Caliburn Micro, with good documentation, high test coverage, and its own IoC container
-	* [ReactiveUI](https://github.com/reactiveui/reactiveui) - An advanced, composable, functional reactive model-view-viewmodel framework for all .NET platforms that is inspired by functional reactive programming.
-	* [Eto.Forms](https://github.com/picoe/Eto) - Cross platform GUI framework for desktop and mobile applications in .NET
-	* [Neutronium](https://github.com/NeutroniumCore/Neutronium) - Build .NET desktop applications using HTML, CSS and javascript
-	* [mvvmcross](https://www.mvvmcross.com) - App development without compromise.
-	* [QtShartp](https://github.com/ddobrev/QtSharp) - Mono/.NET bindings for Qt
-	* [xwt](https://github.com/mono/xwt) - A cross-platform UI toolkit for creating desktop applications with .NET and Mono
-	* [WinApi](https://github.com/prasannavl/WinApi) - A simple, direct, ultra-thin CLR library for high-performance Win32 Native Interop 
+  * [Stylet](https://github.com/canton7/stylet) - Minimal MVVM framework inspired by Caliburn Micro, with good documentation, high test coverage, and its own IoC container
+  * [ReactiveUI](https://github.com/reactiveui/reactiveui) - An advanced, composable, functional reactive model-view-viewmodel framework for all .NET platforms that is inspired by functional reactive programming.
+  * [Eto.Forms](https://github.com/picoe/Eto) - Cross platform GUI framework for desktop and mobile applications in .NET
+  * [Neutronium](https://github.com/NeutroniumCore/Neutronium) - Build .NET desktop applications using HTML, CSS and javascript
+  * [mvvmcross](https://www.mvvmcross.com) - App development without compromise.
+  * [QtShartp](https://github.com/ddobrev/QtSharp) - Mono/.NET bindings for Qt
+  * [xwt](https://github.com/mono/xwt) - A cross-platform UI toolkit for creating desktop applications with .NET and Mono
+  * [WinApi](https://github.com/prasannavl/WinApi) - A simple, direct, ultra-thin CLR library for high-performance Win32 Native Interop 
 ### Controls
 * [Krypton](https://github.com/ComponentFactory/Krypton) - Krypton WinForms components for .NET
 * [Callisto](https://github.com/timheuer/callisto) - A control toolkit for Windows 8 XAML applications.
@@ -663,6 +803,7 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
   * [Emgu CV](http://www.emgu.com/wiki/index.php/Main_Page) - Cross platform .Net wrapper to the OpenCV image processing library.
   * [OpenCvSharp](https://github.com/shimat/opencvsharp) - .NET Framework wrapper for OpenCV 
   * [Structure.Sketching](https://github.com/JaCraig/Structure.Sketching) - Image processing library for use in .Net applications that supports .Net Core.
+  * [NetVips](https://kleisauke.github.io/net-vips) - Mono/.NET binding for the [libvips image processing library](https://jcupitt.github.io/libvips).
 * Bar and QR codes
   * [QRCoder](https://github.com/codebude/QRCoder) - A pure C# Open Source QR Code implementation
 * Charts
@@ -679,15 +820,20 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 
 ## Java
 
+## Other
+
+* [Mint](https://www.mint-lang.com) - A refreshing programming language for the front-end web. 
+
 # Databases
 ## Relational
 ### Systems
 * [PostgreSQL](https://www.postgresql.org)
-	* [postgrest](https://postgrest.com)
-	* [postgres](https://postgres.rest)
-	* [zombodb](https://github.com/zombodb/zombodb) - Making Postgres and Elasticsearch work together like it's 2018
-	* [migra](https://migra.djrobstep.com) - A schema comparison tool for PostgreSQL.
-	* [Citus Data](https://www.citusdata.com) - Worry-Free Postgres for SaaS
+  * [postgrest](https://postgrest.com) - Standalone web server that turns your PostgreSQL database directly into a RESTful API.
+  * [pREST](https://postgres.rest) - A way to serve a RESTful APIs for any database. 
+  * [zombodb](https://github.com/zombodb/zombodb) - Making Postgres and Elasticsearch work together like it's 2018
+  * [migra](https://migra.djrobstep.com) - A schema comparison tool for PostgreSQL.
+  * [Citus Data](https://www.citusdata.com) - Worry-Free Postgres for SaaS
+  * [skor](https://github.com/hasura/skor) - Listen to postgres events and forward them as JSON payloads to a webhook 
 * [CockroachDB](https://github.com/cockroachdb/cockroach)
 
 ### Editors
@@ -696,14 +842,20 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 
 ## Document
 * [Elastic](https://www.elastic.co)
-	* [Kibana](https://www.elastic.co/products/kibana) (Elastic)
-	* [Grafana](https://grafana.com)
+  * [Kibana](https://www.elastic.co/products/kibana) (Elastic)
+  * [Grafana](https://grafana.com)
 * [Solr](http://lucene.apache.org/solr)
-	* [Banana](https://github.com/lucidworks/banana) (LucidWorks)
+  * [Banana](https://github.com/lucidworks/banana) (LucidWorks)
 * [Mongo](https://www.mongodb.com)
 * [RavenDB](https://ravendb.net) - The Original Fully Transactional Open Source NoSQL Document Database.
 
+## Columnar
+
+* Cassandra
+* [ScyllaDB](https://www.scylladb.com) - Scale-up performance of 1,000,000 IOPS per node, scale-out to hundreds of nodes and 99% latency of <1 msec
+
 ## Graph
+
 ### Databases
 * [Neo4J](https://neo4j.com)
   * [Cypher](https://neo4j.com/developer/cypher-query-language)
@@ -727,6 +879,8 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 * [Cassandra](http://cassandra.apache.org) (Apache)
 
 ## Time-series
+
+* [Timescale](http://www.timescale.com) - Enabling a variety of powerful time-series queries with the SQL you already know. 
 
 # Integration
 ## Knowledge Base
@@ -812,14 +966,42 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 
 # Machine Learning
 
+## Awesome
+
+* [Awesome Machine Learning](https://github.com/josephmisiti/awesome-machine-learning) - A curated list of awesome Machine Learning frameworks, libraries and software.
+* [Machine Learning Tutorials](http://ujjwalkarn.github.io/Machine-Learning-Tutorials) - Machine learning and deep learning tutorials, articles and other resources
+
+## NLP
+
+* [fastText](https://github.com/facebookresearch/fastText) (Facebook) - Library for fast text representation and classification.
+* [sonnet](https://github.com/deepmind/sonnet) (Google) - TensorFlow-based neural network library
+
+## Visualization
+
+* [facets](https://pair-code.github.io/facets) (Google) - Better data leads to better models.
+* [AI-Blocks](https://mrnothing.github.io/AI-Blocks) - Spend time creating models, not implementing them.
+* [Observable](https://beta.observablehq.com) - Discover insights faster and communicate more effectively with interactive notebooks for data analysis, visualization, and exploration.
+
+## Data Sets
+
+* [Fashion MNIST](https://github.com/zalandoresearch/fashion-mnist) - A MNIST-like fashion product database.
+* [parl.ai](http://parl.ai) - A unified platform for sharing, training and evaluating dialog models across many tasks.
+
 ## Libraries
+
+* C#
+  * [ML-Agents](https://github.com/Unity-Technologies/ml-agents) - Unity Machine Learning Agents
 * Python
-	* [NumPY](www.numpy.org)
-	* [Pandas](https://pandas.pydata.org)
-	* [scikit-learn](http://scikit-learn.org/stable)
-	* [spaCy](https://spacy.io)
-	* [Dask](https://dask.pydata.org/en/latest)
-	* [Numba](https://numba.pydata.org)
+  * [TensorFlow](https://www.tensorflow.org) (Google) - An open source machine learning framework for everyone.
+  * [NumPY](http://www.numpy.org) - fundamental package for scientific computing with Python.
+  * [Pandas](https://pandas.pydata.org) - High-performance, easy-to-use data structures and data analysis tools for the [Python](https://www.python.org/) programming language.
+  * [scikit-learn](http://scikit-learn.org/stable) (INRIA) - Machine Learning in Python
+  * [spaCy](https://spacy.io) - Industrial-StrengthNatural Language Processing
+  * [Dask](https://dask.pydata.org/en/latest) - Dask provides advanced parallelism for analytics, enabling performance at scale for the tools you love.
+  * [Numba](https://numba.pydata.org) - The power to speed up your applications with high performance functions written directly in Python.
+  * [Pyro](http://pyro.ai) (Uber) - Deep Universal Probabilistic Programming
+  * [Horovod](https://github.com/uber/horovod) (Uber) - Distributed training framework for TensorFlow
+  * [chainer](https://chainer.org) - Bridge the gap between algorithms and implementations of deep learning.
 
 ## Notebooks
 * [Zepellin](https://zeppelin.apache.org)
@@ -827,38 +1009,67 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 
 # DevOps
 ## Web servers, Reverse Proxies and Load Balancers
-* [nginx](https://www.nginx.com) - 
+* [nginx](https://www.nginx.com) - Deliver modern applications at scale
 * [HAProxy](http://www.haproxy.org) - The Reliable, High Performance TCP/HTTP Load Balancer
-* [Apache](https://httpd.apache.org) (Apache)
-* [traefik](https://traefik.io) - Modern HTTP reverse proxy and load balancer made to deploy microservices with ease
+* [Apache](https://httpd.apache.org) (Apache) - Open-source HTTP server for modern operating systems including UNIX and Windows.
+* [træfik](https://traefik.io) - Modern HTTP reverse proxy and load balancer made to deploy microservices with ease
+* [Caddy](https://caddyserver.com) - The HTTP/2 web server with automatic HTTPS.
+* [Argo Tunnel](https://developers.cloudflare.com/argo-tunnel) - Exposes applications running on your local web server, on any network with an Internet connection, without adding DNS records or configuring a firewall or router.
+* [Pushpin](https://pushpin.org) - Drop-in proxy server that pins client connections open, making realtime push easy. 
 ## App Servers
 * [Tomcat](http://tomcat.apache.org) (Apache)
 ## Caching
 * Varnish
 ## Serverless
 * Frameworks
-	* [OpenWhisk](https://openwhisk.apache.org) (IBM)
+  * [OpenWhisk](https://openwhisk.apache.org) (IBM)
+* Deployment
+  * [now](https://zeit.co/now) - Realtime Global Deployments
+  * [apex](http://apex.run) - Serverless architecture
 ## Deployment
-* Docker
-	* [Swarm](https://docs.docker.com/engine/swarm)
+* [Docker](https://www.docker.com) - World’s leading software containerization platform. 
+  * [Swarm](https://docs.docker.com/engine/swarm)
+  * [Moby](https://mobyproject.org) (Docker) - An open framework to assemble specialized container systems without reinventing the wheel. 
 * [Kubernetes](https://kubernetes.io) (Google) - Automating deployment, scaling, and management of containerized applications
-	* [skaffold](https://github.com/GoogleCloudPlatform/skaffold) - Easy and Repeatable Kubernetes Development
-	* [Continuous Pipe](https://continuouspipe.io) - Continuous deployment solution for your containerized applications to Kubernetes clusters
+  * [skaffold](https://github.com/GoogleCloudPlatform/skaffold) - Easy and Repeatable Kubernetes Development
+  * [Continuous Pipe](https://continuouspipe.io) - Continuous deployment solution for your containerized applications to Kubernetes clusters
 * Mesos (Apache)
 * Tools
-	* [Grail](https://eng.uber.com/grail) (Uber)
-	* [osquery](https://osquery.io) (Facebook)
-	* [Spinnaker](https://www.spinnaker.io) (Netflix) - Fast, safe, repeatable deployments
+  * [Grail](https://eng.uber.com/grail) (Uber) - Scaling Infrastructure Management
+  * [osquery](https://osquery.io) (Facebook) - Performant endpoint visibility
+  * [Spinnaker](https://www.spinnaker.io) (Netflix) - Fast, safe, repeatable deployments
+## Security
+
+* [Infection Monkey](https://www.guardicore.com/infectionmonkey) -  Unleash the Infection Monkey in your network and discover security flaws in no time.
+
+## Performance
+
+* [Lighthouse](https://developers.google.com/web/tools/lighthouse) (Google) -  Automated tool for improving the quality of web pages. 
+
+## Configuration
+
+### Linux
+
+- [Cockpit](http://cockpit-project.org) - Server manager that makes it easy to administer your GNU/Linux servers via a web browser.
+
+### Windows
+
 ## Tools
-* Windows Consoles
-	* [Cmder](cmder.net)
-	* [ConEmu](https://conemu.github.io)
-	* [Babun](babun.github.io)
-	* [Clink](https://mridgers.github.io/clink)
-* Remote Desktop clients
-	* [Remote Desktop Manager](https://remotedesktopmanager.com/home/download)
-* Chat
-	* [Rocket.Chat](https://rocket.chat)
+
+### Windows Consoles
+
+* [Cmder](cmder.net)
+* [ConEmu](https://conemu.github.io)
+* [Babun](babun.github.io)
+* [Clink](https://mridgers.github.io/clink)
+
+### Remote Desktop clients
+
+* [Remote Desktop Manager](https://remotedesktopmanager.com/home/download)
+
+### Chat
+
+* [Rocket.Chat](https://rocket.chat)
 
 # Programming
 ## Languages
@@ -902,36 +1113,42 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 	* [SCOR - Supply Chain Reference Model](https://www.apics.org/apics-for-business/frameworks/scor) (APICS)
 	* [CAUDIT - Higher Education Reference Architecture](https://www.caudit.edu.au/EA-Framework)
 
-## Tools & Services
+# Tools & Services
 
-### Design
+## Design
 * [Sketch](https://www.sketchapp.com)
 * [Figma](https://www.figma.com)
 * [lunacy](https://icons8.com/lunacy)
 
-### Spreadsheet
+## Spreadsheet
 * [Google Sheets](https://www.google.com/sheets)
 * [Fieldbook](https://fieldbook.com)
 
-### CRM
-*
+## CMS
 
-### HR
+* [Publii](https://getpublii.com) - Make an extremely safe, fast and stylish static blog website in minutes.
+
+## CRM
+* 
+
+## HR
 * [teamdeck](https://teamdeck.io)
 
-### Issue Management
+## Issue Management
 * [JIRA](www.atlassian.com/jira)
 
 ## Invoicing
 * [Elorus](https://www.elorus.com)
 
-### Communications
-* [Slack](https://slack.com)
-* [Rocket.Chat](https://rocket.chat)
+## Communications
+* [Slack](https://slack.com) - Where Work Happens
+* [Rocket.Chat](https://rocket.chat) - The leading free open source team chat Slack alternative. 
+* [Intercom]() - Catch, convert and keep more customers
+* [Indemandly](https://indemandly.com) - Simple, powerful, & versatile contact tool that you can stick on your website and social media. 
 
-### Security
+## Security
 * [Gpg4win](https://www.gpg4win.org) - A secure solution
 * [Keybase](https://keybase.io) - Security app for mobile phones and computers
 
-### Misc.
+## Misc.
 * [For the Badge](https://forthebadge.com) - Badges for badges' sake.
