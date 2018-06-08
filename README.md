@@ -581,6 +581,7 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
   * [G2](https://github.com/antvis/g2) (Alibaba) - The Grammar of Graphics in JavaScript
     * [BizCharts](https://github.com/alibaba/BizCharts) - Data visualization library based G2 and React
     * [G6](https://github.com/antvis/g6) - Relational data visualization framework. 
+  * [deck.gl](http://uber.github.io/deck.gl) (Uber) - A WebGL-powered framework for visual exploratory data analysis of large datasets.
 * Animations
   * [micron](https://webkul.github.io/micron) - a [μ] microInteraction library built withCSS Animations and controlled by JavaScript Power
   * [Just Animate](https://just-animate.github.io) - Making animation simple
@@ -588,6 +589,7 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
   * [pigeon-maps](https://mariusandra.github.io/pigeon-maps) - 
 * Utilities
   * [Dinero.js](https://sarahdayan.github.io/dinero.js) - Dinero.js is a library for working with monetary values in JavaScript
+  * [Proppy](https://proppyjs.com) - Functional props composition for components
 * Tours
   * [Driver](http://kamranahmed.info/driver) - Light-weight, no-dependency, vanilla JavaScript engine to drive user's focus across the page
 
@@ -737,6 +739,8 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
   * [VuePress](https://vuepress.vuejs.org) - Vue-powered Static Site Generator 
 * Tools
   * [Vue Tour](https://pulsardev.github.io/vue-tour) - a Lightweight, Simple and Customizable tour plugin for use with Vue.js
+* Native
+  * [vuido](https://github.com/mimecorg/vuido) - Native desktop applications using Vue.js
 
 ### [Ember.js](https://www.emberjs.com)
 * Libraries
