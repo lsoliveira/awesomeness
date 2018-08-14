@@ -178,7 +178,7 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
   * [TinyMapper](https://github.com/TinyMapper/TinyMapper) - A quick object-object mapper for .NET.
   * [ExpressMapper](https://github.com/fluentsprings/ExpressMapper) - Mapping .Net types.
   * [AgileMapper](https://github.com/agileobjects/AgileMapper) - A zero-configuration, highly-configurable object-object mapper with viewable execution plans.
-  * [Stringly.Typed](https://github.com/mission202/Stringly.Typed) - Making it easier to convert strings to/from .NET types.
+  * [Stringly.Typed](https://github.com/mission202/Stringly.Typed) - Making it easier to convert strings to/from .NET types
 * Patterns
   * [Mediator.Net](https://github.com/mayuanyang/Mediator.Net) - A simple mediator for .Net for sending command, publishing event and request response with pipelines supported
   * [MediatR](https://github.com/jbogard/MediatR) - Simple, unambitious mediator implementation in .NET 
@@ -198,7 +198,8 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
   * [Extend](https://github.com/DaveSenn/Extend) - Extension methods for .Net.
   * [dotNetExt](https://github.com/crpietschmann/dotnetext) - .NET Extension Method Library
   * [Relinq](https://github.com/re-motion/Relinq) - With re-linq, it's now easier than ever to create full-featured LINQ providers.
-  * [LinqOptimizer](http://nessos.github.io/LinqOptimizer) - An automatic query optimizer-compiler for Sequential and Parallel LINQ. 
+  * [LinqOptimizer](http://nessos.github.io/LinqOptimizer) - An automatic query optimizer-compiler for Sequential and Parallel LINQ
+  * [Type Convert](https://github.com/deniszykov/typeconvert) - C# utilities for convertion between types, type construction and inspection 
 ### Geolocation
 * [OsmSharp](http://www.osmsharp.com) - C# library to work with OpenStreetMap (OSM) data.
 * [NetTopologySuite](https://github.com/NetTopologySuite/NetTopologySuite) - A .NET GIS solution that is fast and reliable for the .NET platform.
@@ -395,6 +396,7 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
   * [reCAPTCHA](https://github.com/PaulMiami/reCAPTCHA) - reCAPTCHA 2.0 for ASPNET Core
   * [OwaspHeaders](https://github.com/GaProgMan/OwaspHeaders.Core) - A .NET Core middleware for injecting the Owasp recommended HTTP Headers for increased security
   * [Security](https://github.com/aspnet/Security) - Middleware for security and authorization of web apps.
+  * [Cierge](https://pwdless.github.io/Cierge-Website) - Open source authentication server (OIDC) that handles user signup, login, profiles, management, and more.
 * Cryptography
   * [BCrypt.NET](https://github.com/BcryptNet/bcrypt.net) - Bringing updates to the original bcrypt package
   * [Bouncy Castle](https://bouncycastle.org) - A lightweight cryptography API for Java and C#.
@@ -427,12 +429,27 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 ### Data Access
 * [Calcite](https://calcite.apache.org) (Apache) - The foundation for your next high-performance database. 
 
-
-
 ## Python
 
+### Distributions and installers
+
+* [virtualenv](https://virtualenv.pypa.io/en/stable/) - A tool to create isolated Python environments.
+* [Anaconda](https://www.anaconda.com) -  The Most Popular Python Data Science Distribution 
+
 ### Services
+
 * [sandman2](https://github.com/jeffknupp/sandman2) - Automatically generate a RESTful API service for your legacy database. No code required! 
+* [Nameko](https://nameko.readthedocs.io/en/stable) - A microservices framework for Python that lets service developers concentrate on application logic and encourages testability
+* [Vibora](https://vibora.io) - Fast, asynchronous and elegant Python web framework 
+
+### Distributed Systems
+
+* [Airflow](https://airflow.apache.org) (Apache) - A platform to programmatically author, schedule and monitor workflows
+* [Celery](http://www.celeryproject.org) - An asynchronous task queue/job queue based on distributed message passing
+
+### Data Access
+
+* [Peewee](https://github.com/coleifer/peewee) - A small, expressive orm (upports postgresql, mysql and sqlite)
 
 ## Go
 
@@ -448,7 +465,8 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 * [Automatic API](https://github.com/dbohdan/automatic-api) - A list of software that turns your database into a REST/GraphQL API 
 ### Distributed Systems
 
-* [noel](https://lifenautjoe.github.io/noel) - A universal, human-centric, replayable Javascript event emitter.
+* [noel](https://lifenautjoe.github.io/noel) - A universal, human-centric, replayable Javascript event emitter
+* [Bull](https://github.com/OptimalBits/bull) - Premium Queue package for handling jobs and messages in NodeJS
 
 ### Services
 
@@ -486,6 +504,8 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
   * [Yaffle BigInteger](https://github.com/Yaffle/BigInteger) - Yet another implementaion of arbitrary-precision integers in pure JavaScript. 
   * [bigi](https://github.com/cryptocoinjs/bigi) - JavaScript Big Integer library based upon Tom Wu's work. 
   * [bn.js](https://github.com/indutny/bn.js) - BigNum in pure javascript
+* Bitmaps
+  * [Fast-BitSet](https://github.com/mattkrick/fast-bitset)-  A fast bitset with some nice methods
 
 ### CRM
 
@@ -494,11 +514,10 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 ### Tools
 
 * [i18next](https://www.i18next.com) - An **internationalization-framework** written in and for JavaScript. 
-
 * [ReLaXed](https://github.com/RelaxedJS/ReLaXed) - Create PDF documents using web technologies.
-
 * [Prompts](https://github.com/terkelg/prompts) - Lightweight, beautiful and user-friendly interactive prompts
 * [Headless Chrome Crawler](https://github.com/yujiosaka/headless-chrome-crawler) - Distributed crawler powered by Headless Chrome
+* [ClearGPDR](https://www.cleargdpr.com) - The Leading GDPR Compliance Solution: Open Source, Blockchain Based.
 
 # Frontend
 
@@ -512,11 +531,13 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 * [Design Systems Repo](https://designsystemsrepo.com) - A frequently updated collection of Design Systems
 
 ## CSS
-* Frameworks
+* Extensions
   * [CSS Blocks](http://css-blocks.com) (LinkedIn) - Blazing fast CSS for your design systems and app components
     * [OptiCSS](https://github.com/linkedin/opticss) (LinkedIn) - A CSS Optimizer
   * [SaSS](https://sass-lang.com)
   * [LeSS](http://lesscss.org)
+* Frameworks
+  * [mustard](https://mustard-ui.com) - Mustard UI is a starter CSS framework that actually looks good
 * UX Frameworks
   * [Mailchimp](http://ux.mailchimp.com/patterns) - MailChimp Pattern Library is a byproduct of our move to a more responsive, nimble, & intuitive app.
 * Email
@@ -537,6 +558,7 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
   * [Bootstrap](https://getbootstrap.com) - Build responsive, mobile-first projects on the web
     * [Material Design for Bootstrap](https://mdbootstrap.com)
     * [Shards](https://designrevision.com/downloads/shards) - A free and modern UI toolkit for web makers
+    * [Fire](http://fire.uxtheme.net) - Easy Development with Fire UI Kit
   * [Carbon](http://carbondesignsystem.com) (IBM) - Design system for IBM Cloud products.
   * [Stencil](https://stenciljs.com) - The magical, reusable web component compiler
   * [Rizzo](http://rizzo.lonelyplanet.com/styleguide) (Lonely Planet) - 
@@ -668,6 +690,7 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
   * [modulz](https://www.modulz.co/showcase) - An open–source collection of styles, components, patterns, resources & more
   * [Clarity Design System](https://vmware.github.io/clarity) (VMWare) - UX guidelines, HTML/CSS framework, and Angular components working together to craft exceptional experiences
   * [React Lightning Design System](https://github.com/mashmatrix/react-lightning-design-system) - Salesforce Lightning Design System components built with React
+  * [RSuite](https://rsuitejs.com/en) - A suite of React components
 * Themes
    * [CoreUI](https://coreui.io) - Free Bootstrap Admin Template
 * Security and Authentication
@@ -710,6 +733,7 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
   * [React Graceful Image](https://github.com/linasmnew/react-graceful-image) - An image component for gracefully dealing with image errors by providing optional lazy loading, optional placeholder and configurable retries on failure 
   * [MDXC](http://mdxc.reactarmory.com) - Tool to convert Markdown into React Components.
   * [Spectacle](http://formidable.com/open-source/spectacle) (Formidable Labs) - A React.js based library for creating sleek presentations.
+  * [Compositor](https://compositor.io) - Modern tools for designers & developers
 
 ### [Angular](https://angular.io)
 * Awesome
@@ -837,7 +861,8 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
   * [zombodb](https://github.com/zombodb/zombodb) - Making Postgres and Elasticsearch work together like it's 2018
   * [migra](https://migra.djrobstep.com) - A schema comparison tool for PostgreSQL.
   * [Citus Data](https://www.citusdata.com) - Worry-Free Postgres for SaaS
-  * [skor](https://github.com/hasura/skor) - Listen to postgres events and forward them as JSON payloads to a webhook 
+  * [skor](https://github.com/hasura/skor) - Listen to postgres events and forward them as JSON payloads to a webhook
+  * [Odissey](https://github.com/yandex/odyssey) - Scalable PostgreSQL connection pooler
 * [CockroachDB](https://github.com/cockroachdb/cockroach)
 
 ### Editors
@@ -953,13 +978,16 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 * [Drools](https://www.drools.org) (JBoss)
 
 # Mobile
+## Cross platform
+
+- [Flutter](https://flutter.io) - Build beautiful native apps in record time
+- [Capacitator](https://capacitor.ionicframework.com/) - The native bridge for cross-platform web apps
+
 ## Android
 
-# Development
-* [Flutter](https://flutter.io)
+### Profiling
 
-# Profiling
-* [profilo](https://facebookincubator.github.io/profilo)
+* [profilo](https://facebookincubator.github.io/profilo) - 
 
 ## iOS
 
@@ -1027,6 +1055,7 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 ## Serverless
 * Frameworks
   * [OpenWhisk](https://openwhisk.apache.org) (IBM)
+  * [architect](https://arc.codes) - Lambda functions simplified
 * Deployment
   * [now](https://zeit.co/now) - Realtime Global Deployments
   * [apex](http://apex.run) - Serverless architecture
@@ -1094,7 +1123,10 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 
 ## Data Structures & Algorithms
 
+* [Roaring Bitmaps](https://roaringbitmap.org) - A better compressed bitset
+
 ## People
+
 * Javascript
 	* [Dan Abramov]()
 	* [Pete Hunt]()
@@ -1120,11 +1152,21 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 # Tools & Services
 
 ## Design
-* [Sketch](https://www.sketchapp.com)
-* [Figma](https://www.figma.com)
-* [lunacy](https://icons8.com/lunacy)
+* [Sketch](https://www.sketchapp.com) - 
+  * [Cabana](https://cabanadesignsystem.com) - Design System for Sketch
+* [Figma](https://www.figma.com) - 
+* [lunacy](https://icons8.com/lunacy) - 
+
+## Content
+
+* Photos
+  * [Burst](https://burst.shopify.com) - Free stock photos for websites and commercial use
+  * [Unsplash](http://unsplash.com) - Beautiful, free photos.
+* Symbols
+  * [HTML Symsols](https://www.toptal.com/designers/htmlarrows/symbols) - HTML Currency Symbols, Currency Entities and ASCII Currency Character Code Reference
 
 ## Spreadsheet
+
 * [Google Sheets](https://www.google.com/sheets)
 * [Fieldbook](https://fieldbook.com)
 
