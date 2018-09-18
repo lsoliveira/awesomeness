@@ -691,6 +691,7 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
   * [Clarity Design System](https://vmware.github.io/clarity) (VMWare) - UX guidelines, HTML/CSS framework, and Angular components working together to craft exceptional experiences
   * [React Lightning Design System](https://github.com/mashmatrix/react-lightning-design-system) - Salesforce Lightning Design System components built with React
   * [RSuite](https://rsuitejs.com/en) - A suite of React components
+  * [Evergreen](https://evergreen.surge.sh) - React UI Framework for the Web
 * Themes
    * [CoreUI](https://coreui.io) - Free Bootstrap Admin Template
 * Security and Authentication
@@ -780,7 +781,8 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 * [Aurelia](http://aurelia.io) - JavaScript client framework for web, mobile and desktop that leverages simple conventions to empower your creativity.
 * [Meteor](https://www.meteor.com) - The fastest way to build javascript apps.
 * [Ionic](https://ionicframework.com) - Build amazing apps in one codebase, for any platform, with the web.
-  * [Stencil](https://stenciljs.com) - The magical, reusable web component compiler
+* [Stencil](https://stenciljs.com) - The magical, reusable web component compiler
+* [Marko](https://markojs.com) - It's like HTML and JS had a perfect baby that grew up to be awesome
 
 ### Utilities
 
