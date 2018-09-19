@@ -5,13 +5,11 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 
 ## .Net
 ### Distributed systems
-
 * Actor based
   * [Orleans](https://dotnet.github.io/orleans) (Microsoft) - A straightforward approach to building distributed, high-scale applications in .NET.
-  * [Akka.Net](https://getakka.net) - Build powerful concurrent & distributed applications more easily.
-    * [Lighthouse](https://github.com/petabridge/lighthouse) - A simple service discovery platform for Akka.Cluster 
-
-  * [Orleankka](http://orleanscontrib.github.io/Orleankka) - Functional extension for Microsoft Orleans framework. 
+  * [Akka.Net](https://getakka.net) - Build powerful concurrent & distributed applications more easily
+    * [Lighthouse](https://github.com/petabridge/lighthouse) - A simple service discovery platform for Akka.Cluster
+  * [Orleankka](http://orleanscontrib.github.io/Orleankka) - Functional extension for Microsoft Orleans framework 
   * [Proto.Actor](http://proto.actor) - Ultra fast distributed actors for Go, C# and Java/Kotlin
 * Event Driven
   * [Cirqus](https://github.com/d60/Cirqus) - d60 event sourcing + CQRS framework
@@ -52,7 +50,6 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
   * [RService.IO](https://github.com/Stoom/RService.IO) - Light weight REST service framework for ASP.NET Core.
   * [OpenRasta](http://openrasta.org) - Open-source .NET framework for building everything web, from web sites to RESTful APIs.
 * Web Sockets
-
   * [Fleck](https://github.com/statianzo/Fleck) - C# Websocket Implementation
   * [SignalR](http://signalr.net) - Incredibly simple real-time web for .NET
   * [WampSharp](http://wampsharp.net) - A C# implementation of WAMP (The Web Application Messaging Protocol)
@@ -60,7 +57,6 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
   * [websocket-sharp](http://sta.github.io/websocket-sharp) - A C# implementation of the WebSocket protocol client and server
   * [NetGain](https://github.com/StackExchange/NetGain) (StackExchange) - A high performance websocket server library powering Stack Overflow.
 * GraphQL
-
   * [GraphiQL.NET](https://github.com/JosephWoodward/graphiql-dotnet) - GraphiQL middleware for ASP.NET Core
   * [GraphQL.NET](https://github.com/mkmarek/graphql-dotnetcore) - Library for creating GraphQL servers with .NET core.
   * [GraphQL for .NET](https://github.com/graphql-dotnet/graphql-dotnet) - This is an implementation of [Facebook's GraphQL](https://github.com/facebook/graphql) in .NET.
@@ -68,11 +64,9 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
   * [GraphQL Conventions Library for .NET](https://github.com/graphql-dotnet/conventions) - GraphQL Conventions Library for .NET
   * [GraphQl.AspNetCore](https://github.com/JuergenGutsch/graphql-aspnetcore) - ASP.NET Core MiddleWare to create a GraphQL end-point
 * API
-
   * [CondenserDotNet](https://github.com/Drawaes/CondenserDotNet) - API Condenser / Reverse Proxy using Kestrel and Consul, Including light weight consul lib
   * [Ocelot](http://threemammals.com/ocelot) - Open Source .NET Core API Gateway
 * Middleware 
-
   * [Polly](https://github.com/App-vNext/Polly) - Polly is a .NET resilience and transient-fault-handling library that allows developers to express policies such as Retry, Circuit Breaker, Timeout, Bulkhead Isolation, and Fallback in a fluent and thread-safe manner.
   * [steeltoe](https://steeltoe.i/) (Pivotal) - Open source project that enables .NET developers to implement industry standard best practices when building resilient microservices for the cloud.
   * [Nancy](https://github.com/NancyFx/Nancy) - Lightweight, low-ceremony, framework for building HTTP based services on .Net and Mono.
@@ -94,7 +88,6 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
   * [FluentFTP](https://github.com/robinrodricks/FluentFTP) - An FTP and FTPS client for .NET & .NET Standard, optimized for speed.
   * [SSH.NET](https://github.com/sshnet/SSH.NET) - Secure Shell (SSH) library for .NET, optimized for parallelism.
   * [Ether.Network](https://github.com/Eastrall/Ether.Network) - Simple and fast C# networking library. Compatible with .NET Standard 1.3 and 2.0
-
 ### Data Access
 * ORM
   * [Dapper](https://github.com/StackExchange/Dapper) (StackExchange)
@@ -130,7 +123,6 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
   * [LiquidState](https://github.com/prasannavl/LiquidState) - Efficient asynchronous and synchronous state machines for .NET 
 * Misc.
   * [NCronTab](https://github.com/atifaziz/NCrontab) - Crontab for .NET
-
 ### IoC
 * [StructureMap](https://github.com/structuremap/structuremap) - A Dependency Injection/Inversion of Control tool for .NET.
 * [Autofac](https://autofac.org) - Autofac is an addictive Inversion of Control container for .NET Core, ASP.NET Core, .NET 4.5.1+, Universal Windows apps, and more.
@@ -272,7 +264,6 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 *  [Cashew](https://github.com/joakimskoog/Cashew) - A simple and elegant yet powerful HTTP client cache for .NET
 *  [LazyCache](https://github.com/alastairtree/LazyCache) - An easy to use thread safe generics based in memory caching service with a simple developer friendly API for C#.
 ### Framework specifics
-
 - Languages & Compilers
   - [Irony](https://github.com/IronyProject/Irony) - .NET Language Implementation Kit.
   - [Flee](https://github.com/mparlak/Flee) - Fast Lightweight Expression Evaluator.
@@ -338,8 +329,6 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 * [StackExchange.Exceptional](https://github.com/NickCraver/StackExchange.Exceptional) - Error handler used for the Stack Exchange network
 * [Essential Diagnostics](https://github.com/sgryphon/essential-diagnostics) - Additional trace listeners, filters and utility classes for the .NET Framework System.Diagnostics trace logging. 
 * [Logazmic](Windows log viewer for log4j) - Minimalistic log viewer for nlog.
-
-
 ### CLI
 * Parsers
   * [Command Line Parser](http://www.appccelerate.com/commandlineparser.html) - Every now and then, we write a little console application to quickly get a job done.
@@ -358,7 +347,6 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
   * [cmd](https://github.com/manojlds/cmd) - A C# Library to run external programs / commands in a simpler way. 
   * [CliWrap](https://github.com/Tyrrrz/CliWrap) - Wrapper for command line interface executables.
 ### Content Management
-
 * CMS
   * [Orchard](http://orchardproject.net) - A free, open source, community-focused Content Management System built on the ASP.NET MVC platform.
   * [Umbraco](https://umbraco.com) - Umbraco is a fully-featured, open source Content Management System loved by thousands for its flexibility and great editing experience. 
@@ -377,7 +365,6 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
   * [DotLiquid](http://dotliquidmarkup.org) - DotLiquid is a templating system ported to the .NET framework from Ruby’s [Liquid Markup](http://www.liquidmarkup.org/).
   * [Stubble](https://github.com/stubbleorg/stubble) - Trimmed down {{mustache}} templates in .NET
 ### Security & Compression
-
 * Compression
   * [SharpZipLib](https://github.com/icsharpcode/SharpZipLib) - Zip, GZip, Tar and BZip2 library written entirely in C# for the .NET platform.
   * [Snappy.Sharp](https://github.com/jeffesp/Snappy.Sharp) - An implementation of google's Snappy compression format in C#.
@@ -421,6 +408,8 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
   * [P](https://github.com/p-org/P) (Microsoft) - P is a language for asynchronous event-driven programming.
   * [ServiceStack.Text](https://servicestack.net/text) - .NET's missing high-performance utility belt
   * [SmartFormat.NET](https://github.com/scottrippey/SmartFormat.NET) - An extensible .NET replacement for String.Format
+### Architectural Examples
+* [CoolStore](https://github.com/vietnam-devs/coolstore-microservices) - A containerized polyglot microservices consisting of services based on .NET Core, NodeJS and more running on service mesh (istio).
 
 ## Java
 ### Distributed systems
@@ -1061,24 +1050,25 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 * Deployment
   * [now](https://zeit.co/now) - Realtime Global Deployments
   * [apex](http://apex.run) - Serverless architecture
-## Deployment
+## Infrastructure
 * [Docker](https://www.docker.com) - World’s leading software containerization platform. 
   * [Swarm](https://docs.docker.com/engine/swarm)
   * [Moby](https://mobyproject.org) (Docker) - An open framework to assemble specialized container systems without reinventing the wheel. 
 * [Kubernetes](https://kubernetes.io) (Google) - Automating deployment, scaling, and management of containerized applications
   * [skaffold](https://github.com/GoogleCloudPlatform/skaffold) - Easy and Repeatable Kubernetes Development
   * [Continuous Pipe](https://continuouspipe.io) - Continuous deployment solution for your containerized applications to Kubernetes clusters
+  * [Typhoon](https://typhoon.psdn.io/) - Typhoon is a minimal and free Kubernetes distribution
+  * [kops](https://github.com/kubernetes/kops) - Production Grade K8s Installation, Upgrades, and Management
 * Mesos (Apache)
 * Tools
   * [Grail](https://eng.uber.com/grail) (Uber) - Scaling Infrastructure Management
   * [osquery](https://osquery.io) (Facebook) - Performant endpoint visibility
   * [Spinnaker](https://www.spinnaker.io) (Netflix) - Fast, safe, repeatable deployments
+  * [Istio](https://istio.io) - Connect, secure, control, and observe services.
 ## Security
-
 * [Infection Monkey](https://www.guardicore.com/infectionmonkey) -  Unleash the Infection Monkey in your network and discover security flaws in no time.
 
 ## Performance
-
 * [Lighthouse](https://developers.google.com/web/tools/lighthouse) (Google) -  Automated tool for improving the quality of web pages. 
 
 ## Configuration
