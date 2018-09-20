@@ -560,6 +560,7 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
   * [Hacker Themes](https://hackerthemes.com) - Bootstrap 4 themes & templates for ambitious developers
   * [Creative Time](https://www.creative-tim.com) - Premium Bootstrap themes, templates, UI Kits and more developed by Creative Tim.
   * [Tabler](https://tabler.github.io) - Premium and Open Source dashboard template with responsive and high quality UI. For Free!
+  * [Papaya](https://www.eatapapaya.com/) - Yummy landing page templates for any project.
 
 ### Libraries
 * Charts and graphics
@@ -653,11 +654,12 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
     * [Final Form](https://github.com/final-form/react-final-form) - High performance subscription-based form state management for React.
     * [react-portalgun](https://github.com/diegomura/react-portalgun) - Lightweight portal system for React. Mega seeds included
 * Development Frameworks
-  * [next.js](https://github.com/zeit/next.js)
-  * [next-offline](https://github.com/hanford/next-offline)
-  * [DVA](https://github.com/dvajs/dva)
-  * [Create React App](https://github.com/facebook/create-react-app)
-  * [rekit](http://rekit.js.org)
+  * [next.js](https://github.com/zeit/next.js) - A lightweight framework for static and server‑rendered applications.
+  * [next-offline](https://github.com/hanford/next-offline) - Make your Next.js application work offline using service workers via Google's workbox.
+  * [DVA](https://github.com/dvajs/dva) - React and redux based, lightweight and elm-style framework.
+  * [Create React App](https://github.com/facebook/create-react-app) - Create React apps with no build configuration.
+  * [rekit](http://rekit.js.org) - A toolkit for building scalable web applications with React, Redux and React-router.
+  * [fusion.js](https://fusionjs.com) - A plugin-based universal web framework
 * Routing
    * [Junctions](https://junctions.js.org) - A batteries-included router for React.
 * UX Frameworks
@@ -1055,6 +1057,7 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
   * [Swarm](https://docs.docker.com/engine/swarm)
   * [Moby](https://mobyproject.org) (Docker) - An open framework to assemble specialized container systems without reinventing the wheel. 
 * [Kubernetes](https://kubernetes.io) (Google) - Automating deployment, scaling, and management of containerized applications
+  * [Rancher](https://rancher.com) - Enterprise management for Kubernetes. Every distro. Every cluster. Every cloud. 
   * [skaffold](https://github.com/GoogleCloudPlatform/skaffold) - Easy and Repeatable Kubernetes Development
   * [Continuous Pipe](https://continuouspipe.io) - Continuous deployment solution for your containerized applications to Kubernetes clusters
   * [Typhoon](https://typhoon.psdn.io/) - Typhoon is a minimal and free Kubernetes distribution
