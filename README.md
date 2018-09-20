@@ -410,6 +410,8 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
   * [SmartFormat.NET](https://github.com/scottrippey/SmartFormat.NET) - An extensible .NET replacement for String.Format
 ### Architectural Examples
 * [CoolStore](https://github.com/vietnam-devs/coolstore-microservices) - A containerized polyglot microservices consisting of services based on .NET Core, NodeJS and more running on service mesh (istio).
+* [DShop](https://github.com/devmentors/DNC-DShop.Common) - Distributed .NET Core.
+* [eShopOnContainers](https://github.com/dotnet-architecture/eShopOnContainers) - Easy to get started sample reference microservice and container based application.
 
 ## Java
 ### Distributed systems
