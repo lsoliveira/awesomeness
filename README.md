@@ -32,6 +32,7 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 * Utilities
   * [Foundatio](https://github.com/FoundatioFx/Foundatio) - Pluggable foundation blocks for building distributed apps.
   * [Projac](https://github.com/BitTacklr/Projac) - A set of .NET projection libraries
+
 ### Services
 * REST
   * [SaasKit](https://github.com/saaskit/saaskit) - A developer toolkit for building SaaS applications.
@@ -88,6 +89,7 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
   * [FluentFTP](https://github.com/robinrodricks/FluentFTP) - An FTP and FTPS client for .NET & .NET Standard, optimized for speed.
   * [SSH.NET](https://github.com/sshnet/SSH.NET) - Secure Shell (SSH) library for .NET, optimized for parallelism.
   * [Ether.Network](https://github.com/Eastrall/Ether.Network) - Simple and fast C# networking library. Compatible with .NET Standard 1.3 and 2.0
+
 ### Data Access
 * ORM
   * [Dapper](https://github.com/StackExchange/Dapper) (StackExchange)
@@ -108,6 +110,7 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 * Migrations
   * [Fluent Migrator](https://github.com/fluentmigrator/fluentmigrator) - Fluent migrations framework for .NET
   * [DbUp](http://dbup.github.io) - DbUp is a .NET library that helps you to deploy changes to SQL Server databases.
+
 ### Scheduling & Job Management
 * Scheduling
   * [Hangfire](https://www.hangfire.io) - An easy way to perform background processing in .NET and .NET Core applications. No Windows Service or separate process required.
@@ -123,12 +126,14 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
   * [LiquidState](https://github.com/prasannavl/LiquidState) - Efficient asynchronous and synchronous state machines for .NET 
 * Misc.
   * [NCronTab](https://github.com/atifaziz/NCrontab) - Crontab for .NET
+
 ### IoC
 * [StructureMap](https://github.com/structuremap/structuremap) - A Dependency Injection/Inversion of Control tool for .NET.
 * [Autofac](https://autofac.org) - Autofac is an addictive Inversion of Control container for .NET Core, ASP.NET Core, .NET 4.5.1+, Universal Windows apps, and more.
 * [Ninject](http://www.ninject.org) - Open source dependency injector for .NET
 * [Simple Injector](https://simpleinjector.org) - Easy-to-use Dependency Injection (DI) library for .NET 4+ that supports Silverlight, Windows Phone, Windows 8 including Universal apps and Mono. 
 * [Scrutor](https://github.com/khellang/Scrutor) - Assembly scanning and decoration extensions for Microsoft.Extensions.DependencyInjection    
+
 ### Deployment
 * [WiX](http://wixtoolset.org) - The most powerful set of tools available to create your windows installation experience.
 * [Wax](https://github.com/tom-englert/Wax) - An interactive editor for WiX setup projects.
@@ -136,6 +141,7 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 * [Squirrel](https://github.com/squirrel/squirrel.windows) - An installation and update framework for Windows desktop apps.
 * [dotnet-win32-service](https://github.com/dasMulli/dotnet-win32-service) - Helper classes to set up and run as windows services directly on .net core. A ServiceBase alternative.
 * [Catlight](https://catlight.io) - Notifier for developers
+
 ### Performance & Monitoring
 * [BenchmarkDotNet](http://benchmarkdotnet.org) - Powerful .NET library for benchmarking.
 * [AppMetrics](https://www.app-metrics.io) - App Metrics is an open-source and cross-platform .NET library used to record and report metrics within an application. 
@@ -143,6 +149,7 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 * [Warden](https://github.com/warden-stack/Warden) - Define "health checks" for your applications, resources and infrastructure. Keep your Warden on the watch.  
 * [NBench](https://github.com/petabridge/NBench) - Cross-platform performance benchmarking and testing framework for .NET applications.
 * [Prefix](https://stackify.com/prefix) - Understand what your code is doing and find bugs you didn’t even know existed. 
+
 ### Algorithms & Data Structures
 * Algorithms
   * [C# Algorithms](https://github.com/aalhour/C-Sharp-Algorithms) - A C# plug-and-play class-library project of standard Data Structures and Algorithms.
@@ -192,11 +199,13 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
   * [Relinq](https://github.com/re-motion/Relinq) - With re-linq, it's now easier than ever to create full-featured LINQ providers.
   * [LinqOptimizer](http://nessos.github.io/LinqOptimizer) - An automatic query optimizer-compiler for Sequential and Parallel LINQ
   * [Type Convert](https://github.com/deniszykov/typeconvert) - C# utilities for convertion between types, type construction and inspection 
+
 ### Geolocation
 * [OsmSharp](http://www.osmsharp.com) - C# library to work with OpenStreetMap (OSM) data.
 * [NetTopologySuite](https://github.com/NetTopologySuite/NetTopologySuite) - A .NET GIS solution that is fast and reliable for the .NET platform.
 * [SharpMap](https://github.com/SharpMap/SharpMap) - An easy-to-use mapping library for use in web and desktop applications.
 * [GeoJSON.NET](https://github.com/GeoJSON-Net/GeoJSON.Net) - .Net library for GeoJSON types & corresponding Json.Net (de)serializers
+
 ### Math & AI
 * Math
   * [Math.NET](https://www.mathdotnet.com) - Open-source initiative to build and maintain toolkits covering fundamental mathematics, targetting advanced but also every day needs of .Net developers.
@@ -217,6 +226,7 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
   * [Spreads](https://github.com/Spreads/Spreads) - Series and Panels for Real-time and Exploratory Analysis of Data Streams
   * [Deedle](http://bluemountaincapital.github.io/Deedle) - Exploratory data library for .NET
   * [SIML](https://simlbot.com) - Synthetic Intelligence Markup Language
+
 ### Testing
 * Test frameworks
   * [nUnit](http://nunit.org) - unit-testing framework for all .Net languages.
@@ -259,10 +269,12 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
   * [AutoFixture](https://github.com/AutoFixture/AutoFixture) - AutoFixture is an open source library for .NET designed to minimize the 'Arrange' phase of your unit tests in order to maximize maintainability.
   * [Papercut](https://github.com/ChangemakerStudios/Papercut) - Papercut Simple Desktop SMTP Server
   * [.NET Fake JSON Server](https://github.com/ttu/dotnet-fake-json-server) - Fake JSON Server is a Fake REST API that can be used as a Back End for prototyping or as a template for a CRUD Back End.
+
 ### Caching
 *  [CacheManager](https://github.com/MichaCo/CacheManager) - CacheManager is an open source caching abstraction layer for .NET written in C#. It supports various cache providers and implements many advanced features.
 *  [Cashew](https://github.com/joakimskoog/Cashew) - A simple and elegant yet powerful HTTP client cache for .NET
 *  [LazyCache](https://github.com/alastairtree/LazyCache) - An easy to use thread safe generics based in memory caching service with a simple developer friendly API for C#.
+
 ### Framework specifics
 - Languages & Compilers
   - [Irony](https://github.com/IronyProject/Irony) - .NET Language Implementation Kit.
@@ -292,6 +304,7 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 * AOP
   * [AspectCore](https://github.com/dotnetcore/AspectCore-Framework) - AspectCore is an AOP-based cross platform framework for .NET Standard.
   * [Fody](https://github.com/Fody/Fody) - Extensible tool for weaving .net assemblies
+
 ### Report & PDF Generation
 * File handling
   * [FileHelpers](https://www.filehelpers.net) - Import or export data from fixed length or delimited records in files, strings or streams.
@@ -315,11 +328,13 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
   * [MarkdownSharp](https://github.com/StackExchange/MarkdownSharp) (StackExchange) - Open source C# implementation of Markdown processor, used by Stack Overflow.
 * Reports
   * [DoddleReport](https://github.com/matthidinger/DoddleReport) - Generate custom reports (PDF, Excel, etc) from any IEnumerable datasource.
+
 ### Email
 * [Postal](http://aboutcode.net/postal) - Create email using ASP.NET MVC views
 * [MailKit](https://github.com/jstedfast/MailKit) - A cross-platform .NET library for IMAP, POP3, and SMTP. 
 * [MailBody](https://doxakis.github.io/MailBody) - Create transactional email with a fluent interface (.net)
 * [RazorMailer](https://github.com/jonleigh/RazorMailer) - A lightweight framework for sending emails from any .NET platform using Razor templates.
+
 ### Logging
 * [Logary](https://logary.github.io) - High performance, multi-target logging, metric, tracing and health-check library for mono and .Net.
 * [NLog](https://github.com/nlog/NLog) - Advanced and Structured Logging for Various .NET Platforms 
@@ -329,6 +344,7 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 * [StackExchange.Exceptional](https://github.com/NickCraver/StackExchange.Exceptional) - Error handler used for the Stack Exchange network
 * [Essential Diagnostics](https://github.com/sgryphon/essential-diagnostics) - Additional trace listeners, filters and utility classes for the .NET Framework System.Diagnostics trace logging. 
 * [Logazmic](Windows log viewer for log4j) - Minimalistic log viewer for nlog.
+
 ### CLI
 * Parsers
   * [Command Line Parser](http://www.appccelerate.com/commandlineparser.html) - Every now and then, we write a little console application to quickly get a job done.
@@ -346,6 +362,7 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 * Invokers
   * [cmd](https://github.com/manojlds/cmd) - A C# Library to run external programs / commands in a simpler way. 
   * [CliWrap](https://github.com/Tyrrrz/CliWrap) - Wrapper for command line interface executables.
+
 ### Content Management
 * CMS
   * [Orchard](http://orchardproject.net) - A free, open source, community-focused Content Management System built on the ASP.NET MVC platform.
@@ -364,6 +381,7 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
   * [mustache#](https://github.com/jehugaleahsa/mustache-sharp) - An extension of the mustache text template engine for .NET.
   * [DotLiquid](http://dotliquidmarkup.org) - DotLiquid is a templating system ported to the .NET framework from Ruby’s [Liquid Markup](http://www.liquidmarkup.org/).
   * [Stubble](https://github.com/stubbleorg/stubble) - Trimmed down {{mustache}} templates in .NET
+
 ### Security & Compression
 * Compression
   * [SharpZipLib](https://github.com/icsharpcode/SharpZipLib) - Zip, GZip, Tar and BZip2 library written entirely in C# for the .NET platform.
@@ -390,6 +408,7 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
   * [libsodium-net](https://github.com/adamcaudill/libsodium-net) - A secure cryptographic library
   * [StreamCryptor](https://github.com/bitbeans/StreamCryptor) - Stream encryption & decryption with libsodium and protobuf
   * [inferno](http://securitydriven.net/inferno) - .NET crypto done right. Professionally audited.
+
 ### Utilities
 * Parsers
   * [HAP](http://html-agility-pack.net) - Html Agility Pack
@@ -408,6 +427,7 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
   * [P](https://github.com/p-org/P) (Microsoft) - P is a language for asynchronous event-driven programming.
   * [ServiceStack.Text](https://servicestack.net/text) - .NET's missing high-performance utility belt
   * [SmartFormat.NET](https://github.com/scottrippey/SmartFormat.NET) - An extensible .NET replacement for String.Format
+
 ### Architectural Examples
 * [CoolStore](https://github.com/vietnam-devs/coolstore-microservices) - A containerized polyglot microservices consisting of services based on .NET Core, NodeJS and more running on service mesh (istio).
 * [DShop](https://github.com/devmentors/DNC-DShop.Common) - Distributed .NET Core.
@@ -416,7 +436,9 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 ## Java
 ### Distributed systems
 * [Akka](https://akka.io)
+
 ### Services
+
 ### Data Access
 * [Calcite](https://calcite.apache.org) (Apache) - The foundation for your next high-performance database. 
 
@@ -454,6 +476,7 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 ### Awesome
 * [Awesome GraphQL](https://github.com/chentsulin/awesome-graphql) - Awesome list of GraphQL & Relay
 * [Automatic API](https://github.com/dbohdan/automatic-api) - A list of software that turns your database into a REST/GraphQL API 
+
 ### Distributed Systems
 
 * [noel](https://lifenautjoe.github.io/noel) - A universal, human-centric, replayable Javascript event emitter
@@ -481,6 +504,7 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
   * [serverless-offline](https://github.com/dherault/serverless-offline) - Emulate AWS λ and API Gateway locally when developing your Serverless project 
   * [serverless-babel-starter](https://github.com/postlight/serverless-babel-starter) - Serverless with all the fixings: Webpack, Babel, Jest, ESLint, and Prettier.
   * [lambdapack](https://www.npmjs.com/package/lambdapack) - Package your AWS Lambda efficiently, ready to be deployed with [apex/up](https://github.com/apex/up)
+
 ### Data Access
 * [EventStore](https://eventstore.org) - The open-source, functional database with Complex Event Processing in JavaScript.
 
@@ -517,6 +541,7 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 * [Haiku](https://www.haiku.ai) - Where designing is building
 * [Figma](https://www.figma.com)
 * [CSS Grid Builder](https://cssgrid.cc) - A collection of resources & tools to help you manage the Grid
+
 ### Style guides
 * [Catalog](https://www.catalog.style) - Living style guides for digital products
 * [Design Systems Repo](https://designsystemsrepo.com) - A frequently updated collection of Design Systems
@@ -543,7 +568,6 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 * [Awesome](https://github.com/sindresorhus/awesome) - Curated list of awesome lists
 
 ### UX Frameworks
-
 * Design Systems
   * [Awesome Design Systems](https://github.com/alexpate/awesome-design-systems) - A collection of awesome design systems
   * [Bootstrap](https://getbootstrap.com) - Build responsive, mobile-first projects on the web
@@ -608,6 +632,7 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
   * [Driver](http://kamranahmed.info/driver) - Light-weight, no-dependency, vanilla JavaScript engine to drive user's focus across the page
 
 ### Tooling
+* [WebAssembly](https://webassembly.org) - A binary instruction format for a stack-based virtual machine.
 * [bit](https://bitsrc.io) - Components are building blocks. You are the architect.
 * [Lerna](https://lernajs.io) - A tool for managing JavaScript projects with multiple packages. 
 * [codemods](https://github.com/facebook/codemod) - Tool/library to assist you with large-scale codebase refactors that can be partially automated but still require human oversight and occasional intervention.
@@ -765,6 +790,8 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 	* [ember-table](http://opensource.addepar.com/ember-table)
 
 ### Other frameworks
+* [Polymer](https://www.polymer-project.org) - A library that brings web components into the mainstream, embracing JavaScript modules and npm.
+  * [Hadron](https://hadron.app) - A unified platform for designers and developers who work together towards the same goal, moving ideas forward and learning from each other along the way.
 * [Preact](https://preactjs.com) - Fast 3kB alternative to React with the same modern API. 
 * [Inferno](https://infernojs.org) - Insanely fast, React-like library for building high-performance user interfaces on both the client and server.
 * [svelte](https://svelte.technology) - The magical disappearing UI framework
@@ -778,7 +805,6 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 * [Marko](https://markojs.com) - It's like HTML and JS had a perfect baby that grew up to be awesome
 
 ### Utilities
-
 * [selection](https://github.com/Simonwep/selection) - A simple and lightweight library to realize visual DOM Selections.  
 
 ## .Net
@@ -810,10 +836,12 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
   * [QtShartp](https://github.com/ddobrev/QtSharp) - Mono/.NET bindings for Qt
   * [xwt](https://github.com/mono/xwt) - A cross-platform UI toolkit for creating desktop applications with .NET and Mono
   * [WinApi](https://github.com/prasannavl/WinApi) - A simple, direct, ultra-thin CLR library for high-performance Win32 Native Interop 
+
 ### Controls
 * [Krypton](https://github.com/ComponentFactory/Krypton) - Krypton WinForms components for .NET
 * [Callisto](https://github.com/timheuer/callisto) - A control toolkit for Windows 8 XAML applications.
 * [MVVM Dialogs](https://github.com/FantasticFiasco/mvvm-dialogs) - Framework simplifying the concept of opening dialogs from a view model when using MVVM in WPF or UWP.
+
 ### Graphics
 * Imaging
   * [dot.imaging](https://github.com/dajuric/dot-imaging) - Minimalistic .NET imaging portable platform
@@ -838,6 +866,7 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
   * [Helix Toolkit](http://www.helix-toolkit.org) - 3D for .NET
   * [opentk](https://github.com/opentk/opentk) - Fast, low-level C# wrapper for OpenGL and OpenAL.
   * [veldrid](https://mellinoe.github.io/veldrid-docs) - Low-level graphics library for .NET.
+
 ### Misc.
 * [TomsToolbox](https://github.com/tom-englert/TomsToolbox) - A set of core functions and classes to ease every days .Net development tasks. 
 
@@ -941,6 +970,7 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 ### ETL
 * [Talend Open Studio](https://www.talend.com/products/data-integration)
 * [Kettle - Pentaho Data Integration](http://www.pentaho.com/product/data-integration)
+
 ### Big Data
 * [Hadoop](http://hadoop.apache.org)
 * [Spark](https://spark.apache.org)
@@ -1043,10 +1073,13 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 * [Caddy](https://caddyserver.com) - The HTTP/2 web server with automatic HTTPS.
 * [Argo Tunnel](https://developers.cloudflare.com/argo-tunnel) - Exposes applications running on your local web server, on any network with an Internet connection, without adding DNS records or configuring a firewall or router.
 * [Pushpin](https://pushpin.org) - Drop-in proxy server that pins client connections open, making realtime push easy. 
+
 ## App Servers
 * [Tomcat](http://tomcat.apache.org) (Apache)
+
 ## Caching
 * Varnish
+
 ## Serverless
 * Frameworks
   * [OpenWhisk](https://openwhisk.apache.org) (IBM)
@@ -1054,6 +1087,7 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 * Deployment
   * [now](https://zeit.co/now) - Realtime Global Deployments
   * [apex](http://apex.run) - Serverless architecture
+
 ## Infrastructure
 * [Docker](https://www.docker.com) - World’s leading software containerization platform. 
   * [Swarm](https://docs.docker.com/engine/swarm)
@@ -1070,6 +1104,7 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
   * [osquery](https://osquery.io) (Facebook) - Performant endpoint visibility
   * [Spinnaker](https://www.spinnaker.io) (Netflix) - Fast, safe, repeatable deployments
   * [Istio](https://istio.io) - Connect, secure, control, and observe services.
+
 ## Security
 * [Infection Monkey](https://www.guardicore.com/infectionmonkey) -  Unleash the Infection Monkey in your network and discover security flaws in no time.
 
@@ -1079,7 +1114,6 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 ## Configuration
 
 ### Linux
-
 - [Cockpit](http://cockpit-project.org) - Server manager that makes it easy to administer your GNU/Linux servers via a web browser.
 
 ### Windows
@@ -1087,18 +1121,15 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 ## Tools
 
 ### Windows Consoles
-
 * [Cmder](cmder.net)
 * [ConEmu](https://conemu.github.io)
 * [Babun](babun.github.io)
 * [Clink](https://mridgers.github.io/clink)
 
 ### Remote Desktop clients
-
 * [Remote Desktop Manager](https://remotedesktopmanager.com/home/download)
 
 ### Chat
-
 * [Rocket.Chat](https://rocket.chat)
 
 # Programming
