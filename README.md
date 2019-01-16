@@ -475,7 +475,8 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 * [NumPY](www.numpy.org) - fundamental package for scientific computing with Python.
 * [Pandas](pandas.pydata.org) - High-performance, easy-to-use data structures and data analysis tools for the [Python](www.python.org/) programming language.
 * [scikit-learn](scikit-learn.org/stable) (INRIA) - Machine Learning in Python
-* [spaCy](spacy.io) - Industrial-StrengthNatural Language Processing
+* [SpaCy](spacy.io) - Industrial-StrengthNatural Language Processing
+* [Flair](https://github.com/zalandoresearch/flair) - A very simple framework for state-of-the-art Natural Language Processing (NLP)
 * [Dask](dask.pydata.org/en/latest) - Dask provides advanced parallelism for analytics, enabling performance at scale for the tools you love.
 * [Numba](numba.pydata.org) - The power to speed up your applications with high performance functions written directly in Python.
 * [Pyro](pyro.ai) (Uber) - Deep Universal Probabilistic Programming
@@ -1116,6 +1117,7 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 * [Docker](www.docker.com) - World’s leading software containerization platform. 
   * [Swarm](docs.docker.com/engine/swarm)
   * [Moby](mobyproject.org) (Docker) - An open framework to assemble specialized container systems without reinventing the wheel. 
+  * [Airbag](https://github.com/Soluto/airbag) - Tiny sidecar for your docker containers
 * [Terraform](https://www.terraform.io/) (HashiCorp) - Write, Plan, and Create Infrastructure as Code
 * [Kubernetes](kubernetes.io) (Google) - Automating deployment, scaling, and management of containerized applications
   * [Rancher](rancher.com) - Enterprise management for Kubernetes. Every distro. Every cluster. Every cloud. 
@@ -1124,6 +1126,7 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
   * [Typhoon](typhoon.psdn.io/) - Typhoon is a minimal and free Kubernetes distribution
   * [kops](github.com/kubernetes/kops) - Production Grade K8s Installation, Upgrades, and Management
   * [Rook](https://rook.io) - File, Block, and Object Storage Services for your Cloud-Native Environments
+  * [Compose on Kubernetes](https://github.com/docker/compose-on-kubernetes) (Docker) - Deploy applications described in Compose onto Kubernetes clusters
 * Mesos (Apache)
 * Tools
   * [Grail](eng.uber.com/grail) (Uber) - Scaling Infrastructure Management
