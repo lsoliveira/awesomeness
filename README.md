@@ -9,7 +9,7 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 ### Architectures
 * [CoolStore](github.com/vietnam-devs/coolstore-microservices) - A containerized polyglot microservices consisting of services based on .NET Core, NodeJS and more running on service mesh (istio).
 * [DShop](github.com/devmentors/DNC-DShop.Common) - Distributed .NET Core.
-* [eShopOnContainers](github.com/dotnet-architecture/eShopOnContainers) - Easy to get started sample reference microservice and container based application.
+* [eShopOnContainers](github.com/dotnet-architecture/eShopOnContainers) (Microsoft) - Easy to get started sample reference microservice and container based application.
 
 ### Distributed systems
 * Actor based
@@ -1116,12 +1116,14 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 * [Docker](www.docker.com) - World’s leading software containerization platform. 
   * [Swarm](docs.docker.com/engine/swarm)
   * [Moby](mobyproject.org) (Docker) - An open framework to assemble specialized container systems without reinventing the wheel. 
+* [Terraform](https://www.terraform.io/) (HashiCorp) - Write, Plan, and Create Infrastructure as Code
 * [Kubernetes](kubernetes.io) (Google) - Automating deployment, scaling, and management of containerized applications
   * [Rancher](rancher.com) - Enterprise management for Kubernetes. Every distro. Every cluster. Every cloud. 
   * [skaffold](github.com/GoogleCloudPlatform/skaffold) - Easy and Repeatable Kubernetes Development
   * [Continuous Pipe](continuouspipe.io) - Continuous deployment solution for your containerized applications to Kubernetes clusters
   * [Typhoon](typhoon.psdn.io/) - Typhoon is a minimal and free Kubernetes distribution
   * [kops](github.com/kubernetes/kops) - Production Grade K8s Installation, Upgrades, and Management
+  * [Rook](https://rook.io) - File, Block, and Object Storage Services for your Cloud-Native Environments
 * Mesos (Apache)
 * Tools
   * [Grail](eng.uber.com/grail) (Uber) - Scaling Infrastructure Management
