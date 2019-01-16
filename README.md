@@ -506,6 +506,7 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 * REST
   * [ActionHero](www.actionherojs.com) - The reusable, scalable, and quick node.js API server for stateless and stateful applications
   * [egg](eggjs.org/en) - Born to build better enterprise frameworks and apps with Node.js & Koa
+  * [ActiveResource.js](https://active-resource.js.org) - An API resource relational mapping library in JavaScript
 * API Gateways
   * [Tyk](tyk.io) - Open source API Gateway that is fast, scalable and modern.
   * [Kong](getkong.org) - Secure, Manage & Extend your APIs and Microservices
