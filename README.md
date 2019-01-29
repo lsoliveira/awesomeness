@@ -14,21 +14,24 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 ### Distributed systems
 * Actor based
   * [Orleans](dotnet.github.io/orleans) (Microsoft) - A straightforward approach to building distributed, high-scale applications in .NET.
-  * [Akka.Net](getakka.net) - Build powerful concurrent & distributed applications more easily
-    * [Lighthouse](github.com/petabridge/lighthouse) - A simple service discovery platform for Akka.Cluster
-  * [Orleankka](orleanscontrib.github.io/Orleankka) - Functional extension for Microsoft Orleans framework 
-  * [Proto.Actor](proto.actor) - Ultra fast distributed actors for Go, C# and Java/Kotlin
+  * [Akka.Net](getakka.net) - Build powerful concurrent & distributed applications more easily.
+    * [Lighthouse](github.com/petabridge/lighthouse) - A simple service discovery platform for Akka.Cluster.
+  * [Orleankka](orleanscontrib.github.io/Orleankka) - Functional extension for Microsoft Orleans framework.
+  * [Proto.Actor](proto.actor) - Ultra fast distributed actors for Go, C# and Java/Kotlin.
+  * [vlingo/platform](vlingo.io) - Leverage reactive multi-core with DDD.
 * Event Driven
   * [Cirqus](github.com/d60/Cirqus) - d60 event sourcing + CQRS framework
-  * [Akkatecture](akkatecture.net/) - cqrs and event sourcing for dotnet core 
-  * [NEventStore](neventstore.org) - A persistence agnostic Event Store for .NET
+  * [Akkatecture](akkatecture.net) - cqrs and event sourcing for dotnet core 
   * [EventFlow](docs.geteventflow.net) - EventFlow is a basic CQRS+ES framework designed to be easy to use
+  * [CQRS.Net](www.getcqrs.net) - The CQRS platform for Azure or on-premise.
+  * [NEventStore](neventstore.org) - A persistence agnostic Event Store for .NET
   * [Brighter](www.goparamore.io) - Command Processor & Dispatcher implementation that can be used as a lightweight library in other projects. 
   * [Its.CQRS](github.com/jonsequitur/Its.Cqrs) - A set of libraries for CQRS and Event Sourcing, with a Domain-Driven Design flavor.
   * [Aggregates.NET](github.com/volak/Aggregates.NET) - .NET event sourced domain driven design model via NServiceBus and GetEventStore
   * [NES](github.com/elliotritchie/NES) - Lightweight framework that helps you build domain models when you're doing event sourcing.
   * [Xer.Cqrs](github.com/XerProjects/Xer.Cqrs) - A simple CQRS library
   * [CQRSlite](github.com/gautema/CQRSlite) - A lightweight framework for helping writing CQRS and Eventsourcing applications in C#
+  * [CQRS.nu](cqrs.nu) - Helping teams apply Domain Driven Design, often through Event Sourcing and CQRS.
 * Queueing
   * [RawRabbit](github.com/pardahlman/RawRabbit) - A modern .NET framework for communication over RabbitMq
 * Service Bus
@@ -50,13 +53,14 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
   * [HttpClientGoodies.NET](github.com/jeffijoe/httpclientgoodies.net) - Useful utilities for the .NET HttpClient.
   * [autorest](github.com/Azure/autorest) - OpenAPI (f.k.a Swagger) Specification code generator.
   * [Halcyon](github.com/visualeyes/halcyon) - A HAL implementation for ASP.NET.
-  * [JSON API .Net Core](github.com/json-api-dotnet/JsonApiDotNetCore) - A [{ json:api }](jsonapi.org/) web application framework.
+  * [JSON API .Net Core](github.com/json-api-dotnet/JsonApiDotNetCore) - A [{ json:api }](jsonapi.org) web application framework.
   * [NetCoreStack Flying Proxy](github.com/NetCoreStack/Proxy) - The type-safe REST library for .NET Standard 2.0.
   * [NSwag](github.com/RSuter/NSwag) - The Swagger/OpenAPI toolchain for .NET, Web API and TypeScript.
   * [OData Web API](github.com/OData/WebApi): A server library built upon ODataLib and WebApi.
   * [Swashbuckle.AspNetCore](github.com/domaindrivendev/Swashbuckle.AspNetCore) - Swagger tools for documenting API's built on ASP.NET Core.
   * [RService.IO](github.com/Stoom/RService.IO) - Light weight REST service framework for ASP.NET Core.
   * [OpenRasta](openrasta.org) - Open-source .NET framework for building everything web, from web sites to RESTful APIs.
+  * [ProxyKit](github.com/damianh/ProxyKit) - A toolkit to create HTTP (reverse) proxies on ASP.NET Core
 * Web Sockets
   * [Fleck](github.com/statianzo/Fleck) - C# Websocket Implementation
   * [SignalR](signalr.net) - Incredibly simple real-time web for .NET
@@ -76,7 +80,7 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
   * [Ocelot](threemammals.com/ocelot) - Open Source .NET Core API Gateway
 * Middleware 
   * [Polly](github.com/App-vNext/Polly) - Polly is a .NET resilience and transient-fault-handling library that allows developers to express policies such as Retry, Circuit Breaker, Timeout, Bulkhead Isolation, and Fallback in a fluent and thread-safe manner.
-  * [steeltoe](steeltoe.i/) (Pivotal) - Open source project that enables .NET developers to implement industry standard best practices when building resilient microservices for the cloud.
+  * [steeltoe](steeltoe.i) (Pivotal) - Open source project that enables .NET developers to implement industry standard best practices when building resilient microservices for the cloud.
   * [Nancy](github.com/NancyFx/Nancy) - Lightweight, low-ceremony, framework for building HTTP based services on .Net and Mono.
   * [peasy](github.com/peasy/Peasy.NET) - A middle tier micro-framework for .NET
   * [LightNode](neuecc.github.io/LightNode) - Micro RPC/REST Framework built on OWIN
@@ -176,7 +180,7 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
   * [Rx.NET](github.com/Reactive-Extensions/Rx.NET) - The Reactive Extensions for .NET
   * [Reactive Streams .NET#](github.com/reactive-streams/reactive-streams-dotnet) - Reactive Streams for .NET
   * [Qactive](github.com/RxDave/Qactive) - A reactive queryable observable framework.
-  * [sodium](sodium.nz/) - A functional reactive programming library for multiple programming languages.
+  * [sodium](sodium.nz) - A functional reactive programming library for multiple programming languages.
   * [Dynamic Data](github.com/RolandPheasant/DynamicData) - Reactive collections based on Rx.Net.
   * [Streams](nessos.github.io/Streams) - A lightweight F#/C# library for efficient functional-style pipelines on streams of data. 
 * Mapping 
@@ -267,8 +271,8 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
   * [Selenium](www.seleniumhq.org) - Selenium automates browsers.
   * [Atata](atata-framework.github.io) - C#/.NET automated web testing full featured framework
   * [TestStack.White](github.com/TestStack/White) -  Automating rich client applications based on Win32, WinForms, WPF, Silverlight and SWT (Java) platforms.
-  * [Managed Windows API](mwinapi.sourceforge.net/) - A collection of .NET components that wrap PInvoke calls to access native API by managed code.
-  * [Effort](entityframework-effort.net/) - **E**ntity **F**ramework **F**ake **O**bjectContext **R**ealization **T**ool. It is a powerful tool that enables a convenient way to create automated tests for Entity Framework based applications.
+  * [Managed Windows API](mwinapi.sourceforge.net) - A collection of .NET components that wrap PInvoke calls to access native API by managed code.
+  * [Effort](entityframework-effort.net) - A powerful tool that enables a convenient way to create automated tests for Entity Framework based applications.
 * Load testing
   * [Netling](github.com/hallatore/Netling) - Netling is a load tester client for easy web testing.
 * Misc.
@@ -299,6 +303,7 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
   * [Newtonsoft.Json](www.newtonsoft.com/json) - Popular high-performance JSON framework for .NET
   * [Schema.NET](github.com/RehanSaeed/Schema.NET) - Objects turned into strongly typed C# POCO classes for use in .NET.
   * [EDI.NET](github.com/indice-co/EDI.Net) - EDI Serializer/Deserializer. Supports EDIFact, X12 and TRADACOMS formats.
+  * [Ceras](github.com/rikimaru0345/Ceras) - Converts any object into a byte[] and back. 
 * Reflection
   * [Fasterflect](github.com/buunguyen/fasterflect) - .NET Reflection Made Fast and Simple.
   * [Fast-member](code.google.com/archive/p/fast-member) - .NET reflection is slow... well, kinda slow.
@@ -380,13 +385,13 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 * Static Site Generators
   * [Pretzel](github.com/Code52/pretzel) - A site generation tool (and then some) for .NET platforms
   * [Sandra.Snow](github.com/Sandra/Sandra.Snow) - Jekyll inspired static site generation for .NET
-  * [Wyam](wyam.io/) - A highly modular and extremely configurable static content generator and toolkit.
+  * [Wyam](wyam.io) - A highly modular and extremely configurable static content generator and toolkit.
 * Templating
   * [RazorEngine](antaris.github.io/RazorEngine) - A templating engine built on Microsoft's Razor parsing engine, RazorEngine allows you to use Razor syntax to build dynamic templates.
   * [RazorLight](github.com/toddams/RazorLight) - Template engine based on Microsoft's Razor parsing engine for .NET Core
   * [Nustache](github.com/jdiamond/Nustache) - Logic-less templates for .NET
   * [mustache#](github.com/jehugaleahsa/mustache-sharp) - An extension of the mustache text template engine for .NET.
-  * [DotLiquid](dotliquidmarkup.org) - DotLiquid is a templating system ported to the .NET framework from Ruby’s [Liquid Markup](www.liquidmarkup.org/).
+  * [DotLiquid](dotliquidmarkup.org) - DotLiquid is a templating system ported to the .NET framework from Ruby’s [Liquid Markup](www.liquidmarkup.org).
   * [Stubble](github.com/stubbleorg/stubble) - Trimmed down {{mustache}} templates in .NET
 
 ### Security & Compression
@@ -450,10 +455,10 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 * [Awesome Python](awesome-python.com) - Life is short, you need Python.
 
 ### Architectures
-* [Saleor](https://getsaleor.com) - A GraphQL-first E-commerce platform for perfectionists
+* [Saleor](getsaleor.com) - A GraphQL-first E-commerce platform for perfectionists
 
 ### Distributions and Installers
-* [virtualenv](virtualenv.pypa.io/en/stable/) - A tool to create isolated Python environments.
+* [virtualenv](virtualenv.pypa.io/en/stable) - A tool to create isolated Python environments.
 * [Anaconda](www.anaconda.com) -  The Most Popular Python Data Science Distribution
 * [Miniconda](conda.io/miniconda.html) - A smaller alternative to Anaconda that is just conda and its dependencies
 
@@ -466,23 +471,27 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 ### Distributed Systems
 * [Airflow](airflow.apache.org) (Apache) - A platform to programmatically author, schedule and monitor workflows
 * [Celery](www.celeryproject.org) - An asynchronous task queue/job queue based on distributed message passing
+* [Zappa](github.com/Miserlou/Zappa) - Serverless Python.
 
 ### Data Access
 * [Peewee](github.com/coleifer/peewee) - A small, expressive orm (upports postgresql, mysql and sqlite)
 
 ### Data science
-* [TensorFlow](www.tensorflow.org) (Google) - An open source machine learning framework for everyone.
-* [NumPY](www.numpy.org) - fundamental package for scientific computing with Python.
-* [Pandas](pandas.pydata.org) - High-performance, easy-to-use data structures and data analysis tools for the [Python](www.python.org/) programming language.
-* [scikit-learn](scikit-learn.org/stable) (INRIA) - Machine Learning in Python
-* [SpaCy](spacy.io) - Industrial-StrengthNatural Language Processing
-* [Flair](https://github.com/zalandoresearch/flair) - A very simple framework for state-of-the-art Natural Language Processing (NLP)
-* [Dask](dask.pydata.org/en/latest) - Dask provides advanced parallelism for analytics, enabling performance at scale for the tools you love.
-* [Numba](numba.pydata.org) - The power to speed up your applications with high performance functions written directly in Python.
-* [Pyro](pyro.ai) (Uber) - Deep Universal Probabilistic Programming
-* [Horovod](github.com/uber/horovod) (Uber) - Distributed training framework for TensorFlow
-* [chainer](chainer.org) - Bridge the gap between algorithms and implementations of deep learning.
-* [NLTK](www.nltk.org) - A leading platform for building Python programs to work with human language data
+* Machine Learning
+  * [TensorFlow](www.tensorflow.org) (Google) - An open source machine learning framework for everyone.
+  * [NumPY](www.numpy.org) - fundamental package for scientific computing with Python.
+  * [Pandas](pandas.pydata.org) - High-performance, easy-to-use data structures and data analysis tools for the [Python](www.python.org) programming language.
+  * [scikit-learn](scikit-learn.org/stable) (INRIA) - Machine Learning in Python
+  * [SpaCy](spacy.io) - Industrial-StrengthNatural Language Processing
+  * [Flair](github.com/zalandoresearch/flair) - A very simple framework for state-of-the-art Natural Language Processing (NLP)
+  * [Dask](dask.pydata.org/en/latest) - Dask provides advanced parallelism for analytics, enabling performance at scale for the tools you love.
+  * [Numba](numba.pydata.org) - The power to speed up your applications with high performance functions written directly in Python.
+  * [Pyro](pyro.ai) (Uber) - Deep Universal Probabilistic Programming
+  * [Horovod](github.com/uber/horovod) (Uber) - Distributed training framework for TensorFlow
+  * [chainer](chainer.org) - Bridge the gap between algorithms and implementations of deep learning.
+  * [NLTK](www.nltk.org) - A leading platform for building Python programs to work with human language data
+* Operational Research
+  * [HorusLP](github.com/shanglun/horuslp) - Productivity tools for operations research based applications.
 
 ### Graphics & Drawring
 * [Chartify](github.com/spotify/chartify) (Spotify) - Python library that makes it easy for data scientists to create charts.
@@ -500,13 +509,14 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 
 ### Distributed Systems
 * [noel](lifenautjoe.github.io/noel) - A universal, human-centric, replayable Javascript event emitter
-* [Bull](github.com/OptimalBits/bull) - Premium Queue package for handling jobs and messages in NodeJS
+* [Bull](github.com/OptimalBits/bull) - Premium queue package for handling jobs and messages in NodeJS
+* Actors
+  * [nact](nact.io) - Redux but for the server.
 
 ### Services
 * REST
   * [ActionHero](www.actionherojs.com) - The reusable, scalable, and quick node.js API server for stateless and stateful applications
   * [egg](eggjs.org/en) - Born to build better enterprise frameworks and apps with Node.js & Koa
-  * [ActiveResource.js](https://active-resource.js.org) - An API resource relational mapping library in JavaScript
 * API Gateways
   * [Tyk](tyk.io) - Open source API Gateway that is fast, scalable and modern.
   * [Kong](getkong.org) - Secure, Manage & Extend your APIs and Microservices
@@ -520,7 +530,6 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
   * [Altair](altair.sirmuel.design) - A beautiful feature-rich GraphQL Client for all platforms
   * [GraphQL Yoga](github.com/graphcool/graphql-yoga) (Graphcool) - Fully-featured GraphQL Server with focus on easy setup, performance & great developer experience
 * Serverless
-  * [serverless](serverless.com) - Your toolkit for deploying and operating serverless architectures. 
   * [serverless-offline](github.com/dherault/serverless-offline) - Emulate AWS λ and API Gateway locally when developing your Serverless project 
   * [serverless-babel-starter](github.com/postlight/serverless-babel-starter) - Serverless with all the fixings: Webpack, Babel, Jest, ESLint, and Prettier.
   * [lambdapack](www.npmjs.com/package/lambdapack) - Package your AWS Lambda efficiently, ready to be deployed with [apex/up](github.com/apex/up)
@@ -539,21 +548,20 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
   * [bn.js](github.com/indutny/bn.js) - BigNum in pure javascript
 * Bitmaps
   * [Fast-BitSet](github.com/mattkrick/fast-bitset)-  A fast bitset with some nice methods
+* Functional Programming
+  * [Pampy.js](github.com/santinic/pampy.js) - Pattern Matching for JavaScript
 
 ### CRM
-
 * [Tipe](tipe.io) - Create your content with powerful editing tools and access it from anywhere with a GraphQL or REST API. Stop letting your CMS decide how you build your apps. 
 
 ### Tools
-
-* [i18next](www.i18next.com) - An **internationalization-framework** written in and for JavaScript. 
+* [i18next](www.i18next.com) - An **internationalization framework** written in and for JavaScript. 
 * [ReLaXed](github.com/RelaxedJS/ReLaXed) - Create PDF documents using web technologies.
 * [Prompts](github.com/terkelg/prompts) - Lightweight, beautiful and user-friendly interactive prompts
 * [Headless Chrome Crawler](github.com/yujiosaka/headless-chrome-crawler) - Distributed crawler powered by Headless Chrome
 * [ClearGPDR](www.cleargdpr.com) - The Leading GDPR Compliance Solution: Open Source, Blockchain Based.
 
 # Frontend
-
 ## Design
 ### Development
 * [Haiku](www.haiku.ai) - Where designing is building
@@ -585,6 +593,9 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 * [Best of JS](bestof.js.org)
 * [Awesome](github.com/sindresorhus/awesome) - Curated list of awesome lists
 
+### Service/Data
+* [ActiveResource.js](active-resource.js.org) - An API resource relational mapping library in JavaScript
+
 ### UX Frameworks
 * Design Systems
   * [Awesome Design Systems](github.com/alexpate/awesome-design-systems) - A collection of awesome design systems
@@ -604,7 +615,7 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
   * [Hacker Themes](hackerthemes.com) - Bootstrap 4 themes & templates for ambitious developers
   * [Creative Time](www.creative-tim.com) - Premium Bootstrap themes, templates, UI Kits and more developed by Creative Tim.
   * [Tabler](tabler.github.io) - Premium and Open Source dashboard template with responsive and high quality UI. For Free!
-  * [Papaya](www.eatapapaya.com/) - Yummy landing page templates for any project.
+  * [Papaya](www.eatapapaya.com) - Yummy landing page templates for any project.
 
 ### Libraries
 * Charts and graphics
@@ -627,10 +638,10 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
   * [cubismjs](square.github.io/cubism) (Square) - Time Series Visualization
   * [taucharts](www.taucharts.com) - Flexible javascript charting library for data exploration
   * [echarts](echarts.baidu.com) (Baidu) - A powerful, interactive charting and visualization library for browser
-    * [ECharts-GL](github.com/ecomfe/echarts-gl) - Extension pack of [echarts](echarts.baidu.com/), which providing 3D plots, globe visualization and WebGL acceleration. 
+    * [ECharts-GL](github.com/ecomfe/echarts-gl) - Extension pack of [echarts](echarts.baidu.com), which providing 3D plots, globe visualization and WebGL acceleration. 
   * [chartjs](www.chartjs.org) - Simple yet flexible JavaScript charting for designers & developers
   * [chartist](gionkunz.github.io/chartist-js) - Simple responsive charts
-  * [Pixi](www.pixijs.com/) - The HTML5 Creation Engine
+  * [Pixi](www.pixijs.com) - The HTML5 Creation Engine
   * [Toast UI](ui.toast.com/tui-chart) - An easy way to draw various and essential charts on your web service. 
   * [flowchart.js](flowchart.js.org) - Draws simple SVG flow chart diagrams from textual representation of the diagram
   * [curtains.js](www.martin-laxenaire.fr/libs/curtainsjs/index.html)  - Easy WebGL tool to animate images
@@ -672,7 +683,7 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
   * [MobX Ecosystem](github.com/xgrommx/mobx-ecosystem)
   * [Awesome React GraphQL](github.com/hasura/awesome-react-graphql) - A curated collection of resources, clients and tools that make working with GraphQL and React/React Native awesome. 
 * Architectures
-  * [React Storefront](https://github.com/moovweb/react-storefront) - Build and deploy e-commerce progressive web apps in record time.
+  * [React Storefront](github.com/moovweb/react-storefront) - Build and deploy e-commerce progressive web apps in record time.
 * State Management
   * REST
     * [tectonic](tonyhb.github.io/tectonic) - A declarative REST data loader for react + redux
@@ -722,8 +733,8 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
      * [Awesome Ant Design](github.com/websemantics/awesome-ant-design) - A curated list of Ant Design resources and related projects. 
      * [Ant.Motion](github.com/ant-design/ant-motion) - Animate specification and components of Ant Design  
      * [Scaffolds](scaffold.ant.design) - Practical scaffolds to kickoff 
-  * [React Desktop](reactdesktop.js.org) - JavaScript library built on top of [Facebook's React](facebook.github.io/react/) library, which aims to bring a native desktop experience to the web, featuring many macOS Sierra and Windows 10 components.
-  * [Semantic UI](react.semantic-ui.com) - Semantic UI React is the official React integration for [Semantic UI](semantic-ui.com/) .
+  * [React Desktop](reactdesktop.js.org) - JavaScript library built on top of [Facebook's React](facebook.github.io/react) library, which aims to bring a native desktop experience to the web, featuring many macOS Sierra and Windows 10 components.
+  * [Semantic UI](react.semantic-ui.com) - Semantic UI React is the official React integration for [Semantic UI](semantic-ui.com) .
   * [Blueprint](blueprintjs.com) (Palantir) - A React-based UI toolkit for the web
   * [React Bootstrap](react-bootstrap.github.io) - The most popular front-end framework, rebuilt for React.
   * [Office UI Fabric](developer.microsoft.com/en-us/fabric#/components) (Microsoft) - Use our design language in your own experience
@@ -733,6 +744,7 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
   * [React Lightning Design System](github.com/mashmatrix/react-lightning-design-system) - Salesforce Lightning Design System components built with React
   * [RSuite](rsuitejs.com/en) - A suite of React components
   * [Evergreen](evergreen.surge.sh) - React UI Framework for the Web
+  * [Elemental](react-elemental-docs.static.kevinlin.info) - Modern, flat UI library for React
 * Themes
    * [CoreUI](coreui.io) - Free Bootstrap Admin Template
 * Security and Authentication
@@ -752,7 +764,7 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
     * [styled-system](jxnblk.com/styled-system/#styled-system) - Design system utilities for [styled-components](github.com/styled-components/styled-components) and other css-in-js libraries
   * [reas](reas.js.org) - A minimalist and highly customizable component system
   * [React Foundation](react.foundation) - Foundation as React components
-  * [React Grid](devexpress.github.io/devextreme-reactive/react/grid/) (DevExtreme) - Your Data Grid, Your Way
+  * [React Grid](devexpress.github.io/devextreme-reactive/react/grid) (DevExtreme) - Your Data Grid, Your Way
 * Charts & graphics
   * [Victory](formidable.com/open-source/victory) (Formidable Labs) - React.js components for modular charting and data visualization
   * [recharts](recharts.org) - A composable charting library built on React components
@@ -930,6 +942,7 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 * [Elastic](www.elastic.co)
   * [Kibana](www.elastic.co/products/kibana) (Elastic)
   * [Grafana](grafana.com)
+  * [Search Guard](search-guard.com) - Gives you full security control over your entire Elasticsearch environment. 
 * [Solr](lucene.apache.org/solr)
   * [Banana](github.com/lucidworks/banana) (LucidWorks)
 * [Mongo](www.mongodb.com)
@@ -976,6 +989,9 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 * [Ceph](ceph.com) - A unified, distributed storage system designed for excellent performance, reliability and scalability.
 * [Minio](www.minio.io) - A high performance distributed object storage server, designed for large-scale private cloud infrastructure.
 
+## Tools
+* [Debezium](debezium.io) - Stream changes from your databases.
+
 # Integration
 ## Knowledge Base
 * [Awesome Microservices](github.com/mfornos/awesome-microservices) - A curated list of Microservice Architecture related principles and technologies
@@ -1007,8 +1023,8 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
   * [Hermes](hermes.allegro.tech) - Reliable and easy to use message broker built on top of Kafka
 * [Pulsar](pulsar.apache.org) (Yahoo) - An open-source distributed pub-sub messaging system an open-source distributed pub-sub messaging system
 * [NATS](nats.io) - A simple, high performance open source messaging system for cloud native applications, IoT messaging, and microservices architectures.
-* [ActiveMQ](activemq.apache.org/) (Apache) - The most popular and powerful open source messaging and Integration Patterns server.
-* [ZeroMQ](zeromq.org/) - An intelligent transport layer for your distributed apps
+* [ActiveMQ](activemq.apache.org) (Apache) - The most popular and powerful open source messaging and Integration Patterns server.
+* [ZeroMQ](zeromq.org) - An intelligent transport layer for your distributed apps
 * [RabbitMQ](www.rabbitmq.com) (Pivotal) - An intermediary for messaging
 * [Chronicle Queue](github.com/OpenHFT/Chronicle-Queue) - Micro second messaging that stores everything to disk
 
@@ -1049,9 +1065,8 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 
 # Mobile
 ## Cross platform
-
 - [Flutter](flutter.io) - Build beautiful native apps in record time
-- [Capacitator](capacitor.ionicframework.com/) - The native bridge for cross-platform web apps
+- [Capacitator](capacitor.ionicframework.com) - The native bridge for cross-platform web apps
 
 ## Android
 ### Profiling
@@ -1106,49 +1121,71 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 ## Caching
 * Varnish
 
+## Logging
+* [Loki](github.com/grafana/loki) - Like Prometheus, but for logs.
+
+## Services
+* [Ambassador](www.getambassador.io) - Open Source Kubernetes-Native API Gateway built on the Envoy Proxy.
+* [Envoy](www.envoyproxy.io) - Open source edge and service proxy, designed for cloud-native applications
+* [Gloo](gloo.solo.io) - The hybrid app gateway.
+* [Istio](istio.io) - Connect, secure, control, and observe services.
+  * [Kiali](www.kiali.io) - Service mesh observability
+
 ## Serverless
 * Frameworks
-  * [OpenWhisk](openwhisk.apache.org) (IBM)
-  * [architect](arc.codes) - Lambda functions simplified
+  * [OpenWhisk](openwhisk.apache.org) (IBM) - Open source serverless cloud platform.
+  * [architect](arc.codes) - Lambda functions simplified.
+  * [serverless](serverless.com) - Your toolkit for deploying and operating serverless architectures. 
+  * [Nuclio](nuclio.io) - Serverless Functions for Real-Time and Data-Driven Applications
 * Deployment
-  * [now](zeit.co/now) - Realtime Global Deployments
-  * [apex](apex.run) - Serverless architecture
+  * [now](zeit.co/now) - Realtime Global Deployments.
+  * [apex](apex.run) - Serverless architecture.
 
 ## Infrastructure
 * [Docker](www.docker.com) - World’s leading software containerization platform. 
-  * [Swarm](docs.docker.com/engine/swarm)
+  * [Swarm](github.com/docker/swarm) (Docker) - A Docker native clustering system
   * [Moby](mobyproject.org) (Docker) - An open framework to assemble specialized container systems without reinventing the wheel. 
-  * [Airbag](https://github.com/Soluto/airbag) - Tiny sidecar for your docker containers
-* [Terraform](https://www.terraform.io/) (HashiCorp) - Write, Plan, and Create Infrastructure as Code
+  * [Airbag](github.com/Soluto/airbag) - Tiny sidecar for your docker containers
+* [Terraform](www.terraform.io) (HashiCorp) - Write, Plan, and Create Infrastructure as Code
 * [Kubernetes](kubernetes.io) (Google) - Automating deployment, scaling, and management of containerized applications
+  * [Helm](helm.sh) - The Kubernetes package manager
   * [Rancher](rancher.com) - Enterprise management for Kubernetes. Every distro. Every cluster. Every cloud. 
   * [skaffold](github.com/GoogleCloudPlatform/skaffold) - Easy and Repeatable Kubernetes Development
   * [Continuous Pipe](continuouspipe.io) - Continuous deployment solution for your containerized applications to Kubernetes clusters
-  * [Typhoon](typhoon.psdn.io/) - Typhoon is a minimal and free Kubernetes distribution
+  * [Typhoon](typhoon.psdn.io) - Typhoon is a minimal and free Kubernetes distribution
   * [kops](github.com/kubernetes/kops) - Production Grade K8s Installation, Upgrades, and Management
-  * [Rook](https://rook.io) - File, Block, and Object Storage Services for your Cloud-Native Environments
-  * [Compose on Kubernetes](https://github.com/docker/compose-on-kubernetes) (Docker) - Deploy applications described in Compose onto Kubernetes clusters
-* Mesos (Apache)
+  * [Rook](rook.io) - File, Block, and Object Storage Services for your Cloud-Native Environments
+  * [Compose on Kubernetes](github.com/docker/compose-on-kubernetes) (Docker) - Deploy applications described in Compose onto Kubernetes clusters
+  * [Tilt](tilt.build) - Makes it possible to develop all your microservices locally in Kubernetes while collaborating with your team.
+  * [Kubedb](kubedb.com) - Run production-grade databases easily on Kubernetes
+  * [kops](github.com/kubernetes/kops) - Production grade K8s installation, upgrades, and management
+* [Mesos](mesos.apache.org) (Apache) - Program against your datacenter like it’s a single pool of resources 
 * Tools
   * [Grail](eng.uber.com/grail) (Uber) - Scaling Infrastructure Management
-  * [osquery](osquery.io) (Facebook) - Performant endpoint visibility
-  * [Spinnaker](www.spinnaker.io) (Netflix) - Fast, safe, repeatable deployments
-  * [Istio](istio.io) - Connect, secure, control, and observe services.
+  * [Crossplane](crossplane.io) - The open source multicloud control plane.
+  * [osquery](osquery.io) (Facebook) - Performant endpoint visibility.
+  * [Spinnaker](www.spinnaker.io) (Netflix) - Fast, safe, repeatable deployments.
 
 ## Security
 * [Infection Monkey](www.guardicore.com/infectionmonkey) -  Unleash the Infection Monkey in your network and discover security flaws in no time.
 
 ## Performance
 * [Lighthouse](developers.google.com/web/tools/lighthouse) (Google) -  Automated tool for improving the quality of web pages. 
+* [Vegeta](github.com/tsenart/vegeta) - A versatile HTTP load testing tool 
+
+## Continuous delivery
+* [Buck](buckbuild.com) (Facebook) - A high-performance build tool
 
 ## Configuration
-
 ### Linux
 - [Cockpit](cockpit-project.org) - Server manager that makes it easy to administer your GNU/Linux servers via a web browser.
 
 ### Windows
 
 ## Tools
+### CLI
+* [jaggr](github.com/rs/jaggr) - JSON Aggregation CLI
+* [jplot](github.com/rs/jplot) - iTerm2 expvar/JSON monitoring tool
 
 ### Windows Consoles
 * [Cmder](cmder.net)
@@ -1215,15 +1252,17 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 * [Top 20 Design Systems](blog.prototypr.io/top-20-design-systems-7bf0963318ce)
 
 ## Content
-* Photos
+* Resources
+  * [Cool Backgrounds](coolbackgrounds.io) - A collection of tools to create compelling, colorful images for blogs, social media, and websites.
+* Stock Photos
   * [Burst](burst.shopify.com) - Free stock photos for websites and commercial use
   * [Unsplash](unsplash.com) - Beautiful, free photos.
 * Symbols
   * [HTML Symsols](www.toptal.com/designers/htmlarrows/symbols) - HTML Currency Symbols, Currency Entities and ASCII Currency Character Code Reference
+  * [Orion](orioniconlibrary.com) - Free SVG vector icons
 
-## Spreadsheet
+## Spreadsheets
 * [Google Sheets](www.google.com/sheets)
-* [Fieldbook](fieldbook.com)
 
 ## CMS
 * [Publii](getpublii.com) - Make an extremely safe, fast and stylish static blog website in minutes.
