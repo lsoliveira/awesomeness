@@ -198,7 +198,7 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
   * [NodaTime](http://nodatime.org) - A better date and time API for .NET
   * [DateTimeExtensions](http://github.com/joaomatossilva/DateTimeExtensions) - This project is a merge of several common DateTime operations in the form of extensions to System.DateTime, including natural date difference text (precise and human rounded), holidays and working days calculations on several culture locales.
   * [Exceptionless.DateTimeExtensions](http://github.com/exceptionless/Exceptionless.DateTimeExtensions) - DateTimeRange, Business Day and various DateTime, DateTimeOffset, TimeSpan extension methods
-  * [UnitConversion](http://github.com/gkampolis/UnitConversion) - Expansible Unit Conversion Library for .Net Core and .Net Framework
+  * [UnitConversion](https://github.com/atulmish/UnitConversion) - Expansible Unit Conversion Library for .Net Core and .Net Framework.
   * [DeviceId](http://github.com/MatthewKing/DeviceId) - A simple library providing functionality to generate a 'device ID' that can be used to uniquely identify a computer.
 * Extensions & LINQ
   * [ExtraLINQ](http://github.com/mariusschulz/ExtraLINQ) - ExtraLINQ provides a set of extension methods for various .NET sequence types.
@@ -324,12 +324,14 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
   * [FlatMapper](http://github.com/joaomatossilva/FlatMapper) - FlatMapper is a library to import and export data from and to plain text files.
   * [CsvHelper](http://joshclose.github.io/CsvHelper) - A library for reading and writing CSV files.
 * Office integration
+  * [NetOffice](https://github.com/NetOfficeFw/NetOffice) - .NET wrapper assemblies for accessing Microsoft Office applications.
   * [NPOI](http://github.com/tonyqus/npoi) - .NET library that can read/write Office formats without Microsoft Office installed.
   * [Open XML SDK](http://github.com/officedev/open-xml-sdk) (Microsoft) - The Open XML SDK provides tools for working with Office Word, Excel, and PowerPoint documents. 
   * [DocX](http://github.com/xceedsoftware/DocX) - Fast and easy to use .NET library that creates or modifies Microsoft Word files without installing Word.
   * [ExcelDataReader](http://github.com/ExcelDataReader/ExcelDataReader) - Lightweight and fast library written in C# for reading Microsoft Excel files
   * [EPPlus](http://github.com/JanKallman/EPPlus) - Create advanced Excel spreadsheets using .NET
   * [ClosedXML](http://github.com/ClosedXML/ClosedXML) - Makes it easier for developers to create Excel 2007+ (.xlsx, .xlsm, etc) files.
+  * [FastReport](https://github.com/FastReports/FastReport) - Reporting tool for .NET Core/.NET Framework that helps your application generate document-like reports.
 * PDF generation
   * [PDFSharp](http://www.pdfsharp.net) - Open Source .NET library that easily creates and processes PDF documents on the fly from any .NET language.
   * [iTextSharp](http://github.com/itext/itextsharp) - Easy PDF generation and manipulation for Java and .NET developers.
