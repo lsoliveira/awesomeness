@@ -613,6 +613,7 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
   * [Mapbox](http://www.mapbox.com/base) (Maxbox) - An internal guide & code repository for designing and coding at Mapbox.
   * [Atlassian Design](http://atlassian.design) (Atlassian) - Use Atlassian's end-to-end design language to create straightforward and beautiful experiences.
   * [Auth0 Styleguide](http://styleguide.auth0.com) (Auth0) - Conjunction of design patterns, components and resources used across our products.
+  * [EVA](https://eva.design) - Customizable Design System easily adaptable to your Brand.
 * Themes
   * [Hacker Themes](http://hackerthemes.com) - Bootstrap 4 themes & templates for ambitious developers
   * [Creative Time](http://www.creative-tim.com) - Premium Bootstrap themes, templates, UI Kits and more developed by Creative Tim.
@@ -735,6 +736,7 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
      * [Awesome Ant Design](http://github.com/websemantics/awesome-ant-design) - A curated list of Ant Design resources and related projects. 
      * [Ant.Motion](http://github.com/ant-design/ant-motion) - Animate specification and components of Ant Design  
      * [Scaffolds](http://scaffold.ant.design) - Practical scaffolds to kickoff 
+     * [UI Kitten](https://akveo.github.io/react-native-ui-kitten) - React Native framework for creating stunning cross-platform mobile applications.
   * [React Desktop](http://reactdesktop.js.org) - JavaScript library built on top of [Facebook's React](http://facebook.github.io/react) library, which aims to bring a native desktop experience to the web, featuring many macOS Sierra and Windows 10 components.
   * [Semantic UI](http://react.semantic-ui.com) - Semantic UI React is the official React integration for [Semantic UI](http://semantic-ui.com) .
   * [Blueprint](http://blueprintjs.com) (Palantir) - A React-based UI toolkit for the web
@@ -800,7 +802,8 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
   * [Nrwl Nx](http://nrwl.io/nx) - An open source toolkit for enterprise Angular applications
 * UX Frameworks
   * [Angular Material](http://material.angular.io) - Material Design components for Angular
-  * [NG-ZORRO](http://github.com/NG-ZORRO/ng-zorro-antd) - An enterprise-class UI components based on Ant Design and Angular. 
+  * [NG-ZORRO](http://github.com/NG-ZORRO/ng-zorro-antd) - An enterprise-class UI components based on Ant Design and Angular.
+  * [Nebular](https://akveo.github.io/nebular) - Customizable UI Kit, Auth & Security
 
 ### [Vue.js](http://vuejs.org)
 * Examples
