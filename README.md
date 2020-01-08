@@ -149,6 +149,8 @@ _Awesomeness_ is a comprehensive list of open source (mostly non-commercial) tec
 * Build systems
   * [Cake](https://cakebuild.net) - A cross-platform build automation system with a C# DSL.
   * [NUKE](https://nuke.build) - A cross-platform build automation system with C# DSL.
+  * [FlubuCore](https://github.com/dotnetcore/FlubuCore) - A cross platform build and deployment automation system for building projects and executing deployment scripts using C# code.
+  * [GitVersioning](https://github.com/AArnott/Nerdbank.GitVersioning) - Stamp your assemblies, packages and more with a unique version generated from a single, simple version.json file and include git commit IDs for non-official builds.
 * Windows
   * [WiX](http://wixtoolset.org) - The most powerful set of tools available to create your windows installation experience.
   * [Wax](http://github.com/tom-englert/Wax) - An interactive editor for WiX setup projects.
@@ -287,9 +289,10 @@ _Awesomeness_ is a comprehensive list of open source (mostly non-commercial) tec
   * [.NET Fake JSON Server](http://github.com/ttu/dotnet-fake-json-server) - Fake JSON Server is a Fake REST API that can be used as a Back End for prototyping or as a template for a CRUD Back End.
 
 ### Caching
-*  [CacheManager](http://github.com/MichaCo/CacheManager) - CacheManager is an open source caching abstraction layer for .NET written in C#. It supports various cache providers and implements many advanced features.
-*  [Cashew](http://github.com/joakimskoog/Cashew) - A simple and elegant yet powerful HTTP client cache for .NET
-*  [LazyCache](http://github.com/alastairtree/LazyCache) - An easy to use thread safe generics based in memory caching service with a simple developer friendly API for C#.
+* [CacheManager](http://github.com/MichaCo/CacheManager) - CacheManager is an open source caching abstraction layer for .NET written in C#. It supports various cache providers and implements many advanced features.
+* [Cashew](http://github.com/joakimskoog/Cashew) - A simple and elegant yet powerful HTTP client cache for .NET
+* [LazyCache](http://github.com/alastairtree/LazyCache) - An easy to use thread safe generics based in memory caching service with a simple developer friendly API for C#.
+* [EasyCaching](https://github.com/dotnetcore/EasyCaching) - An open source caching library that contains basic usages and some advanced usages of caching which can help us to handle caching more easier!
 
 ### Framework specifics
 - Languages & Compilers
