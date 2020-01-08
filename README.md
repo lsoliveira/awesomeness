@@ -1,5 +1,5 @@
 # Overview
-_Awesomeness_ is a comprehensive list of technical resources related to IT systems architecture, design and implementation.
+_Awesomeness_ is a comprehensive list of open source (mostly non-commercial) technical resources related to IT systems architecture, design and implementation.
 
 # Backend
 
@@ -437,6 +437,8 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 * Validation
   * [FluentValidation](http://github.com/JeremySkinner/FluentValidation) - A small validation library for .NET that uses a fluent interface and lambda expressions for building validation rules.
   * [valit](http://github.com/valit-stack/Valit) - Valit is dead simple validation for .NET Core.
+* Feature Management
+  * [FeatureManagement.Net](https://github.com/microsoft/FeatureManagement-Dotnet) - Provides standardized APIs for enabling feature flags within applications. 
 * Mics. 
   * [P](http://github.com/p-org/P) (Microsoft) - P is a language for asynchronous event-driven programming.
   * [ServiceStack.Text](http://servicestack.net/text) - .NET's missing high-performance utility belt
