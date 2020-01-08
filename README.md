@@ -145,13 +145,18 @@ _Awesomeness_ is a comprehensive list of open source (mostly non-commercial) tec
 * [Simple Injector](http://simpleinjector.org) - Easy-to-use Dependency Injection (DI) library for .NET 4+ that supports Silverlight, Windows Phone, Windows 8 including Universal apps and Mono. 
 * [Scrutor](http://github.com/khellang/Scrutor) - Assembly scanning and decoration extensions for Microsoft.Extensions.DependencyInjection    
 
-### Deployment
-* [WiX](http://wixtoolset.org) - The most powerful set of tools available to create your windows installation experience.
-* [Wax](http://github.com/tom-englert/Wax) - An interactive editor for WiX setup projects.
-* [Topshelf](http://topshelf-project.com) - Put Your Apps on the Topshelf.
-* [Squirrel](http://github.com/squirrel/squirrel.windows) - An installation and update framework for Windows desktop apps.
-* [dotnet-win32-service](http://github.com/dasMulli/dotnet-win32-service) - Helper classes to set up and run as windows services directly on .net core. A ServiceBase alternative.
-* [Catlight](http://catlight.io) - Notifier for developers
+### Build & Deployment
+* Build systems
+  * [Cake](https://cakebuild.net) - A cross-platform build automation system with a C# DSL.
+  * [NUKE](https://nuke.build) - A cross-platform build automation system with C# DSL.
+* Windows
+  * [WiX](http://wixtoolset.org) - The most powerful set of tools available to create your windows installation experience.
+  * [Wax](http://github.com/tom-englert/Wax) - An interactive editor for WiX setup projects.
+  * [Topshelf](http://topshelf-project.com) - Put Your Apps on the Topshelf.
+  * [Squirrel](http://github.com/squirrel/squirrel.windows) - An installation and update framework for Windows desktop apps.
+  * [dotnet-win32-service](http://github.com/dasMulli/dotnet-win32-service) - Helper classes to set up and run as windows services directly on .net core. A ServiceBase alternative.
+* Tools
+  * [Catlight](http://catlight.io) - Notifier for developers
 
 ### Performance & Monitoring
 * [BenchmarkDotNet](http://benchmarkdotnet.org) - Powerful .NET library for benchmarking.
