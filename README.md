@@ -121,6 +121,7 @@ _Awesomeness_ is a comprehensive list of open source (mostly non-commercial) tec
 * Migrations
   * [Fluent Migrator](http://github.com/fluentmigrator/fluentmigrator) - Fluent migrations framework for .NET
   * [DbUp](http://dbup.github.io) - DbUp is a .NET library that helps you to deploy changes to SQL Server databases.
+  * [Evolve](https://evolve-db.netlify.com) - Simple database migration tool that uses plain SQL scripts.
 
 ### Scheduling & Job Management
 * Scheduling
