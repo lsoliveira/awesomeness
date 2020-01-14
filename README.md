@@ -1,5 +1,5 @@
 # Overview
-_Awesomeness_ is a comprehensive list of technical resources related to IT systems architecture, design and implementation.
+_Awesomeness_ is a comprehensive list of open source (mostly non-commercial) technical resources related to IT systems architecture, design and implementation.
 
 # Backend
 
@@ -61,6 +61,7 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
   * [RService.IO](http://github.com/Stoom/RService.IO) - Light weight REST service framework for ASP.NET Core.
   * [OpenRasta](http://openrasta.org) - Open-source .NET framework for building everything web, from web sites to RESTful APIs.
   * [ProxyKit](http://github.com/damianh/ProxyKit) - A toolkit to create HTTP (reverse) proxies on ASP.NET Core
+  * [JasperFx](http://jasperfx.github.io) - Next generation framework for server side .Net Core applications
 * Web Sockets
   * [Fleck](http://github.com/statianzo/Fleck) - C# Websocket Implementation
   * [SignalR](http://signalr.net) - Incredibly simple real-time web for .NET
@@ -113,6 +114,7 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
   * [marten](http://jasperfx.github.io/marten) - Polyglot Persistence for .NET Systems using the Rock Solid PostgreSQL Database
   * [ReactiveETL](http://github.com/madhon/ReactiveETL) - Rewrite of Rhino ETL using the reactive extensions for .Net
   * [SqlKata](http://sqlkata.com) - The powerful C# sql query builder
+  * [SharpRepository](https://github.com/SharpRepository/SharpRepository) - C# Generic Repository for use with Entity Framework, RavenDB and more with built-in caching options.
 * Caching
   * [Akavache](http://github.com/akavache/Akavache) - An asynchronous, persistent key-value store.
 * Full text
@@ -121,6 +123,7 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 * Migrations
   * [Fluent Migrator](http://github.com/fluentmigrator/fluentmigrator) - Fluent migrations framework for .NET
   * [DbUp](http://dbup.github.io) - DbUp is a .NET library that helps you to deploy changes to SQL Server databases.
+  * [Evolve](https://evolve-db.netlify.com) - Simple database migration tool that uses plain SQL scripts.
 
 ### Scheduling & Job Management
 * Scheduling
@@ -145,13 +148,20 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 * [Simple Injector](http://simpleinjector.org) - Easy-to-use Dependency Injection (DI) library for .NET 4+ that supports Silverlight, Windows Phone, Windows 8 including Universal apps and Mono. 
 * [Scrutor](http://github.com/khellang/Scrutor) - Assembly scanning and decoration extensions for Microsoft.Extensions.DependencyInjection    
 
-### Deployment
-* [WiX](http://wixtoolset.org) - The most powerful set of tools available to create your windows installation experience.
-* [Wax](http://github.com/tom-englert/Wax) - An interactive editor for WiX setup projects.
-* [Topshelf](http://topshelf-project.com) - Put Your Apps on the Topshelf.
-* [Squirrel](http://github.com/squirrel/squirrel.windows) - An installation and update framework for Windows desktop apps.
-* [dotnet-win32-service](http://github.com/dasMulli/dotnet-win32-service) - Helper classes to set up and run as windows services directly on .net core. A ServiceBase alternative.
-* [Catlight](http://catlight.io) - Notifier for developers
+### Build & Deployment
+* Build systems
+  * [Cake](https://cakebuild.net) - A cross-platform build automation system with a C# DSL.
+  * [NUKE](https://nuke.build) - A cross-platform build automation system with C# DSL.
+  * [FlubuCore](https://github.com/dotnetcore/FlubuCore) - A cross platform build and deployment automation system for building projects and executing deployment scripts using C# code.
+  * [GitVersioning](https://github.com/AArnott/Nerdbank.GitVersioning) - Stamp your assemblies, packages and more with a unique version generated from a single, simple version.json file and include git commit IDs for non-official builds.
+* Windows
+  * [WiX](http://wixtoolset.org) - The most powerful set of tools available to create your windows installation experience.
+  * [Wax](http://github.com/tom-englert/Wax) - An interactive editor for WiX setup projects.
+  * [Topshelf](http://topshelf-project.com) - Put Your Apps on the Topshelf.
+  * [Squirrel](http://github.com/squirrel/squirrel.windows) - An installation and update framework for Windows desktop apps.
+  * [dotnet-win32-service](http://github.com/dasMulli/dotnet-win32-service) - Helper classes to set up and run as windows services directly on .net core. A ServiceBase alternative.
+* Tools
+  * [Catlight](http://catlight.io) - Notifier for developers
 
 ### Performance & Monitoring
 * [BenchmarkDotNet](http://benchmarkdotnet.org) - Powerful .NET library for benchmarking.
@@ -160,6 +170,7 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 * [Warden](http://github.com/warden-stack/Warden) - Define "health checks" for your applications, resources and infrastructure. Keep your Warden on the watch.  
 * [NBench](http://github.com/petabridge/NBench) - Cross-platform performance benchmarking and testing framework for .NET applications.
 * [Prefix](http://stackify.com/prefix) - Understand what your code is doing and find bugs you didn’t even know existed. 
+* [OpenTracing](https://opentracing.io) - Vendor-neutral APIs and instrumentation for distributed tracing.
 
 ### Algorithms & Data Structures
 * Algorithms
@@ -183,6 +194,7 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
   * [sodium](http://sodium.nz) - A functional reactive programming library for multiple programming languages.
   * [Dynamic Data](http://github.com/RolandPheasant/DynamicData) - Reactive collections based on Rx.Net.
   * [Streams](http://nessos.github.io/Streams) - A lightweight F#/C# library for efficient functional-style pipelines on streams of data. 
+  * [CSharpFunctionalExtensions](https://github.com/vkhorikov/CSharpFunctionalExtensions) - Functional extensions for C#.
 * Mapping 
   * [AutoMapper](http://github.com/AutoMapper/AutoMapper) - A convention-based object-object mapper in .NET.
   * [TinyMapper](http://github.com/TinyMapper/TinyMapper) - A quick object-object mapper for .NET.
@@ -195,10 +207,11 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 * Units
   * [UnitsNet](http://github.com/angularsen/UnitsNet) - Makes life working with units of measurement just a little bit better.
   * [Humanizer](http://github.com/Humanizr/Humanizer) - Humanizer meets all your .NET needs for manipulating and displaying strings, enums, dates, times, timespans, numbers and quantities * [NodaMoney](http://github.com/remyvd/NodaMoney) - NodaMoney provides a library that treats Money as a first class citizen and handles all the ugly bits like currencies and formatting.
+  * [FluentDateTime](https://github.com/FluentDateTime/FluentDateTime) - Allows cleaner DateTime expressions and operations.
   * [NodaTime](http://nodatime.org) - A better date and time API for .NET
   * [DateTimeExtensions](http://github.com/joaomatossilva/DateTimeExtensions) - This project is a merge of several common DateTime operations in the form of extensions to System.DateTime, including natural date difference text (precise and human rounded), holidays and working days calculations on several culture locales.
   * [Exceptionless.DateTimeExtensions](http://github.com/exceptionless/Exceptionless.DateTimeExtensions) - DateTimeRange, Business Day and various DateTime, DateTimeOffset, TimeSpan extension methods
-  * [UnitConversion](http://github.com/gkampolis/UnitConversion) - Expansible Unit Conversion Library for .Net Core and .Net Framework
+  * [UnitConversion](https://github.com/atulmish/UnitConversion) - Expansible Unit Conversion Library for .Net Core and .Net Framework.
   * [DeviceId](http://github.com/MatthewKing/DeviceId) - A simple library providing functionality to generate a 'device ID' that can be used to uniquely identify a computer.
 * Extensions & LINQ
   * [ExtraLINQ](http://github.com/mariusschulz/ExtraLINQ) - ExtraLINQ provides a set of extension methods for various .NET sequence types.
@@ -282,9 +295,10 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
   * [.NET Fake JSON Server](http://github.com/ttu/dotnet-fake-json-server) - Fake JSON Server is a Fake REST API that can be used as a Back End for prototyping or as a template for a CRUD Back End.
 
 ### Caching
-*  [CacheManager](http://github.com/MichaCo/CacheManager) - CacheManager is an open source caching abstraction layer for .NET written in C#. It supports various cache providers and implements many advanced features.
-*  [Cashew](http://github.com/joakimskoog/Cashew) - A simple and elegant yet powerful HTTP client cache for .NET
-*  [LazyCache](http://github.com/alastairtree/LazyCache) - An easy to use thread safe generics based in memory caching service with a simple developer friendly API for C#.
+* [CacheManager](http://github.com/MichaCo/CacheManager) - CacheManager is an open source caching abstraction layer for .NET written in C#. It supports various cache providers and implements many advanced features.
+* [Cashew](http://github.com/joakimskoog/Cashew) - A simple and elegant yet powerful HTTP client cache for .NET
+* [LazyCache](http://github.com/alastairtree/LazyCache) - An easy to use thread safe generics based in memory caching service with a simple developer friendly API for C#.
+* [EasyCaching](https://github.com/dotnetcore/EasyCaching) - An open source caching library that contains basic usages and some advanced usages of caching which can help us to handle caching more easier!
 
 ### Framework specifics
 - Languages & Compilers
@@ -324,12 +338,14 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
   * [FlatMapper](http://github.com/joaomatossilva/FlatMapper) - FlatMapper is a library to import and export data from and to plain text files.
   * [CsvHelper](http://joshclose.github.io/CsvHelper) - A library for reading and writing CSV files.
 * Office integration
+  * [NetOffice](https://github.com/NetOfficeFw/NetOffice) - .NET wrapper assemblies for accessing Microsoft Office applications.
   * [NPOI](http://github.com/tonyqus/npoi) - .NET library that can read/write Office formats without Microsoft Office installed.
   * [Open XML SDK](http://github.com/officedev/open-xml-sdk) (Microsoft) - The Open XML SDK provides tools for working with Office Word, Excel, and PowerPoint documents. 
   * [DocX](http://github.com/xceedsoftware/DocX) - Fast and easy to use .NET library that creates or modifies Microsoft Word files without installing Word.
   * [ExcelDataReader](http://github.com/ExcelDataReader/ExcelDataReader) - Lightweight and fast library written in C# for reading Microsoft Excel files
   * [EPPlus](http://github.com/JanKallman/EPPlus) - Create advanced Excel spreadsheets using .NET
   * [ClosedXML](http://github.com/ClosedXML/ClosedXML) - Makes it easier for developers to create Excel 2007+ (.xlsx, .xlsm, etc) files.
+  * [FastReport](https://github.com/FastReports/FastReport) - Reporting tool for .NET Core/.NET Framework that helps your application generate document-like reports.
 * PDF generation
   * [PDFSharp](http://www.pdfsharp.net) - Open Source .NET library that easily creates and processes PDF documents on the fly from any .NET language.
   * [iTextSharp](http://github.com/itext/itextsharp) - Easy PDF generation and manipulation for Java and .NET developers.
@@ -356,6 +372,7 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 * [StackExchange.Exceptional](http://github.com/NickCraver/StackExchange.Exceptional) - Error handler used for the Stack Exchange network
 * [Essential Diagnostics](http://github.com/sgryphon/essential-diagnostics) - Additional trace listeners, filters and utility classes for the .NET Framework System.Diagnostics trace logging. 
 * [Logazmic](http://github.com/ihtfw/Logazmic) - Windows log viewer for log4j
+* [Demystifier](https://github.com/benaadams/Ben.Demystifier) - High performance understanding for stack traces.
 
 ### CLI
 * Parsers
@@ -420,6 +437,7 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
   * [libsodium-net](http://github.com/adamcaudill/libsodium-net) - A secure cryptographic library
   * [StreamCryptor](http://github.com/bitbeans/StreamCryptor) - Stream encryption & decryption with libsodium and protobuf
   * [inferno](http://securitydriven.net/inferno) - .NET crypto done right. Professionally audited.
+  * [nsec](https://nsec.rocks) - A modern and easy-to-use cryptographic library for .NET Core based on libsodium.
 
 ### Utilities
 * Parsers
@@ -435,6 +453,8 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 * Validation
   * [FluentValidation](http://github.com/JeremySkinner/FluentValidation) - A small validation library for .NET that uses a fluent interface and lambda expressions for building validation rules.
   * [valit](http://github.com/valit-stack/Valit) - Valit is dead simple validation for .NET Core.
+* Feature Management
+  * [FeatureManagement.Net](https://github.com/microsoft/FeatureManagement-Dotnet) - Provides standardized APIs for enabling feature flags within applications. 
 * Mics. 
   * [P](http://github.com/p-org/P) (Microsoft) - P is a language for asynchronous event-driven programming.
   * [ServiceStack.Text](http://servicestack.net/text) - .NET's missing high-performance utility belt
@@ -614,6 +634,7 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
   * [Mapbox](http://www.mapbox.com/base) (Maxbox) - An internal guide & code repository for designing and coding at Mapbox.
   * [Atlassian Design](http://atlassian.design) (Atlassian) - Use Atlassian's end-to-end design language to create straightforward and beautiful experiences.
   * [Auth0 Styleguide](http://styleguide.auth0.com) (Auth0) - Conjunction of design patterns, components and resources used across our products.
+  * [EVA](https://eva.design) - Customizable Design System easily adaptable to your Brand.
 * Themes
   * [Hacker Themes](http://hackerthemes.com) - Bootstrap 4 themes & templates for ambitious developers
   * [Creative Time](http://www.creative-tim.com) - Premium Bootstrap themes, templates, UI Kits and more developed by Creative Tim.
@@ -737,6 +758,7 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
      * [Awesome Ant Design](http://github.com/websemantics/awesome-ant-design) - A curated list of Ant Design resources and related projects. 
      * [Ant.Motion](http://github.com/ant-design/ant-motion) - Animate specification and components of Ant Design  
      * [Scaffolds](http://scaffold.ant.design) - Practical scaffolds to kickoff 
+     * [UI Kitten](https://akveo.github.io/react-native-ui-kitten) - React Native framework for creating stunning cross-platform mobile applications.
   * [React Desktop](http://reactdesktop.js.org) - JavaScript library built on top of [Facebook's React](http://facebook.github.io/react) library, which aims to bring a native desktop experience to the web, featuring many macOS Sierra and Windows 10 components.
   * [Semantic UI](http://react.semantic-ui.com) - Semantic UI React is the official React integration for [Semantic UI](http://semantic-ui.com) .
   * [Blueprint](http://blueprintjs.com) (Palantir) - A React-based UI toolkit for the web
@@ -802,7 +824,8 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
   * [Nrwl Nx](http://nrwl.io/nx) - An open source toolkit for enterprise Angular applications
 * UX Frameworks
   * [Angular Material](http://material.angular.io) - Material Design components for Angular
-  * [NG-ZORRO](http://github.com/NG-ZORRO/ng-zorro-antd) - An enterprise-class UI components based on Ant Design and Angular. 
+  * [NG-ZORRO](http://github.com/NG-ZORRO/ng-zorro-antd) - An enterprise-class UI components based on Ant Design and Angular.
+  * [Nebular](https://akveo.github.io/nebular) - Customizable UI Kit, Auth & Security
 
 ### [Vue.js](http://vuejs.org)
 * Examples
