@@ -61,6 +61,7 @@ _Awesomeness_ is a comprehensive list of open source (mostly non-commercial) tec
   * [RService.IO](http://github.com/Stoom/RService.IO) - Light weight REST service framework for ASP.NET Core.
   * [OpenRasta](http://openrasta.org) - Open-source .NET framework for building everything web, from web sites to RESTful APIs.
   * [ProxyKit](http://github.com/damianh/ProxyKit) - A toolkit to create HTTP (reverse) proxies on ASP.NET Core
+  * [JasperFx](http://jasperfx.github.io) - Next generation framework for server side .Net Core applications
 * Web Sockets
   * [Fleck](http://github.com/statianzo/Fleck) - C# Websocket Implementation
   * [SignalR](http://signalr.net) - Incredibly simple real-time web for .NET
@@ -113,6 +114,7 @@ _Awesomeness_ is a comprehensive list of open source (mostly non-commercial) tec
   * [marten](http://jasperfx.github.io/marten) - Polyglot Persistence for .NET Systems using the Rock Solid PostgreSQL Database
   * [ReactiveETL](http://github.com/madhon/ReactiveETL) - Rewrite of Rhino ETL using the reactive extensions for .Net
   * [SqlKata](http://sqlkata.com) - The powerful C# sql query builder
+  * [SharpRepository](https://github.com/SharpRepository/SharpRepository) - C# Generic Repository for use with Entity Framework, RavenDB and more with built-in caching options.
 * Caching
   * [Akavache](http://github.com/akavache/Akavache) - An asynchronous, persistent key-value store.
 * Full text
@@ -168,6 +170,7 @@ _Awesomeness_ is a comprehensive list of open source (mostly non-commercial) tec
 * [Warden](http://github.com/warden-stack/Warden) - Define "health checks" for your applications, resources and infrastructure. Keep your Warden on the watch.  
 * [NBench](http://github.com/petabridge/NBench) - Cross-platform performance benchmarking and testing framework for .NET applications.
 * [Prefix](http://stackify.com/prefix) - Understand what your code is doing and find bugs you didn’t even know existed. 
+* [OpenTracing](https://opentracing.io) - Vendor-neutral APIs and instrumentation for distributed tracing.
 
 ### Algorithms & Data Structures
 * Algorithms
@@ -191,6 +194,7 @@ _Awesomeness_ is a comprehensive list of open source (mostly non-commercial) tec
   * [sodium](http://sodium.nz) - A functional reactive programming library for multiple programming languages.
   * [Dynamic Data](http://github.com/RolandPheasant/DynamicData) - Reactive collections based on Rx.Net.
   * [Streams](http://nessos.github.io/Streams) - A lightweight F#/C# library for efficient functional-style pipelines on streams of data. 
+  * [CSharpFunctionalExtensions](https://github.com/vkhorikov/CSharpFunctionalExtensions) - Functional extensions for C#.
 * Mapping 
   * [AutoMapper](http://github.com/AutoMapper/AutoMapper) - A convention-based object-object mapper in .NET.
   * [TinyMapper](http://github.com/TinyMapper/TinyMapper) - A quick object-object mapper for .NET.
@@ -203,6 +207,7 @@ _Awesomeness_ is a comprehensive list of open source (mostly non-commercial) tec
 * Units
   * [UnitsNet](http://github.com/angularsen/UnitsNet) - Makes life working with units of measurement just a little bit better.
   * [Humanizer](http://github.com/Humanizr/Humanizer) - Humanizer meets all your .NET needs for manipulating and displaying strings, enums, dates, times, timespans, numbers and quantities * [NodaMoney](http://github.com/remyvd/NodaMoney) - NodaMoney provides a library that treats Money as a first class citizen and handles all the ugly bits like currencies and formatting.
+  * [FluentDateTime](https://github.com/FluentDateTime/FluentDateTime) - Allows cleaner DateTime expressions and operations.
   * [NodaTime](http://nodatime.org) - A better date and time API for .NET
   * [DateTimeExtensions](http://github.com/joaomatossilva/DateTimeExtensions) - This project is a merge of several common DateTime operations in the form of extensions to System.DateTime, including natural date difference text (precise and human rounded), holidays and working days calculations on several culture locales.
   * [Exceptionless.DateTimeExtensions](http://github.com/exceptionless/Exceptionless.DateTimeExtensions) - DateTimeRange, Business Day and various DateTime, DateTimeOffset, TimeSpan extension methods
@@ -367,6 +372,7 @@ _Awesomeness_ is a comprehensive list of open source (mostly non-commercial) tec
 * [StackExchange.Exceptional](http://github.com/NickCraver/StackExchange.Exceptional) - Error handler used for the Stack Exchange network
 * [Essential Diagnostics](http://github.com/sgryphon/essential-diagnostics) - Additional trace listeners, filters and utility classes for the .NET Framework System.Diagnostics trace logging. 
 * [Logazmic](http://github.com/ihtfw/Logazmic) - Windows log viewer for log4j
+* [Demystifier](https://github.com/benaadams/Ben.Demystifier) - High performance understanding for stack traces.
 
 ### CLI
 * Parsers
@@ -431,6 +437,7 @@ _Awesomeness_ is a comprehensive list of open source (mostly non-commercial) tec
   * [libsodium-net](http://github.com/adamcaudill/libsodium-net) - A secure cryptographic library
   * [StreamCryptor](http://github.com/bitbeans/StreamCryptor) - Stream encryption & decryption with libsodium and protobuf
   * [inferno](http://securitydriven.net/inferno) - .NET crypto done right. Professionally audited.
+  * [nsec](https://nsec.rocks) - A modern and easy-to-use cryptographic library for .NET Core based on libsodium.
 
 ### Utilities
 * Parsers
