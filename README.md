@@ -104,7 +104,10 @@ _Awesomeness_ is a comprehensive list of open source (mostly non-commercial) tec
 
 ### Data Access
 * ORM
-  * [Dapper](http://github.com/StackExchange/Dapper) (StackExchange)
+  * [Dapper](http://github.com/StackExchange/Dapper) (StackExchange) - Simple object mapper for .NET.
+    * [FluentMap](https://github.com/henkmollema/Dapper-FluentMap) - Provides a simple API to fluently map POCO properties to database columns when using Dapper.
+    * [Dommel](https://github.com/henkmollema/Dommel) - Simple CRUD operations for Dapper.
+    * [MicroOrm.Dapper.Repositories](https://github.com/phnx47/MicroOrm.Dapper.Repositories) - CRUD for Dapper.
   * [NReco](http://www.nrecosite.com/dalc_net.aspx) - CRUD operations, dynamic queries, SQL generation in C#
   * [DbExtensions](http://maxtoroq.github.io/DbExtensions) - Data-access framework with a strong focus on query composition, granularity and code aesthetics. 
   * [Insight.Database](http://github.com/jonwagner/Insight.Database) - Fast, lightweight .NET micro-ORM
@@ -130,6 +133,7 @@ _Awesomeness_ is a comprehensive list of open source (mostly non-commercial) tec
   * [Hangfire](http://www.hangfire.io) - An easy way to perform background processing in .NET and .NET Core applications. No Windows Service or separate process required.
   * [Quartz.NET](http://www.quartz-scheduler.net) - Full-featured, open source job scheduling system that can be used from smallest apps to large scale enterprise systems.
   * [FluentScheduler](http://github.com/fluentscheduler/FluentScheduler) - Automated job scheduler with fluent interface.
+  * [Gofer.NET](https://github.com/brthor/Gofer.NET) - Easy C# API for Distributed Background Tasks/Jobs for .NET Core.
 * State Machines & Workflow
   * [Stateless](http://github.com/dotnet-state-machine/stateless) - A simple library for creating state machines in C# code
   * [Automatonymous](http://github.com/MassTransit/Automatonymous) - A state machine library for .Net - 100% code - No doodleware
@@ -146,7 +150,17 @@ _Awesomeness_ is a comprehensive list of open source (mostly non-commercial) tec
 * [Autofac](http://autofac.org) - Autofac is an addictive Inversion of Control container for .NET Core, ASP.NET Core, .NET 4.5.1+, Universal Windows apps, and more.
 * [Ninject](http://www.ninject.org) - Open source dependency injector for .NET
 * [Simple Injector](http://simpleinjector.org) - Easy-to-use Dependency Injection (DI) library for .NET 4+ that supports Silverlight, Windows Phone, Windows 8 including Universal apps and Mono. 
-* [Scrutor](http://github.com/khellang/Scrutor) - Assembly scanning and decoration extensions for Microsoft.Extensions.DependencyInjection    
+* [Scrutor](http://github.com/khellang/Scrutor) - Assembly scanning and decoration extensions for Microsoft.Extensions.DependencyInjection
+* [AutoDI](https://github.com/Keboo/AutoDI) - Dependency injection made simple.
+* [Castle.Windsor](https://github.com/castleproject/Windsor) - A best of breed, mature Inversion of Control container available for .NET.
+* [DryIoc](https://github.com/dadhi/DryIoc) - A fast, small, full-featured IoC Container for .NET.
+* [Grace](https://github.com/ipjohnson/Grace) - A feature rich dependency injection container library.
+* [Inyector](https://github.com/davidrevoledo/Inyector) - Automatic dependency injection by configuration over scaned assemblies.
+* [Lamar](https://github.com/JasperFx/lamar) - Fast inversion of control tool and sundry items of Roslyn chicanery.
+* [LightInject](https://github.com/seesharper/LightInject) - An ultra lightweight IoC container.
+* [SimpleInjector](https://github.com/simpleinjector/SimpleInjector) - An easy, flexible, and fast Dependency Injection library that promotes best practice to steer developers towards the pit of success.
+* [Stashbox](https://github.com/z4kn4fein/stashbox) - A lightweight, portable dependency injection framework for .NET based solutions.
+* [Scrutor](https://github.com/khellang/Scrutor) - Assembly scanning and decoration extensions for Microsoft.Extensions.DependencyInjection.
 
 ### Build & Deployment
 * Build systems
@@ -162,6 +176,8 @@ _Awesomeness_ is a comprehensive list of open source (mostly non-commercial) tec
   * [dotnet-win32-service](http://github.com/dasMulli/dotnet-win32-service) - Helper classes to set up and run as windows services directly on .net core. A ServiceBase alternative.
 * Tools
   * [Catlight](http://catlight.io) - Notifier for developers
+* Infrastructure
+  * [FluentDocker](https://github.com/mariotoffia/FluentDocker) - Commands, Services and Fluent API for docker, docker-compose & docker-machine, for win/mac/linux and native docker in C#
 
 ### Performance & Monitoring
 * [BenchmarkDotNet](http://benchmarkdotnet.org) - Powerful .NET library for benchmarking.
@@ -239,7 +255,7 @@ _Awesomeness_ is a comprehensive list of open source (mostly non-commercial) tec
   * [GeometRi](http://github.com/RiSearcher/GeometRi) - Simple and lightweight computational geometry library for .Net
   * [MathExtensions)](http://github.com/TommasoScalici/MathExtensions) - Library for .NET that aims to extend the basic but yet incomplete System.Math, with simple and useful extensions methods regarding various mathematical domains, like methods for combinatorics, sequence analysis, generation and manipulation, random extractions, etc.
 * Frameworks
-  * [AccordFramework.NET](http://accord-framework.net) - Machine learning made in a minute 
+  * [Accord](http://accord-framework.net) - Machine learning, computer vision, statistics and general scientific computing for .NET.
   * [TensorFlowSharp](http://github.com/migueldeicaza/TensorFlowSharp) - TensorFlow API for .NET languages
   * [AForge.NET](http://www.aforgenet.com/framework) - open source C# framework designed for developers and researchers in the fields of Computer Vision and Artificial Intelligence.
   * [Infer.NET](http://infernet.azurewebsites.net) (Microsoft) - A framework for running Bayesian inference in graphical models.
@@ -250,6 +266,8 @@ _Awesomeness_ is a comprehensive list of open source (mostly non-commercial) tec
   * [Deedle](http://bluemountaincapital.github.io/Deedle) - Exploratory data library for .NET
   * [SIML](http://simlbot.com) - Synthetic Intelligence Markup Language
   * [ML-Agents](http://github.com/Unity-Technologies/ml-agents) - Unity Machine Learning Agents
+  * [ML.NET](https://github.com/dotnet/machinelearning) - Cross-platform open-source machine learning framework which makes machine learning accessible to .NET developers.
+  * [SiaNet](https://github.com/SciSharp/SiaNet) - A C# deep learning library, human friendly, CUDA/OpenCL supported, well structured, easy to extend.
 
 ### Testing
 * Test frameworks
@@ -366,9 +384,13 @@ _Awesomeness_ is a comprehensive list of open source (mostly non-commercial) tec
 ### Logging
 * [Logary](http://logary.github.io) - High performance, multi-target logging, metric, tracing and health-check library for mono and .Net.
 * [NLog](http://github.com/nlog/NLog) - Advanced and Structured Logging for Various .NET Platforms 
-* [Elmah](http://elmah.github.io) - Application-wide error logging facility that is completely pluggable. 
+* [ELMAH](http://elmah.github.io) - Application-wide error logging facility that is completely pluggable. 
+  * [ELMAH Core](https://github.com/ElmahCore/ElmahCore) - ELMAH for Net.Standard and Net.Core.
 * [log4net](http://logging.apache.org/log4net) (Apache) - A tool to help the programmer output log statements to a variety of output targets. 
 * [Serilog](http://serilog.net) - Flexible, structured events — log file convenience.
+  * [Serilog ASP.NET Core](https://github.com/serilog/serilog-aspnetcore) - Serilog integration for ASP.NET Core 2+.
+  * [Serilog.Exceptions](https://github.com/RehanSaeed/Serilog.Exceptions) - An add-on to Serilog to log exception details and custom properties that are not output in Exception.ToString().
+  * [Serilog Settings](https://github.com/serilog/serilog-settings-configuration) - A Serilog configuration provider that reads from Microsoft.Extensions.Configuration.
 * [StackExchange.Exceptional](http://github.com/NickCraver/StackExchange.Exceptional) - Error handler used for the Stack Exchange network
 * [Essential Diagnostics](http://github.com/sgryphon/essential-diagnostics) - Additional trace listeners, filters and utility classes for the .NET Framework System.Diagnostics trace logging. 
 * [Logazmic](http://github.com/ihtfw/Logazmic) - Windows log viewer for log4j
@@ -384,13 +406,15 @@ _Awesomeness_ is a comprehensive list of open source (mostly non-commercial) tec
   * [Fluent Command Line Parser](http://github.com/fclp/fluent-command-line-parser) - A simple, strongly typed .NET C# command line parser library using a fluent easy to use interface
   * [PowerArgs](http://github.com/adamabdelhamed/PowerArgs) - The ultimate .NET Standard command line argument parser
   * [readline](http://github.com/tonerdo/readline) - A Pure C# GNU-Readline like library for .NET/.NET Core
+  * [Oakton](https://jasperfx.github.io/oakton) - Parsing and utilities for robust command line tools in .Net
 * Formatters
   * [Colorful.Console](http://github.com/tomakita/Colorful.Console) - Style your C# console output!
   * [CsConsoleFormat](http://github.com/Athari/CsConsoleFormat) - .NET C# library for advanced formatting of console output
   * [ConsoleTableExt](http://github.com/minhhungit/ConsoleTableExt) - A fluent library to print out a nicely formatted table in a console application C#
 * Invokers
-  * [cmd](http://github.com/manojlds/cmd) - A C# Library to run external programs / commands in a simpler way. 
+  * [cmd](http://github.com/manojlds/cmd) - A C# Library to run external programs / commands in a simpler way.
   * [CliWrap](http://github.com/Tyrrrz/CliWrap) - Wrapper for command line interface executables.
+  * [Sheller](https://github.com/twitchax/Sheller) - A .NET library that makes shelling out commands super easy and fluent.
 
 ### Content Management
 * CMS
@@ -453,6 +477,8 @@ _Awesomeness_ is a comprehensive list of open source (mostly non-commercial) tec
 * Validation
   * [FluentValidation](http://github.com/JeremySkinner/FluentValidation) - A small validation library for .NET that uses a fluent interface and lambda expressions for building validation rules.
   * [valit](http://github.com/valit-stack/Valit) - Valit is dead simple validation for .NET Core.
+  * [Guard](https://github.com/safakgur/guard) - A high-performance, extensible argument validation library.
+  * [Valit](https://github.com/valit-stack/Valit) - Dead simple validation for .NET Core.
 * Feature Management
   * [FeatureManagement.Net](https://github.com/microsoft/FeatureManagement-Dotnet) - Provides standardized APIs for enabling feature flags within applications. 
 * Mics. 
@@ -528,8 +554,10 @@ _Awesomeness_ is a comprehensive list of open source (mostly non-commercial) tec
 * [Automatic API](http://github.com/dbohdan/automatic-api) - A list of software that turns your database into a REST/GraphQL API 
 
 ### Distributed Systems
-* [noel](http://lifenautjoe.github.io/noel) - A universal, human-centric, replayable Javascript event emitter
-* [Bull](http://github.com/OptimalBits/bull) - Premium queue package for handling jobs and messages in NodeJS
+* Eventing
+  * [noel](http://lifenautjoe.github.io/noel) - A universal, human-centric, replayable Javascript event emitter
+  * [Bull](http://github.com/OptimalBits/bull) - Premium queue package for handling jobs and messages in NodeJS
+  * [emitter](https://emitter.io) - Free open source real-time messaging service that connects all devices.
 * Actors
   * [nact](http://nact.io) - Redux but for the server.
 
