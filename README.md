@@ -517,6 +517,7 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 * REST
   * [ActionHero](http://www.actionherojs.com) - The reusable, scalable, and quick node.js API server for stateless and stateful applications
   * [egg](http://eggjs.org/en) - Born to build better enterprise frameworks and apps with Node.js & Koa
+  * [NestJs](https://nestjs.com) - A framework for building efficient, scalable Node.js server-side applications.
 * API Gateways
   * [Tyk](http://tyk.io) - Open source API Gateway that is fast, scalable and modern.
   * [Kong](http://getkong.org) - Secure, Manage & Extend your APIs and Microservices
@@ -536,6 +537,8 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 
 ### Data Access
 * [EventStore](http://eventstore.org) - The open-source, functional database with Complex Event Processing in JavaScript.
+* [TypeORM](http://typeorm.io) - ORM for TypeScript and JavaScript (ES7, ES6, ES5)
+* [Sequelize](http://docs.sequelizejs.com) - A promise-based ORM for Node.js v4 and up.
 
 ### Templating
 * [Pug](http://pugjs.org) – Robust, elegant, feature rich template engine for Node.js
@@ -724,6 +727,7 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 * Routing
    * [Junctions](http://junctions.js.org) - A batteries-included router for React.
 * UX Frameworks
+  * [Ring UI](https://jetbrains.github.io/ring-ui) - JetBrains Web UI components
   * [Gestalt](http://github.com/pinterest/gestalt) (Pinterest) - Set of React UI components that enforces Pinterest’s design language. 
   * [Grommet](http://grommet.io) (Hewlett Packard) - focus on the essential experience
      * [Grommet Addons](http://github.com/grommet/grommet-addons) - Higher order components and utilities based on core grommet components.
@@ -813,6 +817,8 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
   * [Vuetify](http://vuetifyjs.com) - Material Design Component Framework.
   * [Vue Design System](http://vueds.com) - An open source tool for building Design Systems with [Vue.js](http://vuejs.org)
   * [Fish UI](http://myliang.github.io/fish-ui) - A Vue.js 2.0 UI Toolkit for Web.
+  * [Buefy](https://buefy.org) - Lightweight UI components for Vue.js based on Bulma.
+  * [Ant Design of Vue](https://vue.ant.design) - An enterprise-class UI design language for web applications.
 * CMS
   * [VuePress](http://vuepress.vuejs.org) - Vue-powered Static Site Generator 
 * Tools
@@ -858,6 +864,7 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
   * [Prism](http://github.com/PrismLibrary/Prism) - A framework for building loosely coupled, maintainable, and testable XAML applications in WPF, Windows 10 UWP, and Xamarin Forms.
   * [WAF](http://github.com/jbe2277/waf) - Win Application Framework (WAF) is a lightweight Framework that helps you to create well structured XAML Applications.
   * [Gemini](http://documentup.com/tgjones/gemini) - WPF framework designed specifically for building IDE-like applications.
+  * [AdonisUI](https://github.com/benruehl/adonis-ui) - Lightweight UI toolkit for WPF applications offering classic but enhanced windows visuals.
 * Web
   * [DotVVM](http://github.com/riganti/dotvvm) - Open source MVVM framework for Web Apps.
   * [Ooui](http://github.com/praeclarum/Ooui) - A small cross-platform UI library that brings the simplicity of native UI development to the web.
@@ -1173,7 +1180,10 @@ _Awesomeness_ is a comprehensive list of technical resources related to IT syste
 * [Lighthouse](http://developers.google.com/web/tools/lighthouse) (Google) -  Automated tool for improving the quality of web pages. 
 * [Vegeta](http://github.com/tsenart/vegeta) - A versatile HTTP load testing tool 
 
-## Continuous delivery
+## Continuous Integration
+* [Jenkins X](https://jenkins-x.io) - A CI/CD solution for modern cloud applications on Kubernetes
+
+## Continuous Delivery
 * [Buck](http://buckbuild.com) (Facebook) - A high-performance build tool
 
 ## Configuration
