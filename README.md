@@ -8,8 +8,22 @@ _Awesomeness_ is a comprehensive list of open source (mostly non-commercial) tec
 
 ### Architectures
 * [CoolStore](http://github.com/vietnam-devs/coolstore-microservices) - A containerized polyglot microservices consisting of services based on .NET Core, NodeJS and more running on service mesh (istio).
-* [DShop](http://github.com/devmentors/DNC-DShop.Common) - Distributed .NET Core.
 * [eShopOnContainers](http://github.com/dotnet-architecture/eShopOnContainers) (Microsoft) - Easy to get started sample reference microservice and container based application.
+* [ASP.NET Core Starter Kit](https://github.com/kriasoft/aspnet-starter-kit) - Cross-platform web development with Visual Studio Code, C#, F#, JavaScript, ASP.NET Core, EF Core, React (ReactJS), Redux, Babel.
+* [dotNetify](https://github.com/dsuryd/dotNetify) - Simple, lightweight, yet powerful way to build real-time HTML + C# .NET web apps.
+* [Nucleus](https://github.com/alirizaadiyahsi/Nucleus) - Vue startup application template that uses ASP.NET Core API layered architecture at the back-end and JWT based authentication.
+* [CoolStore Web Application](https://github.com/vietnam-devs/coolstore-microservices) - A Kubernetes-based microservices application on service mesh.
+* [Distributed Playground](https://github.com/jvandevelde/distributed-playground) - Distributed service playground with Vagrant, Consul, Docker & ASP.NET Core.
+* [DNC-DShop](https://github.com/devmentors/DNC-DShop) - An open source project (and a course available soon at devmentors.io), providing in-depth knowledge about building microservices using .NET Core framework and variety of tools.
+* [InMemoryCQRSReplication](https://github.com/Aaronontheweb/InMemoryCQRSReplication) - Akka.NET Reference Architecture - CQRS + Sharding + In-Memory Replication.
+* [Magazine Website](https://github.com/thangchung/magazine-website) - A magazine website (using .NET Core, ASP.NET Core, EF Core) with DDD, CQRS, microservices and asynchronous programming.
+* [Microservices in .NET Core](https://github.com/horsdal/microservices-in-dotnetcore) - The code sample from the microservices book [https://manning.com/books/microservices-in-net-core](https://manning.com/books/microservices-in-net-core)
+* [ReactiveTraderCloud](https://github.com/AdaptiveConsulting/ReactiveTraderCloud) - Real-time trading platform demo showcasing reactive programming principles applied across the full application stack.
+* [Equinox](https://github.com/EduardoPires/EquinoxProject) - Full ASP.NET Core 2.2 application with DDD, CQRS and Event Sourcing.
+* [Cloudscribe](https://github.com/cloudscribe/cloudscribe) - ASP.NET Core multi-tenant web application foundation with management for sites, users, roles, claims and more.
+* []() - 
+* []() - 
+* []() - 
 
 ### Distributed systems
 * Actor based
@@ -32,6 +46,7 @@ _Awesomeness_ is a comprehensive list of open source (mostly non-commercial) tec
   * [Xer.Cqrs](http://github.com/XerProjects/Xer.Cqrs) - A simple CQRS library
   * [CQRSlite](http://github.com/gautema/CQRSlite) - A lightweight framework for helping writing CQRS and Eventsourcing applications in C#
   * [CQRS.nu](http://cqrs.nu) - Helping teams apply Domain Driven Design, often through Event Sourcing and CQRS.
+  * [Butterfly.Server](https://github.com/firesharkstudios/butterfly-server) - The everything is real-time C# backend for single page applications.
 * Queueing
   * [RawRabbit](http://github.com/pardahlman/RawRabbit) - A modern .NET framework for communication over RabbitMq
 * Service Bus
@@ -45,23 +60,30 @@ _Awesomeness_ is a comprehensive list of open source (mostly non-commercial) tec
 
 ### Services
 * REST
-  * [SaasKit](http://github.com/saaskit/saaskit) - A developer toolkit for building SaaS applications.
-  * [refit](http://paulcbetts.github.io/refit) - The automatic type-safe REST library for .NET Core, Xamarin and .NET.
-  * [RestSharp](http://restsharp.org) - Simple REST and HTTP API Client for .NET.
-  * [RestEase](http://github.com/canton7/RestEase) - Easy-to-use typesafe REST API client library for .NET Standard 1.1 and .NET Framework 4.5 and higher, which is simple and customisable.
-  * [RestLess](http://github.com/letsar/RestLess) - The automatic type-safe-reflectionless REST API client library for .Net Standard.
-  * [HttpClientGoodies.NET](http://github.com/jeffijoe/httpclientgoodies.net) - Useful utilities for the .NET HttpClient.
-  * [autorest](http://github.com/Azure/autorest) - OpenAPI (f.k.a Swagger) Specification code generator.
-  * [Halcyon](http://github.com/visualeyes/halcyon) - A HAL implementation for ASP.NET.
-  * [JSON API .Net Core](http://github.com/json-api-dotnet/JsonApiDotNetCore) - A [{ json:api }](http://jsonapi.org) web application framework.
-  * [NetCoreStack Flying Proxy](http://github.com/NetCoreStack/Proxy) - The type-safe REST library for .NET Standard 2.0.
-  * [NSwag](http://github.com/RSuter/NSwag) - The Swagger/OpenAPI toolchain for .NET, Web API and TypeScript.
-  * [OData Web API](http://github.com/OData/WebApi): A server library built upon ODataLib and WebApi.
-  * [Swashbuckle.AspNetCore](http://github.com/domaindrivendev/Swashbuckle.AspNetCore) - Swagger tools for documenting API's built on ASP.NET Core.
-  * [RService.IO](http://github.com/Stoom/RService.IO) - Light weight REST service framework for ASP.NET Core.
-  * [OpenRasta](http://openrasta.org) - Open-source .NET framework for building everything web, from web sites to RESTful APIs.
-  * [ProxyKit](http://github.com/damianh/ProxyKit) - A toolkit to create HTTP (reverse) proxies on ASP.NET Core
-  * [JasperFx](http://jasperfx.github.io) - Next generation framework for server side .Net Core applications
+  * Frameworks
+    * [SaasKit](http://github.com/saaskit/saaskit) - A developer toolkit for building SaaS applications.
+    * [refit](http://paulcbetts.github.io/refit) - The automatic type-safe REST library for .NET Core, Xamarin and .NET.
+    * [RestSharp](http://restsharp.org) - Simple REST and HTTP API Client for .NET.
+    * [RestEase](http://github.com/canton7/RestEase) - Easy-to-use typesafe REST API client library for .NET Standard 1.1 and .NET Framework 4.5 and higher, which is simple and customisable.
+    * [RestLess](http://github.com/letsar/RestLess) - The automatic type-safe-reflectionless REST API client library for .Net Standard.
+    * [Halcyon](http://github.com/visualeyes/halcyon) - A HAL implementation for ASP.NET.
+    * [JSON API .Net Core](http://github.com/json-api-dotnet/JsonApiDotNetCore) - A [{ json:api }](http://jsonapi.org) web application framework.
+    * [NetCoreStack Flying Proxy](http://github.com/NetCoreStack/Proxy) - The type-safe REST library for .NET Standard 2.0.
+    * [OData Web API](http://github.com/OData/WebApi): A server library built upon ODataLib and WebApi.
+    * [RService.IO](http://github.com/Stoom/RService.IO) - Light weight REST service framework for ASP.NET Core.
+    * [OpenRasta](http://openrasta.org) - Open-source .NET framework for building everything web, from web sites to RESTful APIs.
+    * [ProxyKit](http://github.com/damianh/ProxyKit) - A toolkit to create HTTP (reverse) proxies on ASP.NET Core
+    * [JasperFx](http://jasperfx.github.io) - Next generation framework for server side .Net Core applications
+  * Utilities
+    * [Flurl](https://github.com/tmenier/Flurl) - Fluent URL builder and testable HTTP client for .NET
+    * [aspnet-api-versioning](https://github.com/microsoft/aspnet-api-versioning) - Provides a set of libraries which add service API versioning to ASP.NET Web API, OData with ASP.NET Web API, and ASP.NET Core.
+    * [HttpClientGoodies.NET](http://github.com/jeffijoe/httpclientgoodies.net) - Useful utilities for the .NET HttpClient.
+    * [AspNetCoreRateLimit](https://github.com/stefanprodan/AspNetCoreRateLimit) - ASP.NET Core rate limiting middleware
+  * Swagger
+    * [NSwag](http://github.com/RSuter/NSwag) - The Swagger/OpenAPI toolchain for .NET, Web API and TypeScript.
+    * [autorest](http://github.com/Azure/autorest) - OpenAPI (a.k.a Swagger) Specification code generator.
+    * [Swashbuckle.AspNetCore](http://github.com/domaindrivendev/Swashbuckle.AspNetCore) - Swagger tools for documenting API's built on ASP.NET Core.
+      * [Swashbuckle.AspNetCore.Filters](https://github.com/mattfrear/Swashbuckle.AspNetCore.Filters) - A bunch of useful filters for Swashbuckle.AspNetCore.
 * Web Sockets
   * [Fleck](http://github.com/statianzo/Fleck) - C# Websocket Implementation
   * [SignalR](http://signalr.net) - Incredibly simple real-time web for .NET
@@ -76,6 +98,10 @@ _Awesomeness_ is a comprehensive list of open source (mostly non-commercial) tec
   * [parser](http://github.com/graphql-dotnet/parser) - A lexer and parser for GraphQL in .NET
   * [GraphQL Conventions Library for .NET](http://github.com/graphql-dotnet/conventions) - GraphQL Conventions Library for .NET
   * [GraphQl.AspNetCore](http://github.com/JuergenGutsch/graphql-aspnetcore) - ASP.NET Core MiddleWare to create a GraphQL end-point
+  * [Dapper.GraphQL](https://github.com/landmarkhw/Dapper.GraphQL) - A .NET Core library designed to integrate the Dapper and graphql-dotnet projects with ease-of-use in mind and performance as the primary concern.
+  * [GraphQl.AspNetCore](https://github.com/JuergenGutsch/graphql-aspnetcore) - ASP.NET Core MiddleWare to create a GraphQL end-point.
+  * [Hot Chocolate](https://hotchocolate.io) (ChiliCream) - A GraphQL Server for .NET core and .NET classic.
+  * [Tanka GraphQL](https://pekkah.github.io/tanka-graphql) - GraphQL server and execution libraries
 * API
   * [CondenserDotNet](http://github.com/Drawaes/CondenserDotNet) - API Condenser / Reverse Proxy using Kestrel and Consul, Including light weight consul lib
   * [Ocelot](http://threemammals.com/ocelot) - Open Source .NET Core API Gateway
@@ -178,6 +204,7 @@ _Awesomeness_ is a comprehensive list of open source (mostly non-commercial) tec
   * [Catlight](http://catlight.io) - Notifier for developers
 * Infrastructure
   * [FluentDocker](https://github.com/mariotoffia/FluentDocker) - Commands, Services and Fluent API for docker, docker-compose & docker-machine, for win/mac/linux and native docker in C#
+  * [Docker.DotNet](https://github.com/Microsoft/Docker.DotNet) - .NET (C#) Client Library for Docker API
 
 ### Performance & Monitoring
 * [BenchmarkDotNet](http://benchmarkdotnet.org) - Powerful .NET library for benchmarking.
@@ -419,6 +446,7 @@ _Awesomeness_ is a comprehensive list of open source (mostly non-commercial) tec
 ### Content Management
 * CMS
   * [Orchard](http://orchardproject.net) - A free, open source, community-focused Content Management System built on the ASP.NET MVC platform.
+  * [Orchard Core](https://github.com/OrchardCMS/OrchardCore) - An open-source modular and multi-tenant application framework built with ASP.NET Core, and a content management system (CMS) built on top of that application framework.
   * [Umbraco](http://umbraco.com) - Umbraco is a fully-featured, open source Content Management System loved by thousands for its flexibility and great editing experience. 
   * [BetterCMS](http://www.bettercms.com) - Better CMS has an intuitive user interface designed to help you make updates to your website content and SEO settings quickly and efficiently. 
   * [Piranha CMS](http://piranhacms.org) - A lightweight & unobstrusive CMS for ASP.Net Core.
