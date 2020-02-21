@@ -109,6 +109,7 @@ _Awesomeness_ is a comprehensive list of open source (mostly non-commercial) tec
   * [Polly](http://github.com/App-vNext/Polly) - Polly is a .NET resilience and transient-fault-handling library that allows developers to express policies such as Retry, Circuit Breaker, Timeout, Bulkhead Isolation, and Fallback in a fluent and thread-safe manner.
   * [steeltoe](http://steeltoe.i) (Pivotal) - Open source project that enables .NET developers to implement industry standard best practices when building resilient microservices for the cloud.
   * [Nancy](http://github.com/NancyFx/Nancy) - Lightweight, low-ceremony, framework for building HTTP based services on .Net and Mono.
+  * [Carter](https://github.com/CarterCommunity/Carter) - A thin layer of extension methods and functionality over ASP.NET Core allowing code to be more explicit and most importantly more enjoyable.
   * [peasy](http://github.com/peasy/Peasy.NET) - A middle tier micro-framework for .NET
   * [LightNode](http://neuecc.github.io/LightNode) - Micro RPC/REST Framework built on OWIN
   * [Nelibur](http://github.com/Nelibur/Nelibur) - Message based webservice framework on the pure WCF.
@@ -205,6 +206,7 @@ _Awesomeness_ is a comprehensive list of open source (mostly non-commercial) tec
 * Infrastructure
   * [FluentDocker](https://github.com/mariotoffia/FluentDocker) - Commands, Services and Fluent API for docker, docker-compose & docker-machine, for win/mac/linux and native docker in C#
   * [Docker.DotNet](https://github.com/Microsoft/Docker.DotNet) - .NET (C#) Client Library for Docker API
+  * [Micronetes](https://github.com/davidfowl/Micronetes) - A local orchestrator inspired by kubernetes that makes developing and testing microservices and distributed applications easier.
 
 ### Performance & Monitoring
 * [BenchmarkDotNet](http://benchmarkdotnet.org) - Powerful .NET library for benchmarking.
