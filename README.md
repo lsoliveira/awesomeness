@@ -21,9 +21,6 @@ _Awesomeness_ is a comprehensive list of open source (mostly non-commercial) tec
 * [ReactiveTraderCloud](https://github.com/AdaptiveConsulting/ReactiveTraderCloud) - Real-time trading platform demo showcasing reactive programming principles applied across the full application stack.
 * [Equinox](https://github.com/EduardoPires/EquinoxProject) - Full ASP.NET Core 2.2 application with DDD, CQRS and Event Sourcing.
 * [Cloudscribe](https://github.com/cloudscribe/cloudscribe) - ASP.NET Core multi-tenant web application foundation with management for sites, users, roles, claims and more.
-* []() - 
-* []() - 
-* []() - 
 
 ### Distributed systems
 * Actor based
@@ -204,9 +201,11 @@ _Awesomeness_ is a comprehensive list of open source (mostly non-commercial) tec
 * Tools
   * [Catlight](http://catlight.io) - Notifier for developers
 * Infrastructure
+  * [Pulumi](https://www.pulumi.com) - Modern Infrastructure as Code.
   * [FluentDocker](https://github.com/mariotoffia/FluentDocker) - Commands, Services and Fluent API for docker, docker-compose & docker-machine, for win/mac/linux and native docker in C#
   * [Docker.DotNet](https://github.com/Microsoft/Docker.DotNet) - .NET (C#) Client Library for Docker API
-  * [Micronetes](https://github.com/davidfowl/Micronetes) - A local orchestrator inspired by kubernetes that makes developing and testing microservices and distributed applications easier.
+* Documentation
+  * [Docu](https://github.com/jagregory/docu) - Simple documentation done simply.
 
 ### Performance & Monitoring
 * [BenchmarkDotNet](http://benchmarkdotnet.org) - Powerful .NET library for benchmarking.
@@ -1247,6 +1246,7 @@ _Awesomeness_ is a comprehensive list of open source (mostly non-commercial) tec
   * [Tilt](http://tilt.build) - Makes it possible to develop all your microservices locally in Kubernetes while collaborating with your team.
   * [Kubedb](http://kubedb.com) - Run production-grade databases easily on Kubernetes
   * [kops](http://github.com/kubernetes/kops) - Production grade K8s installation, upgrades, and management
+  * [Micronetes](https://github.com/davidfowl/Micronetes) - A local orchestrator inspired by kubernetes that makes developing and testing microservices and distributed applications easier.
 * [Mesos](http://mesos.apache.org) (Apache) - Program against your datacenter like it’s a single pool of resources 
 * Tools
   * [Grail](http://eng.uber.com/grail) (Uber) - Scaling Infrastructure Management
