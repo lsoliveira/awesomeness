@@ -767,7 +767,6 @@ _Awesomeness_ is a comprehensive list of open source (mostly non-commercial) tec
   * [React Storefront](http://github.com/moovweb/react-storefront) - Build and deploy e-commerce progressive web apps in record time.
 * State Management
   * REST
-    * [Effector](https://effector.now.sh) - The state manaer
     * [tectonic](http://tonyhb.github.io/tectonic) - A declarative REST data loader for react + redux
     * [React Agent](http://www.reactagent.com) - A JS library for your database management
     * [Redux Rest Resource](http://mgcrea.github.io/redux-rest-resource) - Dead simple and ready-to-use store module for handling HTTP REST resources.
@@ -795,7 +794,8 @@ _Awesomeness_ is a comprehensive list of open source (mostly non-commercial) tec
     * [reworm](http://github.com/pedronauck/reworm) - The simplest way to manage state
     * [uniforms](http://github.com/vazco/uniforms) - A set of React libraries for building forms
     * [Final Form](http://github.com/final-form/react-final-form) - High performance subscription-based form state management for React.
-    * [react-portalgun](http://github.com/diegomura/react-portalgun) - Lightweight portal system for React. Mega seeds included
+    * [react-portalgun](http://github.com/diegomura/react-portalgun) - Lightweight portal system for React
+    * [Effector](https://effector.now.sh) - The state manager
 * Development Frameworks
   * [next.js](http://github.com/zeit/next.js) - A lightweight framework for static and server‑rendered applications.
   * [next-offline](http://github.com/hanford/next-offline) - Make your Next.js application work offline using service workers via Google's workbox.
