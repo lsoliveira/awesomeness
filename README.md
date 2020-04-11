@@ -4,8 +4,6 @@ _Awesomeness_ is a comprehensive list of open source (mostly non-commercial) tec
 # Backend
 
 ## .Net
-### Awesome
-
 ### Architectures
 * [CoolStore](http://github.com/vietnam-devs/coolstore-microservices) - A containerized polyglot microservices consisting of services based on .NET Core, NodeJS and more running on service mesh (istio).
 * [eShopOnContainers](http://github.com/dotnet-architecture/eShopOnContainers) (Microsoft) - Easy to get started sample reference microservice and container based application.
@@ -190,6 +188,7 @@ _Awesomeness_ is a comprehensive list of open source (mostly non-commercial) tec
 * Build systems
   * [Cake](https://cakebuild.net) - A cross-platform build automation system with a C# DSL.
   * [NUKE](https://nuke.build) - A cross-platform build automation system with C# DSL.
+  * [Bullseye](https://github.com/adamralph/bullseye) - A .NET library for describing and running targets and their dependencies.
   * [FlubuCore](https://github.com/dotnetcore/FlubuCore) - A cross platform build and deployment automation system for building projects and executing deployment scripts using C# code.
   * [GitVersioning](https://github.com/AArnott/Nerdbank.GitVersioning) - Stamp your assemblies, packages and more with a unique version generated from a single, simple version.json file and include git commit IDs for non-official builds.
 * Windows
@@ -611,6 +610,7 @@ _Awesomeness_ is a comprehensive list of open source (mostly non-commercial) tec
   * [serverless-offline](http://github.com/dherault/serverless-offline) - Emulate AWS λ and API Gateway locally when developing your Serverless project 
   * [serverless-babel-starter](http://github.com/postlight/serverless-babel-starter) - Serverless with all the fixings: Webpack, Babel, Jest, ESLint, and Prettier.
   * [lambdapack](http://www.npmjs.com/package/lambdapack) - Package your AWS Lambda efficiently, ready to be deployed with [apex/up](http://github.com/apex/up)
+  * [GRaphQL Mesh](https://github.com/urigo/graphql-mesh) - Use GraphQL query language to access data in remote APIs that don't run GraphQL
 
 ### Data Access
 * [EventStore](http://eventstore.org) - The open-source, functional database with Complex Event Processing in JavaScript.
@@ -767,6 +767,7 @@ _Awesomeness_ is a comprehensive list of open source (mostly non-commercial) tec
   * [React Storefront](http://github.com/moovweb/react-storefront) - Build and deploy e-commerce progressive web apps in record time.
 * State Management
   * REST
+    * [Effector](https://effector.now.sh) - The state manaer
     * [tectonic](http://tonyhb.github.io/tectonic) - A declarative REST data loader for react + redux
     * [React Agent](http://www.reactagent.com) - A JS library for your database management
     * [Redux Rest Resource](http://mgcrea.github.io/redux-rest-resource) - Dead simple and ready-to-use store module for handling HTTP REST resources.
@@ -924,6 +925,9 @@ _Awesomeness_ is a comprehensive list of open source (mostly non-commercial) tec
 * [Ionic](http://ionicframework.com) - Build amazing apps in one codebase, for any platform, with the web.
 * [Stencil](http://stenciljs.com) - The magical, reusable web component compiler
 * [Marko](http://markojs.com) - It's like HTML and JS had a perfect baby that grew up to be awesome
+
+### Testing
+* [Last Hit](https://www.last-hit.com) - First automation testing tool design for all team members.
 
 ### Utilities
 * [selection](http://github.com/Simonwep/selection) - A simple and lightweight library to realize visual DOM Selections.  
@@ -1161,12 +1165,15 @@ _Awesomeness_ is a comprehensive list of open source (mostly non-commercial) tec
 
 ## iOS
 
-# Analytics
+# Machine Learning & Analytics
 ## Awesome
 * [Awesome Machine Learning](http://github.com/josephmisiti/awesome-machine-learning) - A curated list of awesome Machine Learning frameworks, libraries and software.
 * [Machine Learning Tutorials](http://ujjwalkarn.github.io/Machine-Learning-Tutorials) - Machine learning and deep learning tutorials, articles and other resources
 
 ## Frameworks
+* [DeepSpeed](https://github.com/microsoft/DeepSpeed) (Microsoft) - A deep learning optimization library that makes distributed training easy, efficient, and effective.
+
+## Data Stores
 * [Imply](http://imply.io) - A high-performance analytics solution to store, query, and visualize operational data.
 
 ## Self Service
@@ -1186,7 +1193,6 @@ _Awesomeness_ is a comprehensive list of open source (mostly non-commercial) tec
 ## Data Sets
 * [Fashion MNIST](http://github.com/zalandoresearch/fashion-mnist) - A MNIST-like fashion product database.
 * [parl.ai](http://parl.ai) - A unified platform for sharing, training and evaluating dialog models across many tasks.
-  
 
 ## Notebooks
 * [Zepellin](http://zeppelin.apache.org)
@@ -1200,7 +1206,7 @@ _Awesomeness_ is a comprehensive list of open source (mostly non-commercial) tec
 * [træfik](http://traefik.io) - Modern HTTP reverse proxy and load balancer made to deploy microservices with ease
 * [Caddy](http://caddyserver.com) - The HTTP/2 web server with automatic HTTPS.
 * [Argo Tunnel](http://developers.cloudflare.com/argo-tunnel) - Exposes applications running on your local web server, on any network with an Internet connection, without adding DNS records or configuring a firewall or router.
-* [Pushpin](http://pushpin.org) - Drop-in proxy server that pins client connections open, making realtime push easy. 
+* [Pushpin](http://pushpin.org) - Drop-in proxy server that pins client connections open, making realtime push easy.
 
 ## App Servers
 * [Tomcat](http://tomcat.apache.org) (Apache)
@@ -1247,6 +1253,7 @@ _Awesomeness_ is a comprehensive list of open source (mostly non-commercial) tec
   * [Kubedb](http://kubedb.com) - Run production-grade databases easily on Kubernetes
   * [kops](http://github.com/kubernetes/kops) - Production grade K8s installation, upgrades, and management
   * [Micronetes](https://github.com/davidfowl/Micronetes) - A local orchestrator inspired by kubernetes that makes developing and testing microservices and distributed applications easier.
+  * [Lens](https://k8slens.dev) - The Kubernetes IDE
 * [Mesos](http://mesos.apache.org) (Apache) - Program against your datacenter like it’s a single pool of resources 
 * Tools
   * [Grail](http://eng.uber.com/grail) (Uber) - Scaling Infrastructure Management
@@ -1289,6 +1296,9 @@ _Awesomeness_ is a comprehensive list of open source (mostly non-commercial) tec
 
 ### Chat
 * [Rocket.Chat](http://rocket.chat)
+
+## Incident Management
+* [Dispatch](https://github.com/Netflix/dispatch) (Netflix) - All of the ad-hoc things you’re doing to manage incidents today, done for you, and a bunch of other things you should've been doing, but have not had the time!
 
 # Programming
 ## Languages
