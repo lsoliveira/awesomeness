@@ -762,9 +762,10 @@ _Awesomeness_ is a comprehensive list of open source (mostly non-commercial) tec
   * [Awesome Redux (xgrommx)](http://github.com/xgrommx/awesome-redux)
   * [Awesome MobX](http://github.com/mobxjs/awesome-mobx)
   * [MobX Ecosystem](http://github.com/xgrommx/mobx-ecosystem)
-  * [Awesome React GraphQL](http://github.com/hasura/awesome-react-graphql) - A curated collection of resources, clients and tools that make working with GraphQL and React/React Native awesome. 
+  * [Awesome React GraphQL](http://github.com/hasura/awesome-react-graphql) - A curated collection of resources, clients and tools that make working with GraphQL and React/React Native awesome. 
 * Architectures
   * [React Storefront](http://github.com/moovweb/react-storefront) - Build and deploy e-commerce progressive web apps in record time.
+  * [Refine](http://refine.dev) - A React-based framework for building data-intensive applications in no time.
 * State Management
   * REST
     * [tectonic](http://tonyhb.github.io/tectonic) - A declarative REST data loader for react + redux
@@ -1254,6 +1255,7 @@ _Awesomeness_ is a comprehensive list of open source (mostly non-commercial) tec
   * [kops](http://github.com/kubernetes/kops) - Production grade K8s installation, upgrades, and management
   * [Micronetes](https://github.com/davidfowl/Micronetes) - A local orchestrator inspired by kubernetes that makes developing and testing microservices and distributed applications easier.
   * [Lens](https://k8slens.dev) - The Kubernetes IDE
+  * [Telepresence](https://www.telepresence.io) - Fast, local development for Kubernetes and OpenShift microservices
 * [Mesos](http://mesos.apache.org) (Apache) - Program against your datacenter like it’s a single pool of resources 
 * Tools
   * [Grail](http://eng.uber.com/grail) (Uber) - Scaling Infrastructure Management
