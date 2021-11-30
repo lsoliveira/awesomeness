@@ -1213,7 +1213,8 @@ _Awesomeness_ is a comprehensive list of open source (mostly non-commercial) tec
 * [Tomcat](http://tomcat.apache.org) (Apache)
 
 ## Caching
-* Varnish
+* [Varnish](https://varnish-cache.org) - Varnish Cache is a web application accelerator also known as a caching HTTP reverse proxy.
+* [Memcached](https://memcached.org) - Free & open source, high-performance, distributed memory object caching system, generic in nature, but intended for use in speeding up dynamic web applications by alleviating database load.
 
 ## Logging
 * [Loki](http://github.com/grafana/loki) - Like Prometheus, but for logs.
