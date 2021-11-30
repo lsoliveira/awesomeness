@@ -1263,17 +1263,33 @@ _Awesomeness_ is a comprehensive list of open source (mostly non-commercial) tec
   * [osquery](http://osquery.io) (Facebook) - Performant endpoint visibility.
   * [Spinnaker](http://www.spinnaker.io) (Netflix) - Fast, safe, repeatable deployments.
 
-## Security
+## Privacy, Identity & Security
+### Security
 * [Infection Monkey](http://www.guardicore.com/infectionmonkey) -  Unleash the Infection Monkey in your network and discover security flaws in no time.
 
+### Identity
+* [Ory Kratos](https://github.com/ory/kratos) - Cloud native identity infrastructure
+* [Ory OathKeeper](https://github.com/ory/oathkeeper) - Identity and Access Proxy (IAP)
+* [Ory Hydra](https://github.com/ory/hydra) - OAuth 2.0 and OpenID Connect
+* [Ory Keto](https://github.com/ory/keto) - Permission and Role Management
+
+### Privacy
+* [Presidio](https://microsoft.github.io/presidio) - Helps to ensure sensitive data is properly managed and governed.
+* [Databunker](https://databunker.org) - Secure vault and SDK to store customer records built to comply with GDPR.
+
+## Localization (i18n)
+* [Weblate](https://weblate.org/en/) - Web-based continuous localization.
+* [Tolgee](https://tolgee.io) - All in One localization for your project.
+
 ## Performance
-* [Lighthouse](http://developers.google.com/web/tools/lighthouse) (Google) -  Automated tool for improving the quality of web pages. 
+* [Lighthouse](http://developers.google.com/web/tools/lighthouse) (Google) - Automated tool for improving the quality of web pages. 
 * [Vegeta](http://github.com/tsenart/vegeta) - A versatile HTTP load testing tool 
 
-## Continuous Integration
+## CI/CD
+### Continuous Integration
 * [Jenkins X](https://jenkins-x.io) - A CI/CD solution for modern cloud applications on Kubernetes
 
-## Continuous Delivery
+### Continuous Delivery
 * [Buck](http://buckbuild.com) (Facebook) - A high-performance build tool
 
 ## Configuration
